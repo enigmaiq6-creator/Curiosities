@@ -17,25 +17,24 @@ on:
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 20
 
     steps:
       # Paso 1: Clonar el repositorio
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      # Paso 2: Configurar Python 3.11
+      # Paso 2: Configurar Python 3.11 con caché
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
 
-      # Paso 3: Instalar FFmpeg oficial en el servidor en la nube
-      - name: Install FFmpeg
+      # Paso 3: Verificar FFmpeg preinstalado en Ubuntu Runner
+      - name: Verify FFmpeg
         run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
+          ffmpeg -version
 
       # Paso 4: Instalar librerías de Python
       - name: Install Python Dependencies
