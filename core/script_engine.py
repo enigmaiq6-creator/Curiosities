@@ -10,20 +10,11 @@ HOOKS_EN = [
     "Think you know everything about {topic}? These five secrets will blow your mind!"
 ]
 
-HOOKS_ES = [
-    "¿Sabías estos cinco datos increíbles sobre {topic}?",
-    "Aquí tienes cinco secretos fascinantes sobre {topic} que te dejarán sin palabras.",
-    "¡No vas a creer estos cinco datos asombrosos sobre {topic}!",
-    "Los científicos quedaron impactados al descubrir estas cinco verdades sobre {topic}.",
-    "¿Crees saber todo sobre {topic}? Estas cinco curiosidades te van a volar la cabeza."
-]
-
 class ScriptEngine:
     @staticmethod
-    def get_dynamic_hook(topic_name: str, lang: str = "es") -> str:
-        """Devuelve un gancho inicial viral aleatorio y adaptado al tema y al idioma."""
-        pool = HOOKS_EN if lang == "en" else HOOKS_ES
-        template = random.choice(pool)
+    def get_dynamic_hook(topic_name: str, lang: str = "en") -> str:
+        """Devuelve un gancho inicial viral aleatorio y adaptado al tema en inglés."""
+        template = random.choice(HOOKS_EN)
         return template.format(topic=topic_name)
 
     @staticmethod
@@ -33,21 +24,21 @@ class ScriptEngine:
         scenes = []
         
         for i, line in enumerate(lines):
-            clean_line = re.sub(r'^(?:Curiosidad\s*\d+:?|\d+[\.\-\)]|\-)\s*', '', line, flags=re.IGNORECASE).strip()
+            clean_line = re.sub(r'^(?:Curiosity\s*\d+:?|\d+[\.\-\)]|\-)\s*', '', line, flags=re.IGNORECASE).strip()
             if not clean_line:
                 continue
 
-            words = re.findall(r'\b[a-zA-ZáéíóúÁÉÍÓÚñÑ]{4,}\b', clean_line)
-            stopwords = {"este", "esta", "estos", "estas", "para", "como", "pero", "porque", "cuando", "donde", "sobre", "entre", "hacer", "tener", "saber", "puede", "pueden", "sabias", "sabías", "sabiasque", "numero", "número"}
+            words = re.findall(r'\b[a-zA-Z]{4,}\b', clean_line)
+            stopwords = {"this", "that", "these", "those", "with", "from", "have", "make", "about", "which", "number", "will", "more"}
             keywords = [w for w in words if w.lower() not in stopwords]
             
-            main_subject = keywords[0].lower() if keywords else "curiosidad"
+            main_subject = keywords[0].lower() if keywords else "curiosity"
 
             scenes.append({
                 "scene_id": i + 1,
                 "text": clean_line,
                 "subject": main_subject,
-                "keywords": keywords[:3] if keywords else ["curiosidades", "ciencia"]
+                "keywords": keywords[:3] if keywords else ["curiosities", "science"]
             })
 
         return scenes
@@ -55,7 +46,7 @@ class ScriptEngine:
     @staticmethod
     def create_sample_script(topic: str = "egypt") -> List[Dict[str, Any]]:
         """
-        Crea guiones enriquecidos con:
+        Crea guiones 100% en INGLÉS enriquecidos con:
         1. Gancho inicial dinámico y variado (Intro Hook).
         2. 5 Curiosidades científicas / históricas de impacto.
         3. Call To Action (CTA) al final.
@@ -63,12 +54,11 @@ class ScriptEngine:
         t = topic.lower()
 
         # ---------------------------------------------------------
-        # TEMA: ANCIENT EGYPT & THE PYRAMIDS (ENGLISH)
+        # 1. TEMA: ANCIENT EGYPT & THE PYRAMIDS (ENGLISH)
         # ---------------------------------------------------------
         if "egypt" in t or "pyramid" in t:
             hook_text = ScriptEngine.get_dynamic_hook("Ancient Egypt and the Great Pyramids", lang="en")
             return [
-                # INTRO HOOK (Dinámico y diferente en cada video)
                 {
                     "scene_id": 1,
                     "is_hook": True,
@@ -76,7 +66,6 @@ class ScriptEngine:
                     "subject": "pyramid",
                     "keywords": ["great pyramids of giza 4k cinematic", "ancient egypt desert landscape 4k", "pyramids egypt"]
                 },
-                # 1. White Polished Limestone Casing
                 {
                     "scene_id": 2,
                     "curiosity_index": 1,
@@ -91,7 +80,6 @@ class ScriptEngine:
                     "subject": "pyramid",
                     "keywords": ["ancient pyramids aerial view 4k", "giza pyramid complex desert", "egyptian monuments"]
                 },
-                # 2. Respected Builders, Not Slaves
                 {
                     "scene_id": 4,
                     "curiosity_index": 2,
@@ -106,7 +94,6 @@ class ScriptEngine:
                     "subject": "pharaoh",
                     "keywords": ["ancient egyptian statues museum 4k", "egyptian pharaoh gold relic", "ancient craftsmen"]
                 },
-                # 3. 3,000-Year-Old Edible Honey
                 {
                     "scene_id": 6,
                     "curiosity_index": 3,
@@ -121,7 +108,6 @@ class ScriptEngine:
                     "subject": "honey",
                     "keywords": ["golden honey macro close up 4k", "ancient jar relic gold", "pure honey"]
                 },
-                # 4. Alignment with True North
                 {
                     "scene_id": 8,
                     "curiosity_index": 4,
@@ -136,7 +122,6 @@ class ScriptEngine:
                     "subject": "pyramid",
                     "keywords": ["great pyramid astronomy stars 4k", "egyptian night sky galaxy", "ancient pyramid cosmos"]
                 },
-                # 5. Cleopatra and the Moon Landing
                 {
                     "scene_id": 10,
                     "curiosity_index": 5,
@@ -151,7 +136,6 @@ class ScriptEngine:
                     "subject": "pharaoh",
                     "keywords": ["ancient egyptian golden artifacts 4k", "luxor temple columns egypt 4k", "pharaoh treasures"]
                 },
-                # 6. CALL TO ACTION (CTA)
                 {
                     "scene_id": 12,
                     "is_cta": True,
@@ -162,7 +146,7 @@ class ScriptEngine:
             ]
 
         # ---------------------------------------------------------
-        # TEMA: DEEP OCEAN MYSTERIES (ENGLISH)
+        # 2. TEMA: DEEP OCEAN MYSTERIES (ENGLISH)
         # ---------------------------------------------------------
         elif "ocean" in t or "abyss" in t or "deep" in t:
             hook_text = ScriptEngine.get_dynamic_hook("the Mysterious Deep Ocean", lang="en")
@@ -254,185 +238,280 @@ class ScriptEngine:
             ]
 
         # ---------------------------------------------------------
-        # TEMA: EL INCREÍBLE CUERPO HUMANO (ESPAÑOL)
+        # 3. TEMA: DEEP SPACE & THE UNIVERSE (ENGLISH)
         # ---------------------------------------------------------
-        elif "humano" in t or "cuerpo" in t:
-            hook_text = ScriptEngine.get_dynamic_hook("el Asombroso Cuerpo Humano", lang="es")
+        elif "space" in t or "espacio" in t or "universe" in t or "cosmos" in t:
+            hook_text = ScriptEngine.get_dynamic_hook("Deep Space and the Universe", lang="en")
             return [
                 {
                     "scene_id": 1,
                     "is_hook": True,
                     "text": hook_text,
-                    "subject": "brain",
-                    "keywords": ["human anatomy body digital 4k", "human brain glowing 3d", "cuerpo humano 4k"]
+                    "subject": "supernova",
+                    "keywords": ["deep space nebula galaxy 4k", "universe stars cosmos cinematic 4k", "space galaxy"]
                 },
                 {
                     "scene_id": 2,
                     "curiosity_index": 1,
-                    "text": "Número uno: Tu cerebro despierto genera suficiente electricidad como para encender una bombilla LED.",
-                    "subject": "brain",
-                    "keywords": ["human brain glowing neurons 3d", "brain electrical synapses", "cerebro humano"]
+                    "text": "Number one: One day on Venus lasts longer than an entire year on Venus.",
+                    "subject": "venus",
+                    "keywords": ["planet venus rotating solar system 4k", "venus atmosphere planet space", "planet venus"]
                 },
                 {
                     "scene_id": 3,
                     "curiosity_index": 1,
-                    "text": "Contiene más de ochenta y seis mil millones de neuronas que transmiten información a más de cuatrocientos kilómetros por hora.",
-                    "subject": "brain",
-                    "keywords": ["neuron firing brain cell", "brain neural network 4k", "neuronas"]
+                    "text": "It takes Venus two hundred and forty-three Earth days to rotate once, but only two hundred and twenty-five days to orbit the Sun.",
+                    "subject": "venus",
+                    "keywords": ["solar system planets orbit sun 4k", "planet venus glowing space", "orbit solar system"]
                 },
                 {
                     "scene_id": 4,
                     "curiosity_index": 2,
-                    "text": "Número dos: Tus huesos son proporcionalmente más resistentes que el acero macizo.",
-                    "subject": "bone",
-                    "keywords": ["human skeleton bones 3d", "femur bone strength human", "huesos esqueleto"]
+                    "text": "Number two: Footprints left by Apollo astronauts on the Moon will remain untouched for at least one hundred million years.",
+                    "subject": "moon",
+                    "keywords": ["apollo astronaut walking moon surface 4k", "moon surface crater lunar landscape", "astronaut moon"]
                 },
                 {
                     "scene_id": 5,
                     "curiosity_index": 2,
-                    "text": "Un solo centímetro cúbico de hueso puede soportar una carga de hasta nueve toneladas de peso sin romperse.",
-                    "subject": "bone",
-                    "keywords": ["skeleton human anatomy 3d", "human bones structure", "esqueleto 3d"]
+                    "text": "Because the Moon has no atmosphere, there is zero wind, rain, or erosion to ever erase them.",
+                    "subject": "moon",
+                    "keywords": ["moon crater lunar surface close up 4k", "earth rising over moon space", "lunar surface"]
                 },
                 {
                     "scene_id": 6,
                     "curiosity_index": 3,
-                    "text": "Número tres: El ácido de tu estómago es tan potente que podría disolver hojas de afeitar de acero.",
-                    "subject": "acid",
-                    "keywords": ["chemical liquid acid bubbling", "digestive stomach acid 3d", "liquido acido"]
+                    "text": "Number three: It literally rains solid diamonds on Neptune and Uranus.",
+                    "subject": "diamond",
+                    "keywords": ["planet neptune deep blue space 4k", "sparkling crystals diamond glowing", "planet uranus space"]
                 },
                 {
                     "scene_id": 7,
                     "curiosity_index": 3,
-                    "text": "Para evitar autodestruirse, las paredes internas de tu estómago renuevan su mucosa celular cada cuatro días.",
-                    "subject": "acid",
-                    "keywords": ["human cells multiplying microscope", "cells regeneration biology", "celulas"]
+                    "text": "Extreme atmospheric pressures crush methane into solid diamond hailstones that sink straight to the planetary core.",
+                    "subject": "diamond",
+                    "keywords": ["sparkling diamond rain crystal 4k", "planet neptune atmosphere clouds", "diamond crystal"]
                 },
                 {
                     "scene_id": 8,
                     "curiosity_index": 4,
-                    "text": "Número cuatro: Si desenrollaras todo el ADN de tus células, llegaría desde la Tierra hasta el planeta Plutón.",
-                    "subject": "dna",
-                    "keywords": ["dna helix spinning 3d 4k", "glowing dna strand science", "adn humano"]
+                    "text": "Number four: The Sun accounts for ninety-nine point eighty-six percent of all mass in our entire Solar System.",
+                    "subject": "sun",
+                    "keywords": ["sun solar flare plasma surface 4k", "massive glowing sun space 4k", "sun corona solar system"]
                 },
                 {
                     "scene_id": 9,
                     "curiosity_index": 4,
-                    "text": "En total son más de diez mil millones de kilómetros de código genético comprimidos en tu cuerpo.",
-                    "subject": "dna",
-                    "keywords": ["dna sequence genetics 3d", "microscopic dna biology", "cadena de adn"]
+                    "text": "Over one million three hundred thousand Earths could easily fit inside the Sun.",
+                    "subject": "sun",
+                    "keywords": ["solar system sun planets comparison 4k", "sun rays space cinematic", "sun flare"]
                 },
                 {
                     "scene_id": 10,
                     "curiosity_index": 5,
-                    "text": "Número cinco: Si unieras todos los vasos sanguíneos de tu cuerpo, darían dos vueltas y media al planeta Tierra.",
-                    "subject": "heart",
-                    "keywords": ["human blood vessels circulation 3d", "beating heart blood flow", "sistema circulatorio"]
+                    "text": "Number five: Space is completely, utterly silent.",
+                    "subject": "supernova",
+                    "keywords": ["astronaut floating silent deep space 4k", "milky way galaxy stars silent cosmos", "space silence"]
                 },
                 {
                     "scene_id": 11,
                     "curiosity_index": 5,
-                    "text": "Son más de cien mil kilómetros de arterias y capilares que transportan oxígeno a cada rincón de tu organismo.",
-                    "subject": "heart",
-                    "keywords": ["red blood cells flowing vein 4k", "blood circulation heart 3d", "globulos rojos"]
+                    "text": "Sound waves require matter to travel through, and in the vacuum of space, even massive supernovae explode in absolute silence.",
+                    "subject": "supernova",
+                    "keywords": ["supernova explosion colorful nebula 4k", "deep space galaxy expanding cosmos", "supernova nebula"]
                 },
                 {
                     "scene_id": 12,
                     "is_cta": True,
-                    "text": "¿Cuál de estos datos te sorprendió más? ¡Dale like, comenta cuál fue tu favorito y síguenos para más curiosidades increíbles!",
-                    "subject": "brain",
-                    "keywords": ["human brain futuristic technology", "digital brain thinking 4k", "mente humana"]
+                    "text": "Which cosmic mystery shocked you the most? Drop a comment, hit like, and follow for daily universe wonders!",
+                    "subject": "supernova",
+                    "keywords": ["colorful glowing galaxy cosmos 4k", "deep space nebula stars", "universe stars"]
                 }
             ]
 
         # ---------------------------------------------------------
-        # TEMA: MISTERIOS DEL ESPACIO PROFUNDO (ESPAÑOL)
+        # 4. TEMA: THE AMAZING HUMAN BODY (ENGLISH)
         # ---------------------------------------------------------
-        else:
-            hook_text = ScriptEngine.get_dynamic_hook("el Espacio Profundo y el Universo", lang="es")
+        elif "human" in t or "humano" in t or "body" in t or "cuerpo" in t:
+            hook_text = ScriptEngine.get_dynamic_hook("the Human Body", lang="en")
             return [
                 {
                     "scene_id": 1,
                     "is_hook": True,
                     "text": hook_text,
-                    "subject": "astronaut",
-                    "keywords": ["universe galaxy cosmos deep space 4k", "planet earth space view 4k", "espacio universo"]
+                    "subject": "brain",
+                    "keywords": ["human brain glowing neurons neural network 4k", "human body anatomy medical 4k", "brain synapse"]
                 },
                 {
                     "scene_id": 2,
                     "curiosity_index": 1,
-                    "text": "Número uno: Un día en el planeta Venus dura más que un año entero en la Tierra.",
-                    "subject": "venus",
-                    "keywords": ["planet venus rotating", "venus 3d space", "planeta venus"]
+                    "text": "Number one: The human brain generates enough electricity to power a small LED lightbulb.",
+                    "subject": "brain",
+                    "keywords": ["neurons firing electrical synapse brain 4k", "glowing neural brain activity", "brain electrical"]
                 },
                 {
                     "scene_id": 3,
                     "curiosity_index": 1,
-                    "text": "Su atmósfera tiene densas nubes de ácido sulfúrico con temperaturas de cuatrocientos setenta y cinco grados.",
-                    "subject": "venus",
-                    "keywords": ["venus atmosphere", "burning hot planet surface", "venus surface"]
+                    "text": "With over eighty-six billion neurons, your brain processes more computations per second than the most powerful supercomputer.",
+                    "subject": "brain",
+                    "keywords": ["neural network human brain thinking 4k", "futuristic neural brain concept", "brain network"]
                 },
                 {
                     "scene_id": 4,
                     "curiosity_index": 2,
-                    "text": "Número dos: En el vacío del espacio reina el silencio más absoluto que puedas imaginar.",
-                    "subject": "astronaut",
-                    "keywords": ["astronaut floating space", "spacewalk earth", "astronauta en el espacio"]
+                    "text": "Number two: Human bone is ounce for ounce four times stronger than concrete.",
+                    "subject": "bone",
+                    "keywords": ["human skeleton anatomy medical bone 4k", "bone structure microscopic 4k", "skeleton bone"]
                 },
                 {
                     "scene_id": 5,
                     "curiosity_index": 2,
-                    "text": "Al no existir aire, incluso si una gigantesca supernova explota a tu lado, no escucharías absolutamente nada.",
-                    "subject": "supernova",
-                    "keywords": ["supernova explosion space", "exploding star supernova", "supernova"]
+                    "text": "A single cubic inch of human bone can withstand a load of over nineteen thousand pounds without breaking.",
+                    "subject": "bone",
+                    "keywords": ["human spine femur bone anatomy 4k", "medical bone scan 3d", "bone anatomy"]
                 },
                 {
                     "scene_id": 6,
                     "curiosity_index": 3,
-                    "text": "Número tres: Las huellas de los astronautas del Apolo en la Luna durarán más de cien millones de años.",
-                    "subject": "moon",
-                    "keywords": ["apollo moon footprint", "astronaut moon walking", "huella en la luna"]
+                    "text": "Number three: Your stomach acid is powerful enough to dissolve razor blades and stainless steel.",
+                    "subject": "acid",
+                    "keywords": ["chemical acid reaction liquid laboratory 4k", "stomach digestive system anatomy 4k", "acid liquid"]
                 },
                 {
                     "scene_id": 7,
                     "curiosity_index": 3,
-                    "text": "Esto se debe a que la Luna no tiene atmósfera, por lo que no hay viento ni lluvia que borre el polvo.",
-                    "subject": "moon",
-                    "keywords": ["moon craters surface", "lunar orbit space", "superficie luna"]
+                    "text": "To protect itself from self-destruction, your stomach completely regenerates its inner lining every four days.",
+                    "subject": "acid",
+                    "keywords": ["cells dividing biological regeneration 4k", "microscopic cellular biology", "cells division"]
                 },
                 {
                     "scene_id": 8,
                     "curiosity_index": 4,
-                    "text": "Número cuatro: En los gigantes helados Neptuno y Urano llueven diamantes reales.",
-                    "subject": "neptune",
-                    "keywords": ["neptune planet 3d", "planet neptune space", "planeta neptuno"]
+                    "text": "Number four: If you unraveled all the DNA in your body, it would stretch to Pluto and back twice.",
+                    "subject": "dna",
+                    "keywords": ["dna double helix rotating glowing 4k", "genetics dna strand molecular biology", "dna helix"]
                 },
                 {
                     "scene_id": 9,
                     "curiosity_index": 4,
-                    "text": "La presión extrema comprime el gas metano convirtiéndolo en cristales de carbono puro que caen hacia su núcleo.",
-                    "subject": "diamond",
-                    "keywords": ["sparkling diamonds falling", "diamonds crystals close up", "diamantes brillantes"]
+                    "text": "That is over thirty-four billion miles of genetic code packed inside microscopic cells.",
+                    "subject": "dna",
+                    "keywords": ["dna sequence genetic molecular 4k", "microscopic cells dna glowing", "genetics code"]
                 },
                 {
                     "scene_id": 10,
                     "curiosity_index": 5,
-                    "text": "Número cinco: El Sol es tan descomunal que en su interior cabrían más de un millón trescientas mil Tierras.",
-                    "subject": "sun",
-                    "keywords": ["sun solar flare space", "giant burning sun", "sol llamaradas"]
+                    "text": "Number five: Your heart beats over one hundred thousand times every single day.",
+                    "subject": "heart",
+                    "keywords": ["human heart beating 3d medical animation 4k", "cardiovascular blood vessels glowing", "heart beating"]
                 },
                 {
                     "scene_id": 11,
                     "curiosity_index": 5,
-                    "text": "En su núcleo, la fusión nuclear genera temperaturas de quince millones de grados Celsius.",
-                    "subject": "sun",
-                    "keywords": ["sun surface plasma", "solar corona glowing", "sol plasma"]
+                    "text": "In an average lifetime, it pumps enough blood to fill three entire supertanker ships.",
+                    "subject": "heart",
+                    "keywords": ["red blood cells flowing artery 4k", "cardiovascular bloodstream medical", "blood flow"]
                 },
                 {
                     "scene_id": 12,
                     "is_cta": True,
-                    "text": "¿Qué misterio del cosmos te fascina más? ¡Comenta, dale like y síguenos para seguir explorando el universo!",
-                    "subject": "astronaut",
-                    "keywords": ["astronaut looking at galaxy", "galaxy cosmos stars", "espacio"]
+                    "text": "Which human superpower surprised you the most? Drop a comment, hit like, and follow for more mind-blowing science!",
+                    "subject": "brain",
+                    "keywords": ["glowing neural brain network 4k", "human body medical animation", "brain neurons"]
                 }
             ]
+
+        # ---------------------------------------------------------
+        # 5. TEMA: ANIMALS WITH SUPERPOWERS (ENGLISH)
+        # ---------------------------------------------------------
+        elif "animal" in t or "komodo" in t:
+            hook_text = ScriptEngine.get_dynamic_hook("Animals with Real Superpowers", lang="en")
+            return [
+                {
+                    "scene_id": 1,
+                    "is_hook": True,
+                    "text": hook_text,
+                    "subject": "komodo",
+                    "keywords": ["komodo dragon walking wild 4k", "komodo dragon lizard reptile 4k", "varanus komodoensis"]
+                },
+                {
+                    "scene_id": 2,
+                    "curiosity_index": 1,
+                    "text": "Number one: The Komodo dragon is equipped with armor-plated chainmail beneath its scaly skin.",
+                    "subject": "komodo",
+                    "keywords": ["komodo dragon close up skin scales 4k", "komodo dragon lizard crawling", "komodo dragon"]
+                },
+                {
+                    "scene_id": 3,
+                    "curiosity_index": 1,
+                    "text": "These microscopic bone deposits, called osteoderms, protect them during violent battles with rival dragons.",
+                    "subject": "komodo",
+                    "keywords": ["komodo dragon battle island 4k", "varanus komodoensis running", "komodo reptile"]
+                },
+                {
+                    "scene_id": 4,
+                    "curiosity_index": 2,
+                    "text": "Number two: Crows understand the concept of zero and can remember human faces for their entire lives.",
+                    "subject": "crow",
+                    "keywords": ["black crow raven perched tree 4k", "intelligent crow flying close up 4k", "corvus raven"]
+                },
+                {
+                    "scene_id": 5,
+                    "curiosity_index": 2,
+                    "text": "They teach their offspring which humans are trustworthy and which ones to avoid.",
+                    "subject": "crow",
+                    "keywords": ["crow flock perched intelligent bird 4k", "raven eyes close up bird", "crow bird"]
+                },
+                {
+                    "scene_id": 6,
+                    "curiosity_index": 3,
+                    "text": "Number three: The Axolotl can completely regenerate not just lost limbs, but its heart, lungs, and parts of its brain.",
+                    "subject": "axolotl",
+                    "keywords": ["axolotl swimming aquarium water 4k", "pink axolotl salamander close up", "axolotl gills"]
+                },
+                {
+                    "scene_id": 7,
+                    "curiosity_index": 3,
+                    "text": "Scientists are actively studying their genetic code to unlock tissue regeneration in human medicine.",
+                    "subject": "axolotl",
+                    "keywords": ["axolotl pink underwater swimming 4k", "mexican salamander axolotl", "axolotl"]
+                },
+                {
+                    "scene_id": 8,
+                    "curiosity_index": 4,
+                    "text": "Number four: Hummingbirds are the only birds on Earth capable of flying backwards and upside down.",
+                    "subject": "hummingbird",
+                    "keywords": ["hummingbird hovering flower slow motion 4k", "colorful hummingbird wings flapping", "hummingbird slowmo"]
+                },
+                {
+                    "scene_id": 9,
+                    "curiosity_index": 4,
+                    "text": "Their wings flap up to eighty times per second with a heart rate exceeding one thousand two hundred beats per minute.",
+                    "subject": "hummingbird",
+                    "keywords": ["hummingbird drinking nectar macro 4k", "hummingbird slow motion wings", "hummingbird flower"]
+                },
+                {
+                    "scene_id": 10,
+                    "curiosity_index": 5,
+                    "text": "Number five: The blue whale's tongue weighs as much as an entire adult elephant.",
+                    "subject": "whale",
+                    "keywords": ["blue whale swimming ocean surface 4k", "giant humpback whale breaching 4k", "blue whale ocean"]
+                },
+                {
+                    "scene_id": 11,
+                    "curiosity_index": 5,
+                    "text": "A human child could easily swim through the major blood vessels of its heart.",
+                    "subject": "whale",
+                    "keywords": ["giant whale underwater ocean 4k", "whale tail fluke diving blue water", "whale swimming"]
+                },
+                {
+                    "scene_id": 12,
+                    "is_cta": True,
+                    "text": "Which animal superpower amazed you the most? Drop a comment, hit like, and follow for more wild discoveries!",
+                    "subject": "komodo",
+                    "keywords": ["majestic wild animals nature 4k", "komodo dragon landscape sunset", "wild wildlife"]
+                }
+            ]
+
+        # Default fallback: Ancient Egypt
+        return ScriptEngine.create_sample_script("egypt")

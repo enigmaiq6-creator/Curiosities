@@ -1,16 +1,16 @@
-name: Auto Generate and Publish Curiosity Shorts
+name: Auto Generate and Publish Curiosity Shorts (English Edition)
 
 on:
-  # 1. Ejecución Automática Programada (Todos los días a las 14:00 y 21:00 UTC)
+  # 1. Automatic Cron Schedule (Twice a day: 14:00 and 21:00 UTC)
   schedule:
-    - cron: '0 14 * * *'  # 9:00 AM hora local (Colombia/México/Perú)
-    - cron: '0 21 * * *'  # 4:00 PM hora local
+    - cron: '0 14 * * *'  # 9:00 AM local time
+    - cron: '0 21 * * *'  # 4:00 PM local time
 
-  # 2. Ejecución Manual con un Clic desde GitHub
+  # 2. Manual Trigger from GitHub UI
   workflow_dispatch:
     inputs:
       topic:
-        description: 'Tema del video (ej. egypt, ocean, humano, espacio, komodo, animales)'
+        description: 'Video Topic (e.g. egypt, ocean, space, human, animals)'
         required: false
         default: ''
 
@@ -20,30 +20,30 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      # Paso 1: Clonar el repositorio
+      # Step 1: Checkout repository
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      # Paso 2: Configurar Python 3.11 con caché
+      # Step 2: Set up Python 3.11 with pip caching
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
 
-      # Paso 3: Instalar FFmpeg oficial estático y ultra-rápido en 3 segundos
+      # Step 3: Install static FFmpeg binary
       - name: Setup FFmpeg
         uses: FedericoCarboni/setup-ffmpeg@v3
         with:
           ffmpeg-version: 'release'
 
-      # Paso 4: Instalar librerías de Python
+      # Step 4: Install Python dependencies
       - name: Install Python Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Paso 5: Ejecutar el Pipeline Automático (Generación + Subida a Facebook)
+      # Step 5: Run 100% English Pipeline & Publish to Facebook Reels
       - name: Run Curiosity Video Generator & Publisher
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
@@ -57,7 +57,7 @@ jobs:
             python auto_pipeline.py
           fi
 
-      # Paso 6: Guardar el video generado como respaldo (Artifact)
+      # Step 6: Save generated video output as backup artifact
       - name: Save Video Output Artifact
         uses: actions/upload-artifact@v4
         if: always()
