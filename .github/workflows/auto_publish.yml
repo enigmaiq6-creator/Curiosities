@@ -31,10 +31,11 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      # Paso 3: Verificar FFmpeg preinstalado en Ubuntu Runner
-      - name: Verify FFmpeg
-        run: |
-          ffmpeg -version
+      # Paso 3: Instalar FFmpeg oficial estático y ultra-rápido en 3 segundos
+      - name: Setup FFmpeg
+        uses: FedericoCarboni/setup-ffmpeg@v3
+        with:
+          ffmpeg-version: 'release'
 
       # Paso 4: Instalar librerías de Python
       - name: Install Python Dependencies
