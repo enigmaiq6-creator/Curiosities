@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Project temporary and output files
+temp/
+output/*.mp4
+output/*.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.log
+
+# Environment variables and secrets
+.env

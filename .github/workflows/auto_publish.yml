@@ -1,0 +1,69 @@
+name: Auto Generate and Publish Curiosity Shorts
+
+on:
+  # 1. Ejecución Automática Programada (Todos los días a las 14:00 y 21:00 UTC)
+  schedule:
+    - cron: '0 14 * * *'  # 9:00 AM hora local (Colombia/México/Perú)
+    - cron: '0 21 * * *'  # 4:00 PM hora local
+
+  # 2. Ejecución Manual con un Clic desde GitHub
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: 'Tema del video (ej. egypt, ocean, humano, espacio, komodo, animales)'
+        required: false
+        default: ''
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      # Paso 1: Clonar el repositorio
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # Paso 2: Configurar Python 3.11
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # Paso 3: Instalar FFmpeg oficial en el servidor en la nube
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      # Paso 4: Instalar librerías de Python
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Paso 5: Ejecutar el Pipeline Automático (Generación + Subida a Facebook)
+      - name: Run Curiosity Video Generator & Publisher
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          FACEBOOK_ACCESS_TOKEN: ${{ secrets.FACEBOOK_ACCESS_TOKEN }}
+        run: |
+          if [ -n "${{ github.event.inputs.topic }}" ]; then
+            python auto_pipeline.py --topic "${{ github.event.inputs.topic }}"
+          else
+            python auto_pipeline.py
+          fi
+
+      # Paso 6: Guardar el video generado como respaldo (Artifact)
+      - name: Save Video Output Artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: generated-curiosity-video
+          path: |
+            output/*.mp4
+            output/*.txt
+          retention-days: 7
