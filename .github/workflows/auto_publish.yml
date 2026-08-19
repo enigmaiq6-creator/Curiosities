@@ -1,10 +1,14 @@
 name: Auto Generate and Publish Curiosity Shorts (English Edition)
 
 on:
-  # 1. Automatic Cron Schedule (Twice a day: 14:00 and 21:00 UTC)
+  # 1. Automatic Cron Schedule (6 Videos per Day)
   schedule:
-    - cron: '0 14 * * *'  # 9:00 AM local time
-    - cron: '0 21 * * *'  # 4:00 PM local time
+    - cron: '0 9 * * *'   # 4:00 AM local time (UTC-5) - Early morning / Global audience
+    - cron: '0 11 * * *'  # 6:00 AM local time (UTC-5) - Morning wake-up
+    - cron: '0 13 * * *'  # 8:00 AM local time (UTC-5) - Breakfast / Morning commute
+    - cron: '0 17 * * *'  # 12:00 PM local time (UTC-5) - Lunchtime break
+    - cron: '0 21 * * *'  # 4:00 PM local time (UTC-5) - Afternoon commute
+    - cron: '0 1 * * *'   # 8:00 PM local time (UTC-5) - Prime-time evening
 
   # 2. Manual Trigger from GitHub UI
   workflow_dispatch:

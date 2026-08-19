@@ -49,11 +49,18 @@ Para que GitHub Actions pueda renderizar y publicar tus videos en la nube, añad
 
 ---
 
-## ⏰ Programación Automática (*Cron Schedule*)
+## ⏰ Programación Automática (*Cron Schedule* - 6 Videos al Día)
 
-El archivo [`.github/workflows/auto_publish.yml`](.github/workflows/auto_publish.yml) está configurado para ejecutarse **2 veces al día**:
-* **14:00 UTC** (9:00 AM hora de Colombia/México/Perú)
-* **21:00 UTC** (4:00 PM hora de Colombia/México/Perú)
+El archivo [`.github/workflows/auto_publish.yml`](.github/workflows/auto_publish.yml) está configurado para publicar **6 videos diarios 100% en inglés** en los horarios de mayor tráfico internacional:
+
+| Video | Hora Local (UTC-5: Colombia/México/Perú) | Hora UTC | Audiencia Objetivo |
+| :---: | :---: | :---: | :---: |
+| 🌅 **Video 1** | **4:00 AM** | `09:00 UTC` | Madrugadores y Audiencia Europea / Asia |
+| ☕ **Video 2** | **6:00 AM** | `11:00 UTC` | Despertar y primeras visualizaciones |
+| 🥐 **Video 3** | **8:00 AM** | `13:00 UTC` | Desayuno y camino al trabajo / escuela |
+| 🥪 **Video 4** | **12:00 PM** | `17:00 UTC` | Hora de almuerzo |
+| 🌇 **Video 5** | **4:00 PM** | `21:00 UTC` | Salida del trabajo / Tarde |
+| 🌙 **Video 6** | **8:00 PM** | `01:00 UTC` | Pico nocturno de ocio y alta retención |
 
 > También puedes ejecutarlo en cualquier momento manualmente entrando a la pestaña **Actions** en GitHub y pulsando el botón **"Run workflow"**.
 
