@@ -4,9 +4,10 @@
     "ocean",
     "black_holes",
     "neutron_stars",
-    "yellowstone_magma_lake"
+    "yellowstone_magma_lake",
+    "quantum-diamonds"
   ],
-  "total_published_count": 5,
+  "total_published_count": 6,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -37,6 +38,12 @@
       "topic": "yellowstone_magma_lake",
       "title": "5 Insane Facts About Yellowstone's Hidden Magma Lake! 🌌✨",
       "facebook_post_id": "122180875958897912"
+    },
+    {
+      "timestamp": "2026-08-19T06:07:25.767803",
+      "topic": "quantum-diamonds",
+      "title": "5 Insane Facts About Quantum Diamonds! 🌌✨",
+      "facebook_post_id": "122180876654897912"
     }
   ]
 }
