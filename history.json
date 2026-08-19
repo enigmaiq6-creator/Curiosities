@@ -9,9 +9,10 @@
     "naica_crystal_cave",
     "quantum-photosynthesis",
     "subglacial_vostok_microbes",
-    "brain-energy-wonders"
+    "brain-energy-wonders",
+    "frozen-mammoth-wonders"
   ],
-  "total_published_count": 10,
+  "total_published_count": 11,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -72,6 +73,12 @@
       "topic": "brain-energy-wonders",
       "title": "5 Insane Facts About The Human Brain! 🌌✨",
       "facebook_post_id": "122180944754897912"
+    },
+    {
+      "timestamp": "2026-08-19T21:32:08.848514",
+      "topic": "frozen-mammoth-wonders",
+      "title": "5 Insane Facts About Frozen Mammoths! 🌌✨",
+      "facebook_post_id": "122180971532897912"
     }
   ]
 }
