@@ -106,9 +106,15 @@ class AIScriptGenerator:
         """
         Consulta a la IA de Groq para inventar un tema 100% inédito en inglés,
         excluyendo todo lo previamente publicado en history.json.
+        Soporta rotación de claves primarias y de respaldo (GROQ_API_KEY y GROQ_API_KEY_BACKUP).
         """
-        api_key = os.getenv("GROQ_API_KEY", "")
-        if not api_key:
+        keys_to_try = [
+            os.getenv("GROQ_API_KEY", "").strip(),
+            os.getenv("GROQ_API_KEY_BACKUP", "").strip()
+        ]
+        valid_keys = [k for k in keys_to_try if k]
+
+        if not valid_keys:
             print("[AIScriptGenerator] [!] No GROQ_API_KEY provided in environment.", flush=True)
             return None
 
@@ -127,40 +133,42 @@ class AIScriptGenerator:
             "groq/compound-mini"
         ]
 
-        for model in models_to_try:
-            try:
-                print(f"[AIScriptGenerator] [+] Consultando Groq AI ({model}) para generar tema inedito...", flush=True)
-                url = "https://api.groq.com/openai/v1/chat/completions"
-                headers = {
-                    "Authorization": f"Bearer {api_key}",
-                    "Content-Type": "application/json",
-                    "User-Agent": "CuriositiesEngine/1.0"
-                }
-                payload = {
-                    "model": model,
-                    "messages": [
-                        {"role": "system", "content": SYSTEM_PROMPT},
-                        {"role": "user", "content": user_prompt}
-                    ],
-                    "temperature": 0.85,
-                    "response_format": {"type": "json_object"}
-                }
+        for key_idx, api_key in enumerate(valid_keys, 1):
+            for model in models_to_try:
+                try:
+                    key_tag = f"Key {key_idx}" if len(valid_keys) > 1 else "Primary Key"
+                    print(f"[AIScriptGenerator] [+] Consultando Groq AI ({model}) [{key_tag}] para generar tema inedito...", flush=True)
+                    url = "https://api.groq.com/openai/v1/chat/completions"
+                    headers = {
+                        "Authorization": f"Bearer {api_key}",
+                        "Content-Type": "application/json",
+                        "User-Agent": "CuriositiesEngine/1.0"
+                    }
+                    payload = {
+                        "model": model,
+                        "messages": [
+                            {"role": "system", "content": SYSTEM_PROMPT},
+                            {"role": "user", "content": user_prompt}
+                        ],
+                        "temperature": 0.85,
+                        "response_format": {"type": "json_object"}
+                    }
 
-                req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers)
-                with urllib.request.urlopen(req, timeout=30) as resp:
-                    res_data = json.loads(resp.read().decode("utf-8"))
-                    raw_content = res_data["choices"][0]["message"]["content"]
-                    
-                    topic_data = json.loads(raw_content)
-                    
-                    # Validar estructura minima
-                    if "topic_id" in topic_data and "scenes" in topic_data and len(topic_data["scenes"]) >= 10:
-                        safe_title = str(topic_data.get('title', '')).encode('ascii', 'ignore').decode()
-                        print(f"[AIScriptGenerator] [EXITO TOTAL] Tema creado con IA: '{topic_data['topic_id'].upper()}' - {safe_title}", flush=True)
-                        return topic_data
+                    req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers)
+                    with urllib.request.urlopen(req, timeout=30) as resp:
+                        res_data = json.loads(resp.read().decode("utf-8"))
+                        raw_content = res_data["choices"][0]["message"]["content"]
+                        
+                        topic_data = json.loads(raw_content)
+                        
+                        # Validar estructura minima
+                        if "topic_id" in topic_data and "scenes" in topic_data and len(topic_data["scenes"]) >= 10:
+                            safe_title = str(topic_data.get('title', '')).encode('ascii', 'ignore').decode()
+                            print(f"[AIScriptGenerator] [EXITO TOTAL] Tema creado con IA: '{topic_data['topic_id'].upper()}' - {safe_title}", flush=True)
+                            return topic_data
 
-            except Exception as e:
-                print(f"[AIScriptGenerator] [!] Fallo con modelo {model}: {e}. Probando siguiente modelo...", flush=True)
+                except Exception as e:
+                    print(f"[AIScriptGenerator] [!] Fallo con modelo {model} ({key_tag}): {e}. Probando siguiente opcion...", flush=True)
 
-        print("[AIScriptGenerator] [!] No se pudo generar con IA, usando catalogo preconstruido.", flush=True)
+        print("[AIScriptGenerator] [!] No se pudo generar con IA tras probar todas las claves/modelos, usando catalogo preconstruido.", flush=True)
         return None
