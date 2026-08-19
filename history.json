@@ -7,9 +7,10 @@
     "yellowstone_magma_lake",
     "quantum-diamonds",
     "naica_crystal_cave",
-    "quantum-photosynthesis"
+    "quantum-photosynthesis",
+    "subglacial_vostok_microbes"
   ],
-  "total_published_count": 8,
+  "total_published_count": 9,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -58,6 +59,12 @@
       "topic": "quantum-photosynthesis",
       "title": "5 Insane Facts About Quantum Photosynthesis! 🌌✨",
       "facebook_post_id": "122180906564897912"
+    },
+    {
+      "timestamp": "2026-08-19T13:46:42.969979",
+      "topic": "subglacial_vostok_microbes",
+      "title": "5 Insane Facts About Subglacial Vostok Microbes! 🌌✨",
+      "facebook_post_id": "122180923532897912"
     }
   ]
 }
