@@ -2,9 +2,10 @@
   "published_topics": [
     "space",
     "ocean",
-    "black_holes"
+    "black_holes",
+    "neutron_stars"
   ],
-  "total_published_count": 3,
+  "total_published_count": 4,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -23,6 +24,12 @@
       "topic": "black_holes",
       "title": "5 Terrifying Secrets of Supermassive Black Holes! 🕳️🌌",
       "facebook_post_id": "122180873138897912"
+    },
+    {
+      "timestamp": "2026-08-19T05:33:19.020097",
+      "topic": "neutron_stars",
+      "title": "5 Mind-Blowing Facts About Neutron Stars & Pulsars! ⚡🌌",
+      "facebook_post_id": "122180874092897912"
     }
   ]
 }
