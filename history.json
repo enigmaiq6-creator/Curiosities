@@ -8,9 +8,10 @@
     "quantum-diamonds",
     "naica_crystal_cave",
     "quantum-photosynthesis",
-    "subglacial_vostok_microbes"
+    "subglacial_vostok_microbes",
+    "brain-energy-wonders"
   ],
-  "total_published_count": 9,
+  "total_published_count": 10,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -65,6 +66,12 @@
       "topic": "subglacial_vostok_microbes",
       "title": "5 Insane Facts About Subglacial Vostok Microbes! 🌌✨",
       "facebook_post_id": "122180923532897912"
+    },
+    {
+      "timestamp": "2026-08-19T17:32:54.463293",
+      "topic": "brain-energy-wonders",
+      "title": "5 Insane Facts About The Human Brain! 🌌✨",
+      "facebook_post_id": "122180944754897912"
     }
   ]
 }
