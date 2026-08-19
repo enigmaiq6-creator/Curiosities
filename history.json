@@ -1,9 +1,10 @@
 {
   "published_topics": [
     "space",
-    "ocean"
+    "ocean",
+    "black_holes"
   ],
-  "total_published_count": 2,
+  "total_published_count": 3,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -16,6 +17,12 @@
       "topic": "ocean",
       "title": "5 Terrifying Mysteries of the Deep Abyss!",
       "facebook_post_id": "122180832800897912"
+    },
+    {
+      "timestamp": "2026-08-19T05:20:12.740892",
+      "topic": "black_holes",
+      "title": "5 Terrifying Secrets of Supermassive Black Holes! 🕳️🌌",
+      "facebook_post_id": "122180873138897912"
     }
   ]
 }
