@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
     inputs:
       topic:
-        description: 'Video Topic (Leave blank for strict auto-selection from unrepeated history)'
+        description: 'Video Topic (Leave blank for infinite autonomous AI topic generation)'
         required: false
         default: ''
 
@@ -53,9 +53,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Step 5: Run 100% English Pipeline with Anti-Repetition Guard
+      # Step 5: Run 100% English Pipeline with Infinite AI Topic Generation
       - name: Run Curiosity Video Generator & Publisher
         env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
