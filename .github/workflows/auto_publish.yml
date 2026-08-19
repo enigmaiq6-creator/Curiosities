@@ -38,11 +38,9 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      # Step 3: Install FFmpeg natively on Ubuntu runner
-      - name: Install FFmpeg
-        run: |
-          sudo apt-get update -qq
-          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq ffmpeg libass-dev
+      # Step 3: Verify Preinstalled FFmpeg
+      - name: Verify FFmpeg
+        run: ffmpeg -version
 
       # Step 4: Install Python dependencies
       - name: Install Python Dependencies
