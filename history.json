@@ -5,9 +5,10 @@
     "black_holes",
     "neutron_stars",
     "yellowstone_magma_lake",
-    "quantum-diamonds"
+    "quantum-diamonds",
+    "naica_crystal_cave"
   ],
-  "total_published_count": 6,
+  "total_published_count": 7,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -44,6 +45,12 @@
       "topic": "quantum-diamonds",
       "title": "5 Insane Facts About Quantum Diamonds! 🌌✨",
       "facebook_post_id": "122180876654897912"
+    },
+    {
+      "timestamp": "2026-08-19T09:25:52.342434",
+      "topic": "naica_crystal_cave",
+      "title": "5 Insane Facts About Naica Crystal Cave! 🌌✨",
+      "facebook_post_id": "122180895632897912"
     }
   ]
 }
