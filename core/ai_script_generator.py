@@ -123,7 +123,8 @@ class AIScriptGenerator:
 
         models_to_try = [
             "openai/gpt-oss-120b",
-            "openai/gpt-oss-20b"
+            "openai/gpt-oss-20b",
+            "groq/compound-mini"
         ]
 
         for model in models_to_try:
