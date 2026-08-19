@@ -27,7 +27,7 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      # Step 1: Checkout repository with full history
+      # Step 1: Checkout repository
       - name: Checkout Code
         uses: actions/checkout@v4
 
@@ -38,11 +38,11 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      # Step 3: Install static FFmpeg binary
-      - name: Setup FFmpeg
-        uses: FedericoCarboni/setup-ffmpeg@v3
-        with:
-          ffmpeg-version: 'release'
+      # Step 3: Install FFmpeg natively on Ubuntu runner
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq ffmpeg libass-dev
 
       # Step 4: Install Python dependencies
       - name: Install Python Dependencies
