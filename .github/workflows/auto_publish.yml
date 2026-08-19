@@ -38,9 +38,14 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      # Step 3: Verify Preinstalled FFmpeg
-      - name: Verify FFmpeg
-        run: ffmpeg -version
+      # Step 3: Install Static FFmpeg & FFprobe (Instant 2-second setup)
+      - name: Setup Static FFmpeg
+        run: |
+          mkdir -p $HOME/.ffmpeg-bin
+          curl -sL https://github.com/eugeneware/ffmpeg-static/releases/download/b6.0/ffmpeg-linux-x64 -o $HOME/.ffmpeg-bin/ffmpeg
+          curl -sL https://github.com/eugeneware/ffmpeg-static/releases/download/b6.0/ffprobe-linux-x64 -o $HOME/.ffmpeg-bin/ffprobe
+          chmod +x $HOME/.ffmpeg-bin/ffmpeg $HOME/.ffmpeg-bin/ffprobe
+          echo "$HOME/.ffmpeg-bin" >> $GITHUB_PATH
 
       # Step 4: Install Python dependencies
       - name: Install Python Dependencies
