@@ -3,9 +3,10 @@
     "space",
     "ocean",
     "black_holes",
-    "neutron_stars"
+    "neutron_stars",
+    "yellowstone_magma_lake"
   ],
-  "total_published_count": 4,
+  "total_published_count": 5,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -30,6 +31,12 @@
       "topic": "neutron_stars",
       "title": "5 Mind-Blowing Facts About Neutron Stars & Pulsars! ⚡🌌",
       "facebook_post_id": "122180874092897912"
+    },
+    {
+      "timestamp": "2026-08-19T05:59:31.142878",
+      "topic": "yellowstone_magma_lake",
+      "title": "5 Insane Facts About Yellowstone's Hidden Magma Lake! 🌌✨",
+      "facebook_post_id": "122180875958897912"
     }
   ]
 }
