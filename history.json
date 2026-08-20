@@ -16,9 +16,10 @@
     "siberian-traps-mass-extinction",
     "lunar-hidden-water",
     "moon_helium3_treasure",
-    "antarctic-subglacial-volcanoes"
+    "antarctic-subglacial-volcanoes",
+    "rift-giant-eruption"
   ],
-  "total_published_count": 17,
+  "total_published_count": 18,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -121,6 +122,12 @@
       "topic": "antarctic-subglacial-volcanoes",
       "title": "5 Insane Facts About Antarctic Subglacial Volcanoes! 🌌✨",
       "facebook_post_id": "122181073640897912"
+    },
+    {
+      "timestamp": "2026-08-20T18:41:30.331005",
+      "topic": "rift-giant-eruption",
+      "title": "5 Insane Facts About Rift Giant Eruption! 🌌✨",
+      "facebook_post_id": "122181074450897912"
     }
   ]
 }
