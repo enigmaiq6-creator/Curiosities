@@ -13,9 +13,10 @@
     "frozen-mammoth-wonders",
     "toba-supervolcano",
     "pyramid-star-alignment",
-    "siberian-traps-mass-extinction"
+    "siberian-traps-mass-extinction",
+    "lunar-hidden-water"
   ],
-  "total_published_count": 14,
+  "total_published_count": 15,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -100,6 +101,12 @@
       "topic": "siberian-traps-mass-extinction",
       "title": "5 Insane Facts About Siberian Traps! 🌌✨",
       "facebook_post_id": "122181031790897912"
+    },
+    {
+      "timestamp": "2026-08-20T13:48:08.532222",
+      "topic": "lunar-hidden-water",
+      "title": "5 Insane Facts About Moon's Hidden Water! 🌌✨",
+      "facebook_post_id": "122181047978897912"
     }
   ]
 }
