@@ -15,9 +15,10 @@
     "pyramid-star-alignment",
     "siberian-traps-mass-extinction",
     "lunar-hidden-water",
-    "moon_helium3_treasure"
+    "moon_helium3_treasure",
+    "antarctic-subglacial-volcanoes"
   ],
-  "total_published_count": 16,
+  "total_published_count": 17,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -114,6 +115,12 @@
       "topic": "moon_helium3_treasure",
       "title": "5 Insane Facts About Moon's Helium‑3 Treasure! 🌌✨",
       "facebook_post_id": "122181069884897912"
+    },
+    {
+      "timestamp": "2026-08-20T18:33:55.047703",
+      "topic": "antarctic-subglacial-volcanoes",
+      "title": "5 Insane Facts About Antarctic Subglacial Volcanoes! 🌌✨",
+      "facebook_post_id": "122181073640897912"
     }
   ]
 }
