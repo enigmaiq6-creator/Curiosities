@@ -17,9 +17,10 @@
     "lunar-hidden-water",
     "moon_helium3_treasure",
     "antarctic-subglacial-volcanoes",
-    "rift-giant-eruption"
+    "rift-giant-eruption",
+    "europa_hidden_ocean"
   ],
-  "total_published_count": 18,
+  "total_published_count": 19,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -128,6 +129,12 @@
       "topic": "rift-giant-eruption",
       "title": "5 Insane Facts About Rift Giant Eruption! 🌌✨",
       "facebook_post_id": "122181074450897912"
+    },
+    {
+      "timestamp": "2026-08-20T18:46:37.191886",
+      "topic": "europa_hidden_ocean",
+      "title": "5 Insane Facts About Europa's Hidden Ocean! 🌌✨",
+      "facebook_post_id": "122181074948897912"
     }
   ]
 }
