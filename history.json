@@ -14,9 +14,10 @@
     "toba-supervolcano",
     "pyramid-star-alignment",
     "siberian-traps-mass-extinction",
-    "lunar-hidden-water"
+    "lunar-hidden-water",
+    "moon_helium3_treasure"
   ],
-  "total_published_count": 15,
+  "total_published_count": 16,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -107,6 +108,12 @@
       "topic": "lunar-hidden-water",
       "title": "5 Insane Facts About Moon's Hidden Water! 🌌✨",
       "facebook_post_id": "122181047978897912"
+    },
+    {
+      "timestamp": "2026-08-20T17:34:28.255781",
+      "topic": "moon_helium3_treasure",
+      "title": "5 Insane Facts About Moon's Helium‑3 Treasure! 🌌✨",
+      "facebook_post_id": "122181069884897912"
     }
   ]
 }
