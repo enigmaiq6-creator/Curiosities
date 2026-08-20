@@ -14,6 +14,18 @@ def format_ass_time(seconds: float) -> str:
         cs = 99
     return f"{h}:{m:02d}:{s:02d}.{cs:02d}"
 
+def wrap_text_lines(text: str, max_chars_per_line: int = 34) -> str:
+    """Divide oraciones largas en máximo 2 líneas equilibradas usando \\N."""
+    words = text.split()
+    if len(text) <= max_chars_per_line or len(words) <= 4:
+        return text
+
+    # Buscar punto medio para partir en 2 líneas equilibradas
+    mid = len(words) // 2
+    line1 = " ".join(words[:mid])
+    line2 = " ".join(words[mid:])
+    return f"{line1}\\N{line2}"
+
 class SubtitleEngine:
     def __init__(self, aspect_ratio: str = "vertical"):
         self.res = RESOLUTIONS.get(aspect_ratio, RESOLUTIONS["vertical"])
@@ -22,16 +34,17 @@ class SubtitleEngine:
 
     def create_ass_subtitles(self, scene_data: List[Dict[str, Any]], output_ass_path: Path, total_video_duration: float = 60.0):
         """
-        Genera subtítulos cinemáticos de ALTA PRECISIÓN (Frame-Perfect Sync):
-        1. Ráfagas ultra-rápidas de 1 a 2 palabras (Estilo MrBeast / CapCut Viral).
-        2. Sincronización milimétrica con los eventos acústicos de Edge-TTS sin desfases ni solapamientos.
-        3. Animación Pop cinética con realce dorado en palabras clave.
-        4. Transición limpia y sellos numéricos #01-#05 independientes.
+        Genera subtítulos estilo DOCUMENTAL CLÁSICO (BBC / National Geographic):
+        1. Frases completas y legibles de 4 a 7 palabras por bloque.
+        2. Texto en mayúsculas/minúsculas naturales (Sentence Case) de alta elegancia.
+        3. Transición cinemática suave con Fade (fad) sin saltos bruscos ni parpadeos.
+        4. Ubicación en tercio inferior optimizada para Reels/Shorts sin tapar la UI.
+        5. Sello numérico minimalista (#01 a #05) dorado en la esquina superior.
         """
         output_ass_path.parent.mkdir(parents=True, exist_ok=True)
         
-        font_size = 48 if self.width == 1080 else 54
-        margin_v = 280 if self.width == 1080 else 120
+        font_size = 44 if self.width == 1080 else 48
+        margin_v = 200 if self.width == 1080 else 100
 
         header = f"""[Script Info]
 ScriptType: v4.00+
@@ -41,10 +54,10 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: NumberStamp,Arial Black,76,&H0000FFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,6,3,7,60,60,100,1
-Style: HookStyle,Arial Black,{font_size + 6},&H00FFFFFF,&H0000FFFF,&H00000000,&HB0000000,-1,0,0,0,100,100,0,0,1,6,4,2,30,30,{margin_v},1
-Style: SubtitleActive,Arial Black,{font_size},&H00FFFFFF,&H0000FFFF,&H00000000,&HB0000000,-1,0,0,0,100,100,0,0,1,5,3,2,40,40,{margin_v},1
-Style: CTAStyle,Arial Black,{font_size + 6},&H0000FFFF,&H00FFFFFF,&H00000000,&HB0000000,-1,0,0,0,100,100,0,0,1,6,4,2,30,30,{margin_v - 20},1
+Style: NumberStamp,Arial,68,&H0000D4FF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,5,2,7,60,60,110,1
+Style: DocSubtitle,Arial,{font_size},&H00FFFFFF,&H0000D4FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.5,2,2,50,50,{margin_v},1
+Style: DocHook,Arial,{font_size + 4},&H0000FFFF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,4,2,2,40,40,{margin_v},1
+Style: DocCTA,Arial,{font_size + 2},&H0000D4FF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,4,2,2,40,40,{margin_v - 20},1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -61,36 +74,38 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             is_cta = scene.get("is_cta", False)
             curiosity_num = scene.get("curiosity_index", None)
 
-            # 1. Sello numérico flotante (#01 a #05)
+            # 1. Sello numérico sutil (#01 a #05)
             if curiosity_num and curiosity_num not in curiosity_seen:
                 curiosity_seen.add(curiosity_num)
                 stamp_start = scene_start
-                stamp_end = scene_start + min(1.8, scene_dur)
+                stamp_end = scene_start + min(2.2, scene_dur)
                 
                 s_t = format_ass_time(stamp_start)
                 e_t = format_ass_time(stamp_end)
                 
-                stamp_text = f"{{\\fad(100,250)\\c&H0000FFFF&\\3c&H00000000&\\bord6\\shad2}}#{curiosity_num:02d}"
+                stamp_text = f"{{\\fad(150,300)\\c&H0000D4FF&\\3c&H00000000&\\bord5\\shad2}}#{curiosity_num:02d}"
                 events.append(f"Dialogue: 1,{s_t},{e_t},NumberStamp,,0,0,0,,{stamp_text}")
 
-            # 2. Determinar estilo
+            # 2. Determinar estilo documental
             if is_hook:
-                style_name = "HookStyle"
+                style_name = "DocHook"
             elif is_cta:
-                style_name = "CTAStyle"
+                style_name = "DocCTA"
             else:
-                style_name = "SubtitleActive"
+                style_name = "DocSubtitle"
 
             word_timings = scene.get("word_timings", [])
+            raw_text = scene.get("text", "").strip()
+
             if not word_timings:
-                text = scene.get("text", "").upper()
+                formatted_text = wrap_text_lines(raw_text)
                 s_time = format_ass_time(scene_start)
                 e_time = format_ass_time(scene_end)
-                events.append(f"Dialogue: 0,{s_time},{e_time},{style_name},,0,0,0,,{text}")
+                events.append(f"Dialogue: 0,{s_time},{e_time},{style_name},,0,0,0,,{{\\fad(100,100)}}{formatted_text}")
                 continue
 
-            # Agrupar palabras en fragmentos dinámicos de 2 palabras (o 1 si tiene puntuación fuerte)
-            chunks = []
+            # 3. Agrupar palabras en frases completas naturales (4 a 7 palabras o por puntuación)
+            sentence_chunks = []
             current_chunk = []
             
             for w_idx, w_info in enumerate(word_timings):
@@ -99,55 +114,41 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                     continue
                 current_chunk.append(w_info)
                 
-                # Cortar ráfaga si alcanza 2 palabras o si termina en puntuación
-                has_punct = any(p in w_text for p in [".", ",", "!", "?", ":", ";"])
-                if len(current_chunk) >= 2 or has_punct or w_idx == len(word_timings) - 1:
-                    chunks.append(current_chunk)
+                has_strong_punct = any(p in w_text for p in [".", "!", "?", ":", ";"])
+                has_soft_punct = any(p in w_text for p in [",", "—", "-"])
+                
+                # Partir si hay punto/dos puntos, o si supera 5 palabras con coma, o al llegar a 7 palabras
+                if has_strong_punct or (has_soft_punct and len(current_chunk) >= 4) or len(current_chunk) >= 6 or w_idx == len(word_timings) - 1:
+                    sentence_chunks.append(current_chunk)
                     current_chunk = []
 
-            # Sincronización Frame-Perfect sin solapamientos
-            for idx_c, chunk in enumerate(chunks):
-                raw_start = scene_start + chunk[0]["start"]
-                raw_end = scene_start + chunk[-1]["end"]
+            # 4. Generar eventos con transición suave
+            for idx_c, chunk in enumerate(sentence_chunks):
+                chunk_raw_start = scene_start + chunk[0]["start"]
+                chunk_raw_end = scene_start + chunk[-1]["end"]
                 
-                # El inicio del chunk se adelanta 30ms para alineación visual perceptual instantánea
-                chunk_start = max(scene_start, raw_start - 0.03)
-
-                # El final del chunk se extiende EXACTAMENTE hasta el inicio del siguiente chunk
-                if idx_c < len(chunks) - 1:
-                    next_chunk_start = scene_start + chunks[idx_c + 1][0]["start"]
-                    chunk_end = max(raw_end, min(next_chunk_start, raw_end + 0.15))
+                c_start = max(scene_start, chunk_raw_start)
+                
+                # Extender suavemente hasta el inicio del siguiente bloque o fin de escena
+                if idx_c < len(sentence_chunks) - 1:
+                    next_start = scene_start + sentence_chunks[idx_c + 1][0]["start"]
+                    c_end = min(next_start, chunk_raw_end + 0.2)
                 else:
-                    chunk_end = min(scene_end, raw_end + 0.25)
+                    c_end = min(scene_end, chunk_raw_end + 0.3)
 
-                c_start_str = format_ass_time(chunk_start)
-                c_end_str = format_ass_time(chunk_end)
+                c_start_str = format_ass_time(c_start)
+                c_end_str = format_ass_time(c_end)
 
-                styled_words = []
-                for idx_w, w_info in enumerate(chunk):
-                    w_clean = w_info["word"].upper()
-                    
-                    if is_hook:
-                        # Palabras gancho resaltadas en amarillo vibrante
-                        if any(k in w_clean for k in ["FIVE", "FACTS", "SECRETS", "CRAZY", "SHOCK", "MIND", "UNBELIEVABLE"]):
-                            styled_words.append(f"{{\\c&H0000FFFF&\\fscx108\\fscy108}}{w_clean}")
-                        else:
-                            styled_words.append(f"{{\\c&H00FFFFFF&}}{w_clean}")
-                    elif is_cta:
-                        # Palabras de conversión en amarillo vibrante
-                        if any(k in w_clean for k in ["LIKE", "COMMENT", "FOLLOW", "AMAZED", "DISCOVERIES", "SHARE"]):
-                            styled_words.append(f"{{\\c&H0000FFFF&\\fscx110\\fscy110}}{w_clean}")
-                        else:
-                            styled_words.append(f"{{\\c&H00FFFFFF&}}{w_clean}")
-                    else:
-                        # En curiosidades normales: la palabra clave final de la ráfaga resalta en oro neón
-                        if idx_w == len(chunk) - 1:
-                            styled_words.append(f"{{\\c&H0000FFFF&\\fscx105\\fscy105}}{w_clean}")
-                        else:
-                            styled_words.append(f"{{\\c&H00FFFFFF&}}{w_clean}")
-
-                full_chunk_str = " ".join(styled_words)
-                events.append(f"Dialogue: 0,{c_start_str},{c_end_str},{style_name},,0,0,0,,{full_chunk_str}")
+                # Construir texto de la frase completa con formato limpio
+                chunk_words = [w["word"] for w in chunk]
+                clause_text = " ".join(chunk_words)
+                
+                # Ajustar a máximo 2 líneas si es larga
+                wrapped_clause = wrap_text_lines(clause_text, max_chars_per_line=36)
+                
+                # Animación suave de aparición y desaparición (Fade in/out de 100ms)
+                dialogue_text = f"{{\\fad(100,100)}}{wrapped_clause}"
+                events.append(f"Dialogue: 0,{c_start_str},{c_end_str},{style_name},,0,0,0,,{dialogue_text}")
 
         with open(output_ass_path, "w", encoding="utf-8") as f:
             f.write(header + "\n".join(events) + "\n")
