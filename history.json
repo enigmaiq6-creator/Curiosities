@@ -12,9 +12,10 @@
     "brain-energy-wonders",
     "frozen-mammoth-wonders",
     "toba-supervolcano",
-    "pyramid-star-alignment"
+    "pyramid-star-alignment",
+    "siberian-traps-mass-extinction"
   ],
-  "total_published_count": 13,
+  "total_published_count": 14,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -93,6 +94,12 @@
       "topic": "pyramid-star-alignment",
       "title": "5 Insane Facts About Pyramid Star Alignment! 🌌✨",
       "facebook_post_id": "122181021938897912"
+    },
+    {
+      "timestamp": "2026-08-20T11:31:03.507930",
+      "topic": "siberian-traps-mass-extinction",
+      "title": "5 Insane Facts About Siberian Traps! 🌌✨",
+      "facebook_post_id": "122181031790897912"
     }
   ]
 }
