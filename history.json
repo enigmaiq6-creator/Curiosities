@@ -10,9 +10,10 @@
     "quantum-photosynthesis",
     "subglacial_vostok_microbes",
     "brain-energy-wonders",
-    "frozen-mammoth-wonders"
+    "frozen-mammoth-wonders",
+    "toba-supervolcano"
   ],
-  "total_published_count": 11,
+  "total_published_count": 12,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -79,6 +80,12 @@
       "topic": "frozen-mammoth-wonders",
       "title": "5 Insane Facts About Frozen Mammoths! 🌌✨",
       "facebook_post_id": "122180971532897912"
+    },
+    {
+      "timestamp": "2026-08-20T02:20:57.623840",
+      "topic": "toba-supervolcano",
+      "title": "5 Insane Facts About Toba Supervolcano! 🌌✨",
+      "facebook_post_id": "122180991740897912"
     }
   ]
 }
