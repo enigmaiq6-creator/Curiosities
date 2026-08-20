@@ -11,9 +11,10 @@
     "subglacial_vostok_microbes",
     "brain-energy-wonders",
     "frozen-mammoth-wonders",
-    "toba-supervolcano"
+    "toba-supervolcano",
+    "pyramid-star-alignment"
   ],
-  "total_published_count": 12,
+  "total_published_count": 13,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -86,6 +87,12 @@
       "topic": "toba-supervolcano",
       "title": "5 Insane Facts About Toba Supervolcano! 🌌✨",
       "facebook_post_id": "122180991740897912"
+    },
+    {
+      "timestamp": "2026-08-20T09:26:00.673492",
+      "topic": "pyramid-star-alignment",
+      "title": "5 Insane Facts About Pyramid Star Alignment! 🌌✨",
+      "facebook_post_id": "122181021938897912"
     }
   ]
 }
