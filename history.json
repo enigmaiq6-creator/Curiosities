@@ -18,9 +18,10 @@
     "moon_helium3_treasure",
     "antarctic-subglacial-volcanoes",
     "rift-giant-eruption",
-    "europa_hidden_ocean"
+    "europa_hidden_ocean",
+    "earth-inner-core-rotation"
   ],
-  "total_published_count": 19,
+  "total_published_count": 20,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -135,6 +136,12 @@
       "topic": "europa_hidden_ocean",
       "title": "5 Insane Facts About Europa's Hidden Ocean! 🌌✨",
       "facebook_post_id": "122181074948897912"
+    },
+    {
+      "timestamp": "2026-08-20T21:35:11.665207",
+      "topic": "earth-inner-core-rotation",
+      "title": "5 Insane Facts About Earth's Inner Core! 🌌✨",
+      "facebook_post_id": "122181086210897912"
     }
   ]
 }
