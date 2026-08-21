@@ -19,9 +19,10 @@
     "antarctic-subglacial-volcanoes",
     "rift-giant-eruption",
     "europa_hidden_ocean",
-    "earth-inner-core-rotation"
+    "earth-inner-core-rotation",
+    "dinosaur-bone-chronicles"
   ],
-  "total_published_count": 20,
+  "total_published_count": 21,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -142,6 +143,12 @@
       "topic": "earth-inner-core-rotation",
       "title": "5 Insane Facts About Earth's Inner Core! 🌌✨",
       "facebook_post_id": "122181086210897912"
+    },
+    {
+      "timestamp": "2026-08-21T02:26:19.902095",
+      "topic": "dinosaur-bone-chronicles",
+      "title": "5 Insane Facts About Dinosaur Bone Secrets! 🌌✨",
+      "facebook_post_id": "122181110054897912"
     }
   ]
 }
