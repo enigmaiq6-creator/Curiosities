@@ -22,9 +22,10 @@
     "earth-inner-core-rotation",
     "dinosaur-bone-chronicles",
     "pacific-mantle-plume-supervolcanoes",
-    "crow-communication-mysteries"
+    "crow-communication-mysteries",
+    "mantis-shrimp-vision"
   ],
-  "total_published_count": 23,
+  "total_published_count": 24,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -163,6 +164,12 @@
       "topic": "crow-communication-mysteries",
       "title": "5 Insane Facts About Crows! 🌌✨",
       "facebook_post_id": "122181151238897912"
+    },
+    {
+      "timestamp": "2026-08-21T13:46:33.331180",
+      "topic": "mantis-shrimp-vision",
+      "title": "5 Insane Facts About Mantis Shrimp Vision! 🌌✨",
+      "facebook_post_id": "122181162206897912"
     }
   ]
 }
