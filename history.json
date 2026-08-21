@@ -24,9 +24,10 @@
     "pacific-mantle-plume-supervolcanoes",
     "crow-communication-mysteries",
     "mantis-shrimp-vision",
-    "pacific-magma-ocean"
+    "pacific-magma-ocean",
+    "solar-superflare-ancient-earth"
   ],
-  "total_published_count": 25,
+  "total_published_count": 26,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -177,6 +178,12 @@
       "topic": "pacific-magma-ocean",
       "title": "5 Insane Facts About Pacific Magma Ocean! 🌌✨",
       "facebook_post_id": "122181181046897912"
+    },
+    {
+      "timestamp": "2026-08-21T21:31:06.547128",
+      "topic": "solar-superflare-ancient-earth",
+      "title": "5 Insane Facts About Solar Superflares! 🌌✨",
+      "facebook_post_id": "122181197336897912"
     }
   ]
 }
