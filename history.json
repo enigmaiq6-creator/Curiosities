@@ -23,9 +23,10 @@
     "dinosaur-bone-chronicles",
     "pacific-mantle-plume-supervolcanoes",
     "crow-communication-mysteries",
-    "mantis-shrimp-vision"
+    "mantis-shrimp-vision",
+    "pacific-magma-ocean"
   ],
-  "total_published_count": 24,
+  "total_published_count": 25,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -170,6 +171,12 @@
       "topic": "mantis-shrimp-vision",
       "title": "5 Insane Facts About Mantis Shrimp Vision! 🌌✨",
       "facebook_post_id": "122181162206897912"
+    },
+    {
+      "timestamp": "2026-08-21T17:36:05.789491",
+      "topic": "pacific-magma-ocean",
+      "title": "5 Insane Facts About Pacific Magma Ocean! 🌌✨",
+      "facebook_post_id": "122181181046897912"
     }
   ]
 }
