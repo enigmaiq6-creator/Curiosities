@@ -21,9 +21,10 @@
     "europa_hidden_ocean",
     "earth-inner-core-rotation",
     "dinosaur-bone-chronicles",
-    "pacific-mantle-plume-supervolcanoes"
+    "pacific-mantle-plume-supervolcanoes",
+    "crow-communication-mysteries"
   ],
-  "total_published_count": 22,
+  "total_published_count": 23,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -156,6 +157,12 @@
       "topic": "pacific-mantle-plume-supervolcanoes",
       "title": "5 Insane Facts About Pacific Mantle Plume Supervolcanoes! 🌌✨",
       "facebook_post_id": "122181141572897912"
+    },
+    {
+      "timestamp": "2026-08-21T11:29:53.385095",
+      "topic": "crow-communication-mysteries",
+      "title": "5 Insane Facts About Crows! 🌌✨",
+      "facebook_post_id": "122181151238897912"
     }
   ]
 }
