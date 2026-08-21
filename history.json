@@ -20,9 +20,10 @@
     "rift-giant-eruption",
     "europa_hidden_ocean",
     "earth-inner-core-rotation",
-    "dinosaur-bone-chronicles"
+    "dinosaur-bone-chronicles",
+    "pacific-mantle-plume-supervolcanoes"
   ],
-  "total_published_count": 21,
+  "total_published_count": 22,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -149,6 +150,12 @@
       "topic": "dinosaur-bone-chronicles",
       "title": "5 Insane Facts About Dinosaur Bone Secrets! 🌌✨",
       "facebook_post_id": "122181110054897912"
+    },
+    {
+      "timestamp": "2026-08-21T09:28:05.795723",
+      "topic": "pacific-mantle-plume-supervolcanoes",
+      "title": "5 Insane Facts About Pacific Mantle Plume Supervolcanoes! 🌌✨",
+      "facebook_post_id": "122181141572897912"
     }
   ]
 }
