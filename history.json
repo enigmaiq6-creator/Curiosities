@@ -27,9 +27,10 @@
     "pacific-magma-ocean",
     "solar-superflare-ancient-earth",
     "sun-magnetic-reversal-zones",
-    "mantle-diamonds"
+    "mantle-diamonds",
+    "ancient-dinosaur-bone-microstructures"
   ],
-  "total_published_count": 28,
+  "total_published_count": 29,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -198,6 +199,12 @@
       "topic": "mantle-diamonds",
       "title": "5 Insane Facts About Mantle Diamonds! 🌌✨",
       "facebook_post_id": "122181256034897912"
+    },
+    {
+      "timestamp": "2026-08-22T11:25:19.572110",
+      "topic": "ancient-dinosaur-bone-microstructures",
+      "title": "5 Insane Facts About Dinosaur Bone Microstructures! 🌌✨",
+      "facebook_post_id": "122181264416897912"
     }
   ]
 }
