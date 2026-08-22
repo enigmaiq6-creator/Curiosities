@@ -30,9 +30,10 @@
     "mantle-diamonds",
     "ancient-dinosaur-bone-microstructures",
     "fulgurite-wonders",
-    "hydrothermal-vent-tube-worms"
+    "hydrothermal-vent-tube-worms",
+    "mercury-vanishing-magnetic-shield"
   ],
-  "total_published_count": 31,
+  "total_published_count": 32,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -219,6 +220,12 @@
       "topic": "hydrothermal-vent-tube-worms",
       "title": "5 Insane Facts About Hydrothermal Vent Tube Worms! 🌌✨",
       "facebook_post_id": "122181299174897912"
+    },
+    {
+      "timestamp": "2026-08-22T21:28:09.257124",
+      "topic": "mercury-vanishing-magnetic-shield",
+      "title": "5 Insane Facts About Mercury's Vanishing Magnetic Shield! 🌌✨",
+      "facebook_post_id": "122181317432897912"
     }
   ]
 }
