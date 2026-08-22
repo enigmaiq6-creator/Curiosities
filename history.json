@@ -28,9 +28,10 @@
     "solar-superflare-ancient-earth",
     "sun-magnetic-reversal-zones",
     "mantle-diamonds",
-    "ancient-dinosaur-bone-microstructures"
+    "ancient-dinosaur-bone-microstructures",
+    "fulgurite-wonders"
   ],
-  "total_published_count": 29,
+  "total_published_count": 30,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -205,6 +206,12 @@
       "topic": "ancient-dinosaur-bone-microstructures",
       "title": "5 Insane Facts About Dinosaur Bone Microstructures! 🌌✨",
       "facebook_post_id": "122181264416897912"
+    },
+    {
+      "timestamp": "2026-08-22T13:34:12.337382",
+      "topic": "fulgurite-wonders",
+      "title": "5 Insane Facts About Fulgurite Wonders! 🌌✨",
+      "facebook_post_id": "122181278252897912"
     }
   ]
 }
