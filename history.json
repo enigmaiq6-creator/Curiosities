@@ -25,9 +25,10 @@
     "crow-communication-mysteries",
     "mantis-shrimp-vision",
     "pacific-magma-ocean",
-    "solar-superflare-ancient-earth"
+    "solar-superflare-ancient-earth",
+    "sun-magnetic-reversal-zones"
   ],
-  "total_published_count": 26,
+  "total_published_count": 27,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -184,6 +185,12 @@
       "topic": "solar-superflare-ancient-earth",
       "title": "5 Insane Facts About Solar Superflares! 🌌✨",
       "facebook_post_id": "122181197336897912"
+    },
+    {
+      "timestamp": "2026-08-22T02:17:13.053709",
+      "topic": "sun-magnetic-reversal-zones",
+      "title": "5 Insane Facts About Sun's Hidden Magnetic Reversal Zones! 🌌✨",
+      "facebook_post_id": "122181221564897912"
     }
   ]
 }
