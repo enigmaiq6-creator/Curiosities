@@ -29,9 +29,10 @@
     "sun-magnetic-reversal-zones",
     "mantle-diamonds",
     "ancient-dinosaur-bone-microstructures",
-    "fulgurite-wonders"
+    "fulgurite-wonders",
+    "hydrothermal-vent-tube-worms"
   ],
-  "total_published_count": 30,
+  "total_published_count": 31,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -212,6 +213,12 @@
       "topic": "fulgurite-wonders",
       "title": "5 Insane Facts About Fulgurite Wonders! 🌌✨",
       "facebook_post_id": "122181278252897912"
+    },
+    {
+      "timestamp": "2026-08-22T17:26:32.397236",
+      "topic": "hydrothermal-vent-tube-worms",
+      "title": "5 Insane Facts About Hydrothermal Vent Tube Worms! 🌌✨",
+      "facebook_post_id": "122181299174897912"
     }
   ]
 }
