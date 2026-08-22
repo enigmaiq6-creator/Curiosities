@@ -26,9 +26,10 @@
     "mantis-shrimp-vision",
     "pacific-magma-ocean",
     "solar-superflare-ancient-earth",
-    "sun-magnetic-reversal-zones"
+    "sun-magnetic-reversal-zones",
+    "mantle-diamonds"
   ],
-  "total_published_count": 27,
+  "total_published_count": 28,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -191,6 +192,12 @@
       "topic": "sun-magnetic-reversal-zones",
       "title": "5 Insane Facts About Sun's Hidden Magnetic Reversal Zones! 🌌✨",
       "facebook_post_id": "122181221564897912"
+    },
+    {
+      "timestamp": "2026-08-22T09:19:55.684271",
+      "topic": "mantle-diamonds",
+      "title": "5 Insane Facts About Mantle Diamonds! 🌌✨",
+      "facebook_post_id": "122181256034897912"
     }
   ]
 }
