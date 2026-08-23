@@ -31,9 +31,10 @@
     "ancient-dinosaur-bone-microstructures",
     "fulgurite-wonders",
     "hydrothermal-vent-tube-worms",
-    "mercury-vanishing-magnetic-shield"
+    "mercury-vanishing-magnetic-shield",
+    "immortal_jellyfish"
   ],
-  "total_published_count": 32,
+  "total_published_count": 33,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -226,6 +227,12 @@
       "topic": "mercury-vanishing-magnetic-shield",
       "title": "5 Insane Facts About Mercury's Vanishing Magnetic Shield! 🌌✨",
       "facebook_post_id": "122181317432897912"
+    },
+    {
+      "timestamp": "2026-08-23T02:26:42.493602",
+      "topic": "immortal_jellyfish",
+      "title": "5 Insane Facts About the Immortal Jellyfish! 🌌✨",
+      "facebook_post_id": "122181338666897912"
     }
   ]
 }
