@@ -32,9 +32,10 @@
     "fulgurite-wonders",
     "hydrothermal-vent-tube-worms",
     "mercury-vanishing-magnetic-shield",
-    "immortal_jellyfish"
+    "immortal_jellyfish",
+    "blue-whale-epic-physiology"
   ],
-  "total_published_count": 33,
+  "total_published_count": 34,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -233,6 +234,12 @@
       "topic": "immortal_jellyfish",
       "title": "5 Insane Facts About the Immortal Jellyfish! 🌌✨",
       "facebook_post_id": "122181338666897912"
+    },
+    {
+      "timestamp": "2026-08-23T09:20:10.110660",
+      "topic": "blue-whale-epic-physiology",
+      "title": "5 Insane Facts About Blue Whales! 🌌✨",
+      "facebook_post_id": "122181369632897912"
     }
   ]
 }
