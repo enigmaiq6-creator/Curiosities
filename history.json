@@ -33,9 +33,10 @@
     "hydrothermal-vent-tube-worms",
     "mercury-vanishing-magnetic-shield",
     "immortal_jellyfish",
-    "blue-whale-epic-physiology"
+    "blue-whale-epic-physiology",
+    "giant-xenophyophore-facts"
   ],
-  "total_published_count": 34,
+  "total_published_count": 35,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -240,6 +241,12 @@
       "topic": "blue-whale-epic-physiology",
       "title": "5 Insane Facts About Blue Whales! 🌌✨",
       "facebook_post_id": "122181369632897912"
+    },
+    {
+      "timestamp": "2026-08-23T11:24:58.416986",
+      "topic": "giant-xenophyophore-facts",
+      "title": "5 Insane Facts About Giant Xenophyophores! 🌌✨",
+      "facebook_post_id": "122181381722897912"
     }
   ]
 }
