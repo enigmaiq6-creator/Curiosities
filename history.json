@@ -41,9 +41,10 @@
     "diamond-rain-hd149026b",
     "mars-crustal-magnetism",
     "jupiter-metallic-hydrogen",
-    "titan-ethane-rivers"
+    "titan-ethane-rivers",
+    "lava-tube-time-capsules"
   ],
-  "total_published_count": 42,
+  "total_published_count": 43,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -296,6 +297,12 @@
       "topic": "titan-ethane-rivers",
       "title": "5 Insane Facts About Titan's Ethane Rivers! 🌌✨",
       "facebook_post_id": "122181513740897912"
+    },
+    {
+      "timestamp": "2026-08-24T17:37:25.733059",
+      "topic": "lava-tube-time-capsules",
+      "title": "5 Insane Facts About Lava Tube Time Capsules! 🌌✨",
+      "facebook_post_id": "122181532886897912"
     }
   ]
 }
