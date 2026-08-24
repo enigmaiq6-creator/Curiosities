@@ -42,9 +42,10 @@
     "mars-crustal-magnetism",
     "jupiter-metallic-hydrogen",
     "titan-ethane-rivers",
-    "lava-tube-time-capsules"
+    "lava-tube-time-capsules",
+    "komodo-venom-secrets"
   ],
-  "total_published_count": 43,
+  "total_published_count": 44,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -303,6 +304,12 @@
       "topic": "lava-tube-time-capsules",
       "title": "5 Insane Facts About Lava Tube Time Capsules! 🌌✨",
       "facebook_post_id": "122181532886897912"
+    },
+    {
+      "timestamp": "2026-08-24T21:37:19.646420",
+      "topic": "komodo-venom-secrets",
+      "title": "5 Insane Facts About Komodo Dragon Venom! 🌌✨",
+      "facebook_post_id": "122181551888897912"
     }
   ]
 }
