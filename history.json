@@ -39,9 +39,10 @@
     "cosmic-time-capsules",
     "andean-acidic-lakes",
     "diamond-rain-hd149026b",
-    "mars-crustal-magnetism"
+    "mars-crustal-magnetism",
+    "jupiter-metallic-hydrogen"
   ],
-  "total_published_count": 40,
+  "total_published_count": 41,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -282,6 +283,12 @@
       "topic": "mars-crustal-magnetism",
       "title": "5 Insane Facts About Mars' Crustal Magnetism! 🌌✨",
       "facebook_post_id": "122181490898897912"
+    },
+    {
+      "timestamp": "2026-08-24T11:33:33.139594",
+      "topic": "jupiter-metallic-hydrogen",
+      "title": "5 Insane Facts About Metallic Hydrogen in Jupiter! 🌌✨",
+      "facebook_post_id": "122181501500897912"
     }
   ]
 }
