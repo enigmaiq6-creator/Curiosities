@@ -40,9 +40,10 @@
     "andean-acidic-lakes",
     "diamond-rain-hd149026b",
     "mars-crustal-magnetism",
-    "jupiter-metallic-hydrogen"
+    "jupiter-metallic-hydrogen",
+    "titan-ethane-rivers"
   ],
-  "total_published_count": 41,
+  "total_published_count": 42,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -289,6 +290,12 @@
       "topic": "jupiter-metallic-hydrogen",
       "title": "5 Insane Facts About Metallic Hydrogen in Jupiter! 🌌✨",
       "facebook_post_id": "122181501500897912"
+    },
+    {
+      "timestamp": "2026-08-24T13:53:23.192605",
+      "topic": "titan-ethane-rivers",
+      "title": "5 Insane Facts About Titan's Ethane Rivers! 🌌✨",
+      "facebook_post_id": "122181513740897912"
     }
   ]
 }
