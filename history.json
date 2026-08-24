@@ -38,9 +38,10 @@
     "goblin-shark-nose-reveal",
     "cosmic-time-capsules",
     "andean-acidic-lakes",
-    "diamond-rain-hd149026b"
+    "diamond-rain-hd149026b",
+    "mars-crustal-magnetism"
   ],
-  "total_published_count": 39,
+  "total_published_count": 40,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -275,6 +276,12 @@
       "topic": "diamond-rain-hd149026b",
       "title": "5 Insane Facts About Diamond Rain on HD 149026b! 🌌✨",
       "facebook_post_id": "122181455390897912"
+    },
+    {
+      "timestamp": "2026-08-24T09:38:00.288799",
+      "topic": "mars-crustal-magnetism",
+      "title": "5 Insane Facts About Mars' Crustal Magnetism! 🌌✨",
+      "facebook_post_id": "122181490898897912"
     }
   ]
 }
