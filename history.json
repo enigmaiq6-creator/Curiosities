@@ -48,9 +48,10 @@
     "quantum-tunneling-enzymes",
     "volcanic-lightning-nanodiamonds",
     "quantum-bird-navigation",
-    "subglacial-volcanic-microbiome"
+    "subglacial-volcanic-microbiome",
+    "mariana-megathrust-mysteries"
   ],
-  "total_published_count": 49,
+  "total_published_count": 50,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -345,6 +346,12 @@
       "topic": "subglacial-volcanic-microbiome",
       "title": "5 Insane Facts About Subglacial Volcanic Microbiomes! 🌌✨",
       "facebook_post_id": "122181659294897912"
+    },
+    {
+      "timestamp": "2026-08-25T21:34:38.897782",
+      "topic": "mariana-megathrust-mysteries",
+      "title": "5 Insane Facts About the Mariana Megathrust! 🌌✨",
+      "facebook_post_id": "122181675890897912"
     }
   ]
 }
