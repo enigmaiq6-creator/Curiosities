@@ -47,9 +47,10 @@
     "rogue-planets-wandering-worlds",
     "quantum-tunneling-enzymes",
     "volcanic-lightning-nanodiamonds",
-    "quantum-bird-navigation"
+    "quantum-bird-navigation",
+    "subglacial-volcanic-microbiome"
   ],
-  "total_published_count": 48,
+  "total_published_count": 49,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -338,6 +339,12 @@
       "topic": "quantum-bird-navigation",
       "title": "5 Insane Facts About Quantum Bird Navigation! 🌌✨",
       "facebook_post_id": "122181631370897912"
+    },
+    {
+      "timestamp": "2026-08-25T17:38:38.208838",
+      "topic": "subglacial-volcanic-microbiome",
+      "title": "5 Insane Facts About Subglacial Volcanic Microbiomes! 🌌✨",
+      "facebook_post_id": "122181659294897912"
     }
   ]
 }
