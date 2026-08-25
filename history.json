@@ -46,9 +46,10 @@
     "komodo-venom-secrets",
     "rogue-planets-wandering-worlds",
     "quantum-tunneling-enzymes",
-    "volcanic-lightning-nanodiamonds"
+    "volcanic-lightning-nanodiamonds",
+    "quantum-bird-navigation"
   ],
-  "total_published_count": 47,
+  "total_published_count": 48,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -331,6 +332,12 @@
       "topic": "volcanic-lightning-nanodiamonds",
       "title": "5 Insane Facts About Volcanic Lightning Nanodiamonds! 🌌✨",
       "facebook_post_id": "122181615608897912"
+    },
+    {
+      "timestamp": "2026-08-25T13:52:10.388264",
+      "topic": "quantum-bird-navigation",
+      "title": "5 Insane Facts About Quantum Bird Navigation! 🌌✨",
+      "facebook_post_id": "122181631370897912"
     }
   ]
 }
