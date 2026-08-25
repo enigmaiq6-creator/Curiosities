@@ -44,9 +44,10 @@
     "titan-ethane-rivers",
     "lava-tube-time-capsules",
     "komodo-venom-secrets",
-    "rogue-planets-wandering-worlds"
+    "rogue-planets-wandering-worlds",
+    "quantum-tunneling-enzymes"
   ],
-  "total_published_count": 45,
+  "total_published_count": 46,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -317,6 +318,12 @@
       "topic": "rogue-planets-wandering-worlds",
       "title": "5 Insane Facts About Rogue Planets! 🌌✨",
       "facebook_post_id": "122181572702897912"
+    },
+    {
+      "timestamp": "2026-08-25T09:27:08.085066",
+      "topic": "quantum-tunneling-enzymes",
+      "title": "5 Insane Facts About Quantum Tunneling Enzymes! 🌌✨",
+      "facebook_post_id": "122181606764897912"
     }
   ]
 }
