@@ -45,9 +45,10 @@
     "lava-tube-time-capsules",
     "komodo-venom-secrets",
     "rogue-planets-wandering-worlds",
-    "quantum-tunneling-enzymes"
+    "quantum-tunneling-enzymes",
+    "volcanic-lightning-nanodiamonds"
   ],
-  "total_published_count": 46,
+  "total_published_count": 47,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -324,6 +325,12 @@
       "topic": "quantum-tunneling-enzymes",
       "title": "5 Insane Facts About Quantum Tunneling Enzymes! 🌌✨",
       "facebook_post_id": "122181606764897912"
+    },
+    {
+      "timestamp": "2026-08-25T11:32:50.018970",
+      "topic": "volcanic-lightning-nanodiamonds",
+      "title": "5 Insane Facts About Volcanic Lightning Nanodiamonds! 🌌✨",
+      "facebook_post_id": "122181615608897912"
     }
   ]
 }
