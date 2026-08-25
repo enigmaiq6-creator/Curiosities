@@ -43,9 +43,10 @@
     "jupiter-metallic-hydrogen",
     "titan-ethane-rivers",
     "lava-tube-time-capsules",
-    "komodo-venom-secrets"
+    "komodo-venom-secrets",
+    "rogue-planets-wandering-worlds"
   ],
-  "total_published_count": 44,
+  "total_published_count": 45,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -310,6 +311,12 @@
       "topic": "komodo-venom-secrets",
       "title": "5 Insane Facts About Komodo Dragon Venom! 🌌✨",
       "facebook_post_id": "122181551888897912"
+    },
+    {
+      "timestamp": "2026-08-25T02:21:28.205884",
+      "topic": "rogue-planets-wandering-worlds",
+      "title": "5 Insane Facts About Rogue Planets! 🌌✨",
+      "facebook_post_id": "122181572702897912"
     }
   ]
 }
