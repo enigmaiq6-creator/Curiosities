@@ -53,9 +53,10 @@
     "venusian_acid_clouds",
     "bone-magnetism-ancient-records",
     "quantum-smell-brain",
-    "interstellar-comet-water"
+    "interstellar-comet-water",
+    "nyiragongo-lava-lake-mysteries"
   ],
-  "total_published_count": 54,
+  "total_published_count": 55,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -380,6 +381,12 @@
       "topic": "interstellar-comet-water",
       "title": "5 Insane Facts About Interstellar Comets! 🌌✨",
       "facebook_post_id": "122181748898897912"
+    },
+    {
+      "timestamp": "2026-08-26T19:09:17.550438",
+      "topic": "nyiragongo-lava-lake-mysteries",
+      "title": "5 Insane Facts About Nyiragongo Lava Lake Mysteries! 🌌✨",
+      "facebook_post_id": "122181771854897912"
     }
   ]
 }
