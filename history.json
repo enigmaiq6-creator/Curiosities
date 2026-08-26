@@ -50,9 +50,10 @@
     "quantum-bird-navigation",
     "subglacial-volcanic-microbiome",
     "mariana-megathrust-mysteries",
-    "venusian_acid_clouds"
+    "venusian_acid_clouds",
+    "bone-magnetism-ancient-records"
   ],
-  "total_published_count": 51,
+  "total_published_count": 52,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -359,6 +360,12 @@
       "topic": "venusian_acid_clouds",
       "title": "5 Insane Facts About Venusian Acid Clouds! 🌌✨",
       "facebook_post_id": "122181696320897912"
+    },
+    {
+      "timestamp": "2026-08-26T09:31:13.177819",
+      "topic": "bone-magnetism-ancient-records",
+      "title": "5 Insane Facts About Bone Magnetism Records! 🌌✨",
+      "facebook_post_id": "122181727280897912"
     }
   ]
 }
