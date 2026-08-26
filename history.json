@@ -51,9 +51,10 @@
     "subglacial-volcanic-microbiome",
     "mariana-megathrust-mysteries",
     "venusian_acid_clouds",
-    "bone-magnetism-ancient-records"
+    "bone-magnetism-ancient-records",
+    "quantum-smell-brain"
   ],
-  "total_published_count": 52,
+  "total_published_count": 53,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -366,6 +367,12 @@
       "topic": "bone-magnetism-ancient-records",
       "title": "5 Insane Facts About Bone Magnetism Records! 🌌✨",
       "facebook_post_id": "122181727280897912"
+    },
+    {
+      "timestamp": "2026-08-26T11:35:22.525201",
+      "topic": "quantum-smell-brain",
+      "title": "5 Insane Facts About Quantum Smell! 🌌✨",
+      "facebook_post_id": "122181736730897912"
     }
   ]
 }
