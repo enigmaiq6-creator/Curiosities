@@ -52,9 +52,10 @@
     "mariana-megathrust-mysteries",
     "venusian_acid_clouds",
     "bone-magnetism-ancient-records",
-    "quantum-smell-brain"
+    "quantum-smell-brain",
+    "interstellar-comet-water"
   ],
-  "total_published_count": 53,
+  "total_published_count": 54,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -373,6 +374,12 @@
       "topic": "quantum-smell-brain",
       "title": "5 Insane Facts About Quantum Smell! 🌌✨",
       "facebook_post_id": "122181736730897912"
+    },
+    {
+      "timestamp": "2026-08-26T13:57:42.715567",
+      "topic": "interstellar-comet-water",
+      "title": "5 Insane Facts About Interstellar Comets! 🌌✨",
+      "facebook_post_id": "122181748898897912"
     }
   ]
 }
