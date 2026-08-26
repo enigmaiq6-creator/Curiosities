@@ -49,9 +49,10 @@
     "volcanic-lightning-nanodiamonds",
     "quantum-bird-navigation",
     "subglacial-volcanic-microbiome",
-    "mariana-megathrust-mysteries"
+    "mariana-megathrust-mysteries",
+    "venusian_acid_clouds"
   ],
-  "total_published_count": 50,
+  "total_published_count": 51,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -352,6 +353,12 @@
       "topic": "mariana-megathrust-mysteries",
       "title": "5 Insane Facts About the Mariana Megathrust! 🌌✨",
       "facebook_post_id": "122181675890897912"
+    },
+    {
+      "timestamp": "2026-08-26T02:28:51.161178",
+      "topic": "venusian_acid_clouds",
+      "title": "5 Insane Facts About Venusian Acid Clouds! 🌌✨",
+      "facebook_post_id": "122181696320897912"
     }
   ]
 }
