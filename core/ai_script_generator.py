@@ -3,10 +3,14 @@ import json
 import urllib.request
 import urllib.error
 from typing import Dict, Any, List, Optional
-from dotenv import load_dotenv
-from core.history_manager import HistoryManager
 
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
+from core.history_manager import HistoryManager
 
 SYSTEM_PROMPT = """You are an elite scientific documentary researcher and viral scriptwriter for YouTube Shorts, TikTok, and Facebook Reels (Curiosities Channel).
 Your task is to invent a BRAND NEW, 100% FACTUAL, MIND-BLOWING curiosity topic in English that has NEVER been covered before.
