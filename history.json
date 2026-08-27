@@ -60,9 +60,10 @@
     "jupiter_moons",
     "james_webb",
     "egypt",
-    "rome"
+    "rome",
+    "mayan_empire"
   ],
-  "total_published_count": 61,
+  "total_published_count": 62,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -429,6 +430,12 @@
       "topic": "rome",
       "title": "5 Shocking Secrets of the Roman Empire! ⚔️🏛️",
       "facebook_post_id": "122181920474897912"
+    },
+    {
+      "timestamp": "2026-08-27T20:58:05.383360",
+      "topic": "mayan_empire",
+      "title": "5 Unbelievable Secrets of the Ancient Maya Civilization! 🌿🗿",
+      "facebook_post_id": "122181926486897912"
     }
   ]
 }
