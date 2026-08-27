@@ -70,11 +70,18 @@ def run_automated_pipeline(topic_key: str = None, force_ai: bool = True):
         raise RuntimeError("[Pipeline] Error: Video was not generated successfully.")
 
     # 3. Generacion de Metadatos y Descripcion Viral 100% en Ingles
+    ai_disclaimer = (
+        "\n\n---\n"
+        "🤖 AI Transparency: Content researched and produced with AI assistance for educational & science exploration.\n"
+        "✨ Curiosities Channel"
+    )
+
     full_description = (
         f"{base_title}\n\n"
         f"Did you know these fascinating facts? Which one surprised you the most?\n"
         f"Drop your thoughts in the comments, hit LIKE, and FOLLOW for daily mind-blowing curiosities! 🔔✨\n\n"
         f"{HASHTAGS_EN}"
+        f"{ai_disclaimer}"
     )
 
     meta_file = OUTPUT_DIR / f"metadata_{topic}_{timestamp}.txt"
@@ -82,11 +89,20 @@ def run_automated_pipeline(topic_key: str = None, force_ai: bool = True):
         f.write(full_description)
     print(f"[Pipeline] [+] English metadata saved to: {meta_file.name}", flush=True)
 
-    # 4. Subida Automatica a Redes Sociales (Facebook Reels)
-    print("\n[Pipeline] Uploading Reel to Facebook with English metadata...", flush=True)
+    # 4. Auto-comentario interactivo en inglés para elevar el engagement y comentarios
+    clean_title = base_title.replace("5 Insane Facts About", "").replace("5 Mind-Blowing Facts About", "").replace("5 Shocking Secrets of", "").replace("!", "").strip()
+    auto_comment = (
+        f"🔥 QUESTION FOR YOU: Which of these facts about {clean_title} blew your mind the most? "
+        f"#1, #2, #3, #4, or #5? Cast your vote below! 💬👇\n\n"
+        f"💡 Notice: This educational video was created with AI assistance. Follow @Curiosities for daily wonders!"
+    )
+
+    # 5. Subida Automatica a Redes Sociales (Facebook Reels)
+    print("\n[Pipeline] Uploading Reel to Facebook with English metadata & Auto-Comment...", flush=True)
     upload_result = upload_to_facebook_reels(
         video_path=video_path,
-        description=full_description
+        description=full_description,
+        comment_text=auto_comment
     )
 
     post_id = upload_result.get("result", {}).get("post_id") or upload_result.get("post_id")

@@ -57,12 +57,15 @@ Style: NumberStamp,Arial,68,&H0000D4FF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0
 Style: DocSubtitle,Arial,{font_size},&H00FFFFFF,&H0000D4FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,4,2.5,2,60,60,{margin_v},1
 Style: DocHook,Arial,{font_size + 4},&H0000FFFF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,4.5,2.5,2,50,50,{margin_v},1
 Style: DocCTA,Arial,{font_size + 2},&H0000D4FF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,4.5,2.5,2,50,50,{margin_v},1
+Style: AIDisclosure,Arial Bold,24,&H80FFFFFF,&H00000000,&H80000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0.0,7,40,40,50,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
 
-        events = []
+        events = [
+            f"Dialogue: 0,0:00:00.00,{format_ass_time(total_video_duration)},AIDisclosure,,0,0,0,,{{\\an7}}🤖 AI Generated Content"
+        ]
         curiosity_seen = set()
 
         for scene in scene_data:

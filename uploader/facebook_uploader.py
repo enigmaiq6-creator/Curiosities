@@ -14,18 +14,46 @@ class FacebookReelsUploader:
         self.access_token = access_token or os.environ.get("FACEBOOK_ACCESS_TOKEN", "")
         self.graph_version = "v19.0"
 
+    def post_comment(self, object_id: str, message: str) -> Optional[Dict[str, Any]]:
+        """
+        Publica un auto-comentario interactivo (Poll / Pregunta) en el Reel de Facebook.
+        """
+        if not self.page_id or not self.access_token or not object_id or not message:
+            return None
+
+        url = f"https://graph.facebook.com/{self.graph_version}/{object_id}/comments"
+        payload = {
+            "message": message,
+            "access_token": self.access_token
+        }
+
+        try:
+            print(f"[FacebookUploader] [+] Publicando auto-comentario de interacción en '{object_id}'...")
+            res = requests.post(url, data=payload, timeout=20)
+            if res.status_code == 200:
+                result = res.json()
+                print(f"[FacebookUploader] [✓] Auto-comentario publicado con éxito en Facebook (ID: {result.get('id')})")
+                return result
+            else:
+                print(f"[FacebookUploader] [!] Nota: Comentario no publicado ({res.status_code}): {res.text}")
+        except Exception as e:
+            print(f"[FacebookUploader] [!] Excepción publicando comentario: {e}")
+        return None
+
     def upload_reel(
         self,
         video_path: Path,
         description: str,
         publish_now: bool = True,
-        scheduled_epoch_time: Optional[int] = None
+        scheduled_epoch_time: Optional[int] = None,
+        comment_text: Optional[str] = None
     ) -> Dict[str, Any]:
         """
-        Sube un video MP4 a Facebook Reels en 3 sencillos pasos oficiales de Meta:
+        Sube un video MP4 a Facebook Reels en 3 pasos oficiales de Meta:
         1. Iniciar sesión de subida (/video_reels)
         2. Transferir archivo binario (rupload.facebook.com)
         3. Publicar o programar el Reel
+        4. Publicar auto-comentario de interacción
         """
         if not self.page_id or not self.access_token:
             print("[FacebookUploader] [!] Falta FACEBOOK_PAGE_ID o FACEBOOK_ACCESS_TOKEN. Omitiendo subida.")
@@ -72,7 +100,7 @@ class FacebookReelsUploader:
 
         print("[FacebookUploader] Transfiriendo archivo binario de video a los servidores de Meta...")
         with open(video_path, "rb") as video_file:
-            upload_res = requests.post(upload_url, headers=headers, data=video_file, timeout=120)
+            upload_res = requests.post(upload_url, headers=headers, data=video_file, timeout=180)
 
         if upload_res.status_code not in [200, 201]:
             err = upload_res.text
@@ -101,14 +129,23 @@ class FacebookReelsUploader:
         
         if publish_res.status_code == 200:
             result = publish_res.json()
+            post_id = result.get("post_id") or video_id
             print(f"[FacebookUploader] [¡ÉXITO TOTAL! 🎉] Reel publicado en Facebook: {result}")
-            return {"status": "success", "video_id": video_id, "result": result}
+
+            # -------------------------------------------------------------
+            # PASO 4: Auto-comentario de alta interacción
+            # -------------------------------------------------------------
+            if comment_text:
+                time.sleep(4)
+                self.post_comment(post_id, comment_text)
+
+            return {"status": "success", "video_id": video_id, "post_id": post_id, "result": result}
         else:
             err = publish_res.json()
             print(f"[FacebookUploader] [ERROR Fase 3 - Publish]: {err}")
             return {"status": "error", "step": "publish", "response": err}
 
-def upload_to_facebook_reels(video_path: Path, description: str) -> Dict[str, Any]:
-    """Función de acceso directo para subir un video a Facebook Reels."""
+def upload_to_facebook_reels(video_path: Path, description: str, comment_text: Optional[str] = None) -> Dict[str, Any]:
+    """Función de acceso directo para subir un video a Facebook Reels con auto-comment."""
     uploader = FacebookReelsUploader()
-    return uploader.upload_reel(video_path, description)
+    return uploader.upload_reel(video_path, description, comment_text=comment_text)
