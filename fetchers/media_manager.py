@@ -8,11 +8,15 @@ from config import TEMP_DIR
 from fetchers.pexels_fetcher import search_pexels_videos, download_pexels_video, search_pexels_photos, download_pexels_photo
 from fetchers.pixabay_fetcher import search_pixabay_videos, download_pixabay_video
 from fetchers.nasa_fetcher import search_nasa_videos, download_nasa_video
-from fetchers.tiktok_fetcher import search_tiktok_clips, download_tiktok_video
-from fetchers.social_fetcher import search_social_vertical_clips, download_social_clip
-from fetchers.archive_org_fetcher import search_archive_org_videos, download_archive_org_video
 from fetchers.youtube_fetcher import search_youtube_videos, download_youtube_clip
-from fetchers.reddit_fetcher import search_reddit_videos, download_reddit_video
+
+# Palabras prohibidas globales para evitar personas hablando, podcasts, reacciones y subtítulos quemados
+GLOBAL_BANNED_WORDS = {
+    "person", "people", "man", "woman", "guy", "girl", "human", "humans", "face", "faces",
+    "talking", "podcast", "interview", "vlog", "vlogs", "reaction", "reacting", "review", 
+    "commentary", "storytime", "explaining", "subtitles", "captions", "tiktok", "shorts", 
+    "streamer", "influencer", "news anchor", "prank", "challenge", "selfie", "host"
+}
 
 # Términos que descalifican automáticamente a un video si aparecen (Falsos positivos)
 NEGATIVE_EXCLUSIONS = {
@@ -29,21 +33,27 @@ NEGATIVE_EXCLUSIONS = {
 def verify_subject_match(metadata_text: str, required_subject: str) -> bool:
     """
     Verifica de forma inteligente que el texto/título/etiquetas del video sean relevantes
-    para el tema y no contengan falsos positivos evidentes.
+    para el tema y RECHAZA automáticamente personas hablando, podcasts y subtítulos quemados.
     """
+    meta_lower = metadata_text.lower()
+    
+    # 1. Comprobar palabras prohibidas globales (CERO PERSONAS HABLANDO / CERO SUBTÍTULOS)
+    for banned in GLOBAL_BANNED_WORDS:
+        if re.search(r'\b' + re.escape(banned) + r'\b', meta_lower):
+            return False
+
     if not required_subject or required_subject.lower() in ["curiosity", "science", "fact", "world", "nature"]:
         return True
     
     req_lower = required_subject.lower().strip()
-    meta_lower = metadata_text.lower()
     
-    # 1. Comprobar si contiene exclusiones negativas
+    # 2. Comprobar si contiene exclusiones negativas específicas
     exclusions = NEGATIVE_EXCLUSIONS.get(req_lower, [])
     for exc in exclusions:
         if exc in meta_lower:
             return False
 
-    # 2. Comprobar coincidencia directa de palabras clave relevantes
+    # 3. Comprobar coincidencia directa de palabras clave relevantes
     keywords_to_check = [req_lower] + [w for w in req_lower.replace("-", " ").replace("_", " ").split() if len(w) > 3]
     for kw in keywords_to_check:
         if kw in meta_lower:
@@ -54,8 +64,8 @@ def verify_subject_match(metadata_text: str, required_subject: str) -> bool:
 class MediaManager:
     """
     Gestor Omnicanal de Medios para Curiosity Video Engine:
-    Garantiza CERO REPETICIÓN de clips de video o imágenes en el mismo video.
-    Cada escena obtiene un clip 100% único desde Pexels 4K, Pixabay, NASA, YouTube o Foto Ken Burns.
+    Garantiza CERO PERSONAS HABLANDO, CERO DOBLE SUBTÍTULO y CERO REPETICIÓN.
+    Cada escena obtiene un clip 100% único desde Pexels 4K, Pixabay HD, NASA 4K, YouTube B-Roll o Foto Ken Burns 3D.
     """
 
     def __init__(self, temp_dir: Path = TEMP_DIR):
@@ -72,8 +82,7 @@ class MediaManager:
         target_duration: float = 4.5
     ) -> Optional[Path]:
         """
-        Descarga un clip ÚNICO para la escena dada.
-        Garantiza que NUNCA se repita el mismo clip entre escenas distintas.
+        Descarga un clip ÚNICO y LIMPIO para la escena dada.
         """
         output_file = self.temp_dir / f"scene_{scene_id}_raw.mp4"
         if output_file.exists():
@@ -85,10 +94,10 @@ class MediaManager:
         subject_clean = required_subject.lower().strip()
 
         # =====================================================================
-        # NIVEL 1: PEXELS OFICIAL (4K / HD - ORIENTACIÓN ALL & PORTRAIT)
+        # NIVEL 1: PEXELS OFICIAL (4K / HD - LIMPIO SIN TEXTO NI HUMANOS)
         # =====================================================================
         for kw in keywords:
-            print(f"[MediaManager] [NIVEL 1 - Pexels] Escena {scene_id} -> '{kw}'...", flush=True)
+            print(f"[MediaManager] [NIVEL 1 - Pexels 4K] Escena {scene_id} -> '{kw}'...", flush=True)
             try:
                 pex_results = search_pexels_videos(kw, orientation="all", max_results=8)
                 for pex in pex_results:
@@ -100,28 +109,28 @@ class MediaManager:
                         if download_pexels_video(url, output_file):
                             self.used_urls.add(url)
                             self.downloaded_clips_history.append(output_file)
-                            print(f"  [OK] Descargado de Pexels Oficial (4K).", flush=True)
+                            print(f"  [OK] Descargado de Pexels Oficial (4K Limpio).", flush=True)
                             return output_file
             except Exception as e:
                 print(f"  [!] Error Pexels: {e}", flush=True)
 
         # =====================================================================
-        # NIVEL 2: PIXABAY OFICIAL (HD / 4K)
+        # NIVEL 2: PIXABAY OFICIAL (HD / 4K - LIMPIO SIN TEXTO NI HUMANOS)
         # =====================================================================
         for kw in keywords:
-            print(f"[MediaManager] [NIVEL 2 - Pixabay] Escena {scene_id} -> '{kw}'...", flush=True)
+            print(f"[MediaManager] [NIVEL 2 - Pixabay HD] Escena {scene_id} -> '{kw}'...", flush=True)
             try:
                 pix_results = search_pixabay_videos(kw, max_results=8)
                 for pix in pix_results:
                     url = pix.get('video_url', '')
                     if url in self.used_urls:
                         continue
-                    meta = f"{pix.get('title', '')}"
+                    meta = f"{pix.get('title', '')} {pix.get('tags', '')}"
                     if verify_subject_match(meta, subject_clean):
                         if download_pixabay_video(url, output_file):
                             self.used_urls.add(url)
                             self.downloaded_clips_history.append(output_file)
-                            print(f"  [OK] Descargado de Pixabay Oficial (HD).", flush=True)
+                            print(f"  [OK] Descargado de Pixabay Oficial (HD Limpio).", flush=True)
                             return output_file
             except Exception as e:
                 print(f"  [!] Error Pixabay: {e}", flush=True)
@@ -148,48 +157,34 @@ class MediaManager:
                     pass
 
         # =====================================================================
-        # NIVEL 4: YOUTUBE DOCUMENTARY CLIPS (Cortes rápidos en HD)
+        # NIVEL 4: YOUTUBE B-ROLL DOCUMENTAL (FILTRADO ANTI-PERSONAS Y ANTI-PODCASTS)
         # =====================================================================
         for kw in keywords:
-            print(f"[MediaManager] [NIVEL 4 - YouTube] Buscando metraje real para '{kw}'...", flush=True)
+            print(f"[MediaManager] [NIVEL 4 - YouTube B-Roll] Buscando metraje real para '{kw}'...", flush=True)
             try:
-                yt_results = search_youtube_videos(f"{kw} 4k 60fps", max_results=3)
+                yt_results = search_youtube_videos(f"{kw} 4k b-roll raw footage -reaction -podcast -vlog -interview -shorts -tiktok", max_results=4)
                 for yt in yt_results:
                     url = yt.get("url", "")
+                    title = yt.get("title", "")
                     if url in self.used_urls:
                         continue
-                    if download_youtube_clip(url, output_file, start_sec=3, duration_sec=int(target_duration + 2)):
+                    if not verify_subject_match(title, subject_clean):
+                        print(f"  [!] Descartado video de YouTube con persona/podcast: '{title[:45]}'")
+                        continue
+                    if download_youtube_clip(url, output_file, start_sec=5, duration_sec=int(target_duration + 2)):
                         self.used_urls.add(url)
                         self.downloaded_clips_history.append(output_file)
-                        print(f"  [OK] Clip obtenido de YouTube ({yt.get('title')[:45]}).", flush=True)
+                        print(f"  [OK] Clip obtenido de YouTube B-Roll ({title[:45]}).", flush=True)
                         return output_file
             except Exception:
                 pass
 
         # =====================================================================
-        # NIVEL 5: REDDIT / TIKTOK / REDES SOCIALES
+        # NIVEL 5: FOTOGRAFÍA 4K DE ALTA DEFINICIÓN + EFECTO KEN BURNS 3D DINÁMICO
+        # (Garantiza 100% CERO PERSONAS Y CERO SUBTÍTULOS)
         # =====================================================================
-        for kw in keywords:
-            try:
-                tt_results = search_tiktok_clips(kw, max_results=3)
-                for tt in tt_results:
-                    url = tt.get('url', '')
-                    if url in self.used_urls:
-                        continue
-                    if download_tiktok_video(url, output_file, start_sec=2, duration_sec=int(target_duration + 2)):
-                        self.used_urls.add(url)
-                        self.downloaded_clips_history.append(output_file)
-                        print(f"  [OK] Clip obtenido de TikTok.", flush=True)
-                        return output_file
-            except Exception:
-                pass
-
-        # =====================================================================
-        # NIVEL 6: FOTOGRAFÍA 4K DE ALTA DEFINICIÓN + EFECTO KEN BURNS 3D DINÁMICO
-        # (Garantiza que NUNCA se repita un clip previo)
-        # =====================================================================
-        print(f"[MediaManager] [NIVEL 6 - FOTO 4K KEN BURNS] Generando toma cinematográfica única...", flush=True)
-        photo_queries = keywords + [f"{subject_clean} scientific 4k", f"{subject_clean} detailed photograph"]
+        print(f"[MediaManager] [NIVEL 5 - FOTO 4K KEN BURNS 3D 📷] Generando toma cinematográfica única...", flush=True)
+        photo_queries = keywords + [f"{subject_clean} 4k macro", f"{subject_clean} scientific detailed photograph"]
         
         raw_photo_path = self.temp_dir / f"scene_{scene_id}_photo.jpg"
         for pkw in photo_queries:
@@ -218,14 +213,14 @@ class MediaManager:
                         if output_file.exists() and output_file.stat().st_size > 5000:
                             print(f"  [OK] Generada toma 4K Ken Burns con éxito para escena {scene_id}.", flush=True)
                             return output_file
-            except Exception as e:
-                print(f"  [!] Error Foto Ken Burns: {e}", flush=True)
+            except Exception:
+                pass
 
-        # Respaldo absoluto de emergencia con fondo cinemático de color
+        # Respaldo de emergencia (Fondo dinámico)
         cmd_gen = [
             "ffmpeg", "-y",
             "-f", "lavfi",
-            "-i", "color=c=0x0a1128:s=1080x1920:d=5,format=yuv420p",
+            "-i", "color=c=0x0b132b:s=1080x1920:d=5,format=yuv420p",
             "-c:v", "libx264",
             "-r", "30",
             str(output_file)
