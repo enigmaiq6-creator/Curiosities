@@ -58,9 +58,10 @@
     "saturn-ring-seismology",
     "mars_mysteries",
     "jupiter_moons",
-    "james_webb"
+    "james_webb",
+    "egypt"
   ],
-  "total_published_count": 59,
+  "total_published_count": 60,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -415,6 +416,12 @@
       "topic": "james_webb",
       "title": "5 Mind-Blowing Discoveries of the James Webb Telescope! 🔭✨",
       "facebook_post_id": "122181840080897912"
+    },
+    {
+      "timestamp": "2026-08-27T10:57:35.405393",
+      "topic": "egypt",
+      "title": "5 Mind-Blowing Secrets of Ancient Egypt & The Pyramids! 🏺👑",
+      "facebook_post_id": "122181867080897912"
     }
   ]
 }
