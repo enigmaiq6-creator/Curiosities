@@ -14,30 +14,43 @@ class FacebookReelsUploader:
         self.access_token = access_token or os.environ.get("FACEBOOK_ACCESS_TOKEN", "")
         self.graph_version = "v19.0"
 
-    def post_comment(self, object_id: str, message: str) -> Optional[Dict[str, Any]]:
+    def post_comment(self, object_id: str, message: str, video_id: Optional[str] = None) -> Optional[Dict[str, Any]]:
         """
         Publica un auto-comentario interactivo (Poll / Pregunta) en el Reel de Facebook.
+        Prueba inteligentemente los formatos soportados por la Graph API de Meta (video_id y page_id_post_id).
         """
-        if not self.page_id or not self.access_token or not object_id or not message:
+        if not self.page_id or not self.access_token or not message:
             return None
 
-        url = f"https://graph.facebook.com/{self.graph_version}/{object_id}/comments"
-        payload = {
-            "message": message,
-            "access_token": self.access_token
-        }
+        # Esperar 8 segundos para que Meta termine de transcodificar e indexar el Reel
+        print("[FacebookUploader] Esperando 8 segundos para que el Reel esté listo para comentar...")
+        time.sleep(8)
 
-        try:
-            print(f"[FacebookUploader] [+] Publicando auto-comentario de interacción en '{object_id}'...")
-            res = requests.post(url, data=payload, timeout=20)
-            if res.status_code == 200:
-                result = res.json()
-                print(f"[FacebookUploader] [✓] Auto-comentario publicado con éxito en Facebook (ID: {result.get('id')})")
-                return result
-            else:
-                print(f"[FacebookUploader] [!] Nota: Comentario no publicado ({res.status_code}): {res.text}")
-        except Exception as e:
-            print(f"[FacebookUploader] [!] Excepción publicando comentario: {e}")
+        candidate_targets = []
+        if video_id:
+            candidate_targets.append(video_id)
+        if object_id:
+            if "_" not in object_id and self.page_id != object_id:
+                candidate_targets.append(f"{self.page_id}_{object_id}")
+            candidate_targets.append(object_id)
+
+        for target in candidate_targets:
+            url = f"https://graph.facebook.com/{self.graph_version}/{target}/comments"
+            payload = {
+                "message": message,
+                "access_token": self.access_token
+            }
+            try:
+                print(f"[FacebookUploader] [+] Publicando auto-comentario en destino '{target}'...")
+                res = requests.post(url, data=payload, timeout=20)
+                if res.status_code == 200:
+                    result = res.json()
+                    print(f"[FacebookUploader] [✓] ¡Auto-comentario publicado con éxito en Facebook! (ID: {result.get('id')})")
+                    return result
+                else:
+                    print(f"[FacebookUploader] [!] Intento en '{target}' respondió ({res.status_code}): {res.text[:120]}...")
+            except Exception as e:
+                print(f"[FacebookUploader] [!] Excepción en '{target}': {e}")
         return None
 
     def upload_reel(
@@ -136,8 +149,7 @@ class FacebookReelsUploader:
             # PASO 4: Auto-comentario de alta interacción
             # -------------------------------------------------------------
             if comment_text:
-                time.sleep(4)
-                self.post_comment(post_id, comment_text)
+                self.post_comment(post_id, comment_text, video_id=video_id)
 
             return {"status": "success", "video_id": video_id, "post_id": post_id, "result": result}
         else:
