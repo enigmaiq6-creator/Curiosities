@@ -56,9 +56,10 @@
     "interstellar-comet-water",
     "nyiragongo-lava-lake-mysteries",
     "saturn-ring-seismology",
-    "mars_mysteries"
+    "mars_mysteries",
+    "jupiter_moons"
   ],
-  "total_published_count": 57,
+  "total_published_count": 58,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -401,6 +402,12 @@
       "topic": "mars_mysteries",
       "title": "5 Insane Mysteries of the Red Planet Mars! 🔴🚀",
       "facebook_post_id": "122181838628897912"
+    },
+    {
+      "timestamp": "2026-08-27T05:23:48.346490",
+      "topic": "jupiter_moons",
+      "title": "5 Alien Worlds Orbiting King Jupiter! 🪐❄️",
+      "facebook_post_id": "122181839732897912"
     }
   ]
 }
