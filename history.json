@@ -55,9 +55,10 @@
     "quantum-smell-brain",
     "interstellar-comet-water",
     "nyiragongo-lava-lake-mysteries",
-    "saturn-ring-seismology"
+    "saturn-ring-seismology",
+    "mars_mysteries"
   ],
-  "total_published_count": 56,
+  "total_published_count": 57,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -394,6 +395,12 @@
       "topic": "saturn-ring-seismology",
       "title": "5 Insane Facts About Saturn Ring Seismology! 🌌✨",
       "facebook_post_id": "122181814754897912"
+    },
+    {
+      "timestamp": "2026-08-27T05:02:13.180574",
+      "topic": "mars_mysteries",
+      "title": "5 Insane Mysteries of the Red Planet Mars! 🔴🚀",
+      "facebook_post_id": "122181838628897912"
     }
   ]
 }
