@@ -52,11 +52,19 @@ class HistoryManager:
             print(f"[HistoryManager] [+] Tema nuevo e inédito seleccionado: '{chosen.upper()}' (Restantes en ciclo: {len(unused)-1})")
             return chosen
 
-        # 2. Si todos los temas del catálogo ya se publicaron, se reinicia el ciclo de temas
-        print("[HistoryManager] [!] Todos los temas del catálogo actual han sido publicados. Reiniciando ciclo con nuevos hooks.")
-        history["published_topics"] = []
-        HistoryManager.save_history(history)
-        return available_topics[0]
+        # 2. Si todos los temas del catálogo ya se publicaron, seleccionar el menos recientemente usado
+        print("[HistoryManager] [!] Todos los temas del catálogo han sido usados. Seleccionando el tema con mayor antigüedad...")
+        
+        last_seen = {}
+        for entry in history.get("history_log", []):
+            t = entry.get("topic")
+            if t:
+                last_seen[t] = entry.get("timestamp", "")
+                
+        sorted_by_age = sorted(available_topics, key=lambda t: last_seen.get(t, ""))
+        chosen = sorted_by_age[0] if sorted_by_age else available_topics[0]
+        print(f"[HistoryManager] [+] Tema con mayor antigüedad seleccionado: '{chosen.upper()}'")
+        return chosen
 
     @staticmethod
     def record_published(topic_key: str, title: str, post_id: Optional[str] = None):

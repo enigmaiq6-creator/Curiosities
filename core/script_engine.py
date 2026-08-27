@@ -70,10 +70,14 @@ class ScriptEngine:
         intro_tag = topic_info.get("intro_tag", "this incredible topic")
         hook_text = ScriptEngine.get_dynamic_hook(intro_tag, lang="en")
         
-        # Obtener palabras clave de la primera escena para el gancho
-        first_scene = topic_info["scenes"][0]
-        hook_keywords = first_scene.get("keywords", ["universe stars cosmos cinematic 4k"])
-        hook_subject = first_scene.get("subject", "supernova")
+        # Obtener palabras clave cinematográficas específicas para el gancho
+        clean_topic_name = intro_tag.replace("_", " ")
+        hook_keywords = [
+            f"{clean_topic_name} mysterious cinematic 4k",
+            f"{clean_topic_name} documentary 4k",
+            f"{clean_topic_name} epic 4k"
+        ]
+        hook_subject = clean_topic_name
 
         hook_scene = {
             "scene_id": 1,

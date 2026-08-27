@@ -421,5 +421,41 @@ TOPICS_DB: Dict[str, Dict[str, Any]] = {
             {"scene_id": 11, "curiosity_index": 5, "text": "These strikes naturally replenish Earth's global electrical circuit and convert nitrogen into vital plant fertilizer.", "subject": "sun", "keywords": ["green lush rainforest thunderstorm 4k", "agriculture lightning storm horizon", "rainforest storm"]},
             {"scene_id": 12, "is_cta": True, "text": "Have you ever seen a close lightning strike? Share your storm story in the comments, hit like, and follow for more extreme weather!", "subject": "sun", "keywords": ["dramatic lightning thunderstorm landscape 4k", "majestic storm clouds lightning sunset 4k", "lightning storm"]}
         ]
+    },
+
+    "mariana_trench": {
+        "title": "5 Terrifying Secrets of the Mariana Trench Abyss! 🌊🤿",
+        "intro_tag": "The Mariana Trench and Earth's Deepest Abyss",
+        "scenes": [
+            {"scene_id": 2, "curiosity_index": 1, "text": "Number one: At thirty-six thousand feet down, water pressure in the Mariana Trench exceeds one thousand atmospheres.", "subject": "submarine", "keywords": ["deep sea submersible diving ocean 4k", "dark abyssal ocean underwater 4k", "deep ocean submersible"]},
+            {"scene_id": 3, "curiosity_index": 1, "text": "That is equivalent to having fifty jumbo jets stacked directly on top of your head.", "subject": "submarine", "keywords": ["deep ocean trench seabed 4k", "underwater deep abyss marine", "ocean trench floor"]},
+            {"scene_id": 4, "curiosity_index": 2, "text": "Number two: If Mount Everest were dropped into the Mariana Trench, its peak would still be covered by two thousand meters of water.", "subject": "ocean", "keywords": ["mount everest peak snowy mountain 4k", "aerial mountain peak underwater concept", "everest mountain summit"]},
+            {"scene_id": 5, "curiosity_index": 2, "text": "The entire tallest mountain range on Earth could easily vanish into the trench without a trace.", "subject": "ocean", "keywords": ["vast blue ocean abyss aerial 4k", "deep sea chasm water", "deep ocean aerial"]},
+            {"scene_id": 6, "curiosity_index": 3, "text": "Number three: Xenophyophores living on the trench floor are giant single-celled organisms measuring four inches across.", "subject": "jellyfish", "keywords": ["strange alien deep sea creature glowing 4k", "bioluminescent abyssal life microscope", "deep sea organism"]},
+            {"scene_id": 7, "curiosity_index": 3, "text": "These enormous amoebas absorb toxic heavy metals and survive in total freezing darkness.", "subject": "jellyfish", "keywords": ["glowing deep sea jellyfish ocean floor 4k", "abyssal marine life exploration", "deep sea jellyfish"]},
+            {"scene_id": 8, "curiosity_index": 4, "text": "Number four: Hydrothermal vents spew mineral water heated to seven hundred fifty degrees without boiling.", "subject": "volcano", "keywords": ["hydrothermal black smoker vent underwater 4k", "underwater volcanic vent smoke 4k", "hydrothermal vent"]},
+            {"scene_id": 9, "curiosity_index": 4, "text": "Crushing hydrostatic pressure prevents the superheated water from turning into steam.", "subject": "volcano", "keywords": ["underwater thermal vent glowing minerals 4k", "deep ocean volcanic rock", "thermal vent ocean"]},
+            {"scene_id": 10, "curiosity_index": 5, "text": "Number five: More humans have walked on the Moon than have visited the Challenger Deep.", "subject": "astronaut", "keywords": ["apollo astronaut walking moon surface 4k", "deep sea exploration submarine hatch 4k", "deep sea explorer"]},
+            {"scene_id": 11, "curiosity_index": 5, "text": "Earth's deep oceans remain far more mysterious and unexplored than the surface of Mars.", "subject": "submarine", "keywords": ["deep ocean submersible lights darkness 4k", "ocean abyss exploration high tech", "submersible deep abyss"]},
+            {"scene_id": 12, "is_cta": True, "text": "Would you dare descend into the darkest abyss of the ocean? Drop a comment, hit like, and follow for more deep sea wonders!", "subject": "submarine", "keywords": ["deep sea exploration submarine 4k", "ocean blue waves aerial 4k", "deep ocean trench"]}
+        ]
+    },
+
+    "immortal_tardigrades": {
+        "title": "5 Mind-Blowing Powers of the Immortal Tardigrade! 🔬✨",
+        "intro_tag": "Tardigrades and Indestructible Micro-Monsters",
+        "scenes": [
+            {"scene_id": 2, "curiosity_index": 1, "text": "Number one: Water bears can survive the vacuum and deadly cosmic radiation of outer space.", "subject": "tardigrade", "keywords": ["microscopic tardigrade water bear 4k", "electron microscope tardigrade moving 4k", "water bear microscope"]},
+            {"scene_id": 3, "curiosity_index": 1, "text": "In two thousand and seven, thousands of tardigrades were exposed to open space orbit and returned completely unharmed.", "subject": "tardigrade", "keywords": ["space orbit earth atmosphere glowing 4k", "satellite in orbit deep space", "space orbit earth"]},
+            {"scene_id": 2, "curiosity_index": 2, "text": "Number two: Tardigrades enter cryptobiosis, expelling ninety-nine percent of their body water.", "subject": "tardigrade", "keywords": ["tardigrade entering suspended animation 4k", "microscopic biology laboratory 4k", "tardigrade cells"]},
+            {"scene_id": 5, "curiosity_index": 2, "text": "Their metabolic activity drops to zero point zero one percent, effectively pausing biological aging for decades.", "subject": "tardigrade", "keywords": ["frozen ice crystals microscopic 4k", "cellular hibernation science lab", "ice crystal macro"]},
+            {"scene_id": 6, "curiosity_index": 3, "text": "Number three: They can withstand temperatures from near absolute zero up to three hundred degrees Fahrenheit.", "subject": "tardigrade", "keywords": ["boiling volcanic hot spring steam 4k", "liquid nitrogen freezing laboratory", "boiling hot spring"]},
+            {"scene_id": 7, "curiosity_index": 3, "text": "They survive in boiling volcanic vents and deep polar ice sheets without suffering cellular damage.", "subject": "tardigrade", "keywords": ["antarctic ice sheet glacier aerial 4k", "frozen arctic wilderness snow", "antarctica glacier"]},
+            {"scene_id": 8, "curiosity_index": 4, "text": "Number four: Tardigrades can endure six times more hydrostatic pressure than the deepest ocean trench.", "subject": "tardigrade", "keywords": ["deep sea water pressure gauge lab 4k", "high pressure science physics", "pressure laboratory"]},
+            {"scene_id": 9, "curiosity_index": 4, "text": "A special damage suppressor protein shields their DNA from shattering under extreme physical crushing forces.", "subject": "dna", "keywords": ["dna double helix glowing animation 4k", "molecular biology dna protection", "dna helix glowing"]},
+            {"scene_id": 10, "curiosity_index": 5, "text": "Number five: Tardigrades have survived all five major mass extinctions in Earth's history.", "subject": "dinosaur", "keywords": ["asteroid impact earth extinction fireball 4k", "prehistoric dinosaur asteroid explosion", "asteroid impact earth"]},
+            {"scene_id": 11, "curiosity_index": 5, "text": "Astrophysicists estimate tardigrades will outlive all other life on Earth until the Sun expands into a red giant.", "subject": "sun", "keywords": ["red giant sun dying solar system 4k", "future cosmos sun glowing space", "red giant sun"]},
+            {"scene_id": 12, "is_cta": True, "text": "Are tardigrades Earth's ultimate survivors? Drop your thoughts in the comments, hit like, and follow for more micro wonders!", "subject": "tardigrade", "keywords": ["water bear tardigrade microscopic 4k", "macro nature moss water bear 4k", "tardigrade microscope"]}
+        ]
     }
 }

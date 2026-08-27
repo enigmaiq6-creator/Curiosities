@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import List, Optional
 from config import PEXELS_API_KEY
 
-def search_pexels_videos(keyword: str, orientation: str = "portrait", max_results: int = 3) -> List[dict]:
+def search_pexels_videos(keyword: str, orientation: str = "portrait", max_results: int = 10) -> List[dict]:
     """
     Busca videos HD y 4K en Pexels API oficial y extrae URLs directas MP4 en <300ms.
     """
@@ -17,12 +17,11 @@ def search_pexels_videos(keyword: str, orientation: str = "portrait", max_result
     
     found = []
     try:
-        resp = requests.get(url, headers=headers, timeout=5)
+        resp = requests.get(url, headers=headers, timeout=6)
         if resp.status_code == 200:
             data = resp.json()
             for v in data.get("videos", []):
                 files = v.get("video_files", [])
-                # Pexels almacena tags en v.get('url') o v.get('tags')
                 video_url_slug = v.get("url", "").lower()
                 
                 hd_file = None
@@ -46,11 +45,36 @@ def search_pexels_videos(keyword: str, orientation: str = "portrait", max_result
         
     return found
 
+def search_pexels_photos(keyword: str, max_results: int = 5) -> List[dict]:
+    """Busca fotografías 4K en Pexels API oficial."""
+    if not PEXELS_API_KEY:
+        return []
+        
+    headers = {"Authorization": PEXELS_API_KEY}
+    url = f"https://api.pexels.com/v1/search?query={keyword}&per_page={max_results}"
+    found = []
+    try:
+        resp = requests.get(url, headers=headers, timeout=6)
+        if resp.status_code == 200:
+            data = resp.json()
+            for p in data.get("photos", []):
+                src = p.get("src", {})
+                img_url = src.get("large2x") or src.get("large") or src.get("original")
+                if img_url:
+                    found.append({
+                        "source": "pexels_photo",
+                        "title": p.get("alt", keyword).lower(),
+                        "image_url": img_url
+                    })
+    except Exception as e:
+        print(f"[PexelsPhoto] Error: {e}")
+    return found
+
 def download_pexels_video(video_url: str, output_path: Path) -> bool:
     """Descarga directa de CDN de alta velocidad de Pexels."""
     output_path.parent.mkdir(parents=True, exist_ok=True)
     try:
-        resp = requests.get(video_url, timeout=12, stream=True)
+        resp = requests.get(video_url, timeout=15, stream=True)
         if resp.status_code == 200:
             with open(output_path, "wb") as f:
                 for chunk in resp.iter_content(chunk_size=32768):
@@ -59,4 +83,16 @@ def download_pexels_video(video_url: str, output_path: Path) -> bool:
         return False
     except Exception as e:
         print(f"[PexelsFetcher] Error descargando: {e}")
+        return False
+
+def download_pexels_photo(image_url: str, output_path: Path) -> bool:
+    """Descarga directa de foto de Pexels."""
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        resp = requests.get(image_url, timeout=12)
+        if resp.status_code == 200:
+            output_path.write_bytes(resp.content)
+            return output_path.exists() and output_path.stat().st_size > 5000
+        return False
+    except Exception:
         return False
