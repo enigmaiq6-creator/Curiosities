@@ -59,9 +59,10 @@
     "mars_mysteries",
     "jupiter_moons",
     "james_webb",
-    "egypt"
+    "egypt",
+    "rome"
   ],
-  "total_published_count": 60,
+  "total_published_count": 61,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -422,6 +423,12 @@
       "topic": "egypt",
       "title": "5 Mind-Blowing Secrets of Ancient Egypt & The Pyramids! 🏺👑",
       "facebook_post_id": "122181867080897912"
+    },
+    {
+      "timestamp": "2026-08-27T19:21:06.015844",
+      "topic": "rome",
+      "title": "5 Shocking Secrets of the Roman Empire! ⚔️🏛️",
+      "facebook_post_id": "122181920474897912"
     }
   ]
 }
