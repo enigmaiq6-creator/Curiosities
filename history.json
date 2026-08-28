@@ -66,9 +66,10 @@
     "megalodon",
     "dinosaurs",
     "volcanoes",
-    "giant-fungal-forest-entity"
+    "giant-fungal-forest-entity",
+    "magnetar-storms-exoplanets"
   ],
-  "total_published_count": 67,
+  "total_published_count": 68,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -471,6 +472,12 @@
       "topic": "giant-fungal-forest-entity",
       "title": "5 Insane Facts About the Giant Fungal Forest Entity! 🌌✨",
       "facebook_post_id": "122182033064897912"
+    },
+    {
+      "timestamp": "2026-08-28T20:31:37.886338",
+      "topic": "magnetar-storms-exoplanets",
+      "title": "5 Insane Facts About Magnetar Storms on Exoplanets! 🌌✨",
+      "facebook_post_id": "122182038806897912"
     }
   ]
 }
