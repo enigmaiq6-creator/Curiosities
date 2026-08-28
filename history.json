@@ -65,9 +65,10 @@
     "vikings",
     "megalodon",
     "dinosaurs",
-    "volcanoes"
+    "volcanoes",
+    "giant-fungal-forest-entity"
   ],
-  "total_published_count": 66,
+  "total_published_count": 67,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -464,6 +465,12 @@
       "topic": "volcanoes",
       "title": "5 Terrifying Secrets of Earth's Supervolcanoes! 🌋⚡",
       "facebook_post_id": "122181999908897912"
+    },
+    {
+      "timestamp": "2026-08-28T19:17:39.844559",
+      "topic": "giant-fungal-forest-entity",
+      "title": "5 Insane Facts About the Giant Fungal Forest Entity! 🌌✨",
+      "facebook_post_id": "122182033064897912"
     }
   ]
 }
