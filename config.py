@@ -33,22 +33,25 @@ DEFAULT_FPS = 30
 DEFAULT_VIDEO_BITRATE = "4500k"
 DEFAULT_AUDIO_BITRATE = "192k"
 
-# Voces neuronales disponibles en Edge-TTS (gratuitas y ultra-realistas)
+# Google Cloud Text-to-Speech Ultra-Realistic Studio Documentary Voice
+GOOGLE_TTS_API_KEY = os.environ.get("GOOGLE_TTS_API_KEY", "AIzaSyDpdDhoXt8GDwJ_sEj-vjtd6HqVflN_vSY")
+
+# Voces neuronales y de estudio disponibles
 VOICES = {
-    # Español
-    "es-MX-Dalia": "es-MX-DaliaNeural",          # Femenina mexicana (natural, dinámica)
-    "es-MX-Jorge": "es-MX-JorgeNeural",          # Masculina mexicana (enérgica)
-    "es-ES-Alvaro": "es-ES-AlvaroNeural",        # Masculina española (documental/serio)
-    "es-ES-Elvira": "es-ES-ElviraNeural",        # Femenina española (clara)
-    "es-CO-Gonzalo": "es-CO-GonzaloNeural",      # Masculina colombiana (cálida)
-    # Inglés (Alta conversión y RPM en USA / Global)
-    "en-US-Christopher": "en-US-ChristopherNeural", # Masculina profunda (estilo documental National Geographic)
-    "en-US-Guy": "en-US-GuyNeural",                 # Masculina conversacional viral
-    "en-US-Jenny": "en-US-JennyNeural",             # Femenina profesional
-    "en-US-Aria": "en-US-AriaNeural"                # Femenina enérgica
+    # Google Cloud TTS Studio Voices (Ultra-Realistic 24kHz Documentary Masterclass)
+    "google_studio_male": "en-US-Studio-Q",
+    "google_studio_uk": "en-GB-Studio-B",
+    "google_studio_female": "en-US-Studio-O",
+    "google_neural_dramatic": "en-US-Neural2-J",
+    "google_neural_uk": "en-GB-Neural2-B",
+    # Edge-TTS
+    "en-US-Christopher": "en-US-ChristopherNeural",
+    "en-US-Guy": "en-US-GuyNeural",
+    "en-US-Jenny": "en-US-JennyNeural",
+    "en-US-Aria": "en-US-AriaNeural"
 }
 
-DEFAULT_VOICE = VOICES["es-MX-Jorge"]
+DEFAULT_VOICE = "en-US-Studio-Q"
 
 # Configuración de Subtítulos (.ass)
 SUBTITLE_CONFIG = {
