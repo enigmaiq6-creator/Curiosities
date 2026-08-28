@@ -68,9 +68,10 @@
     "volcanoes",
     "giant-fungal-forest-entity",
     "magnetar-storms-exoplanets",
-    "ancient-sky-constellations-sahara"
+    "ancient-sky-constellations-sahara",
+    "neutron-star-mountains"
   ],
-  "total_published_count": 69,
+  "total_published_count": 70,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -485,6 +486,12 @@
       "topic": "ancient-sky-constellations-sahara",
       "title": "5 Insane Facts About Ancient Sky Constellations of the Sahara! 🌌✨",
       "facebook_post_id": "122182043642897912"
+    },
+    {
+      "timestamp": "2026-08-28T22:55:47.852556",
+      "topic": "neutron-star-mountains",
+      "title": "5 Insane Facts About Neutron Star Mountains! 🌌✨",
+      "facebook_post_id": "122182049222897912"
     }
   ]
 }
