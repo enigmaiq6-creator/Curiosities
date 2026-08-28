@@ -52,18 +52,13 @@ class HistoryManager:
             print(f"[HistoryManager] [+] Tema nuevo e inédito seleccionado: '{chosen.upper()}' (Restantes en ciclo: {len(unused)-1})")
             return chosen
 
-        # 2. Si todos los temas del catálogo ya se publicaron, seleccionar el menos recientemente usado
-        print("[HistoryManager] [!] Todos los temas del catálogo han sido usados. Seleccionando el tema con mayor antigüedad...")
-        
-        last_seen = {}
-        for entry in history.get("history_log", []):
-            t = entry.get("topic")
-            if t:
-                last_seen[t] = entry.get("timestamp", "")
-                
-        sorted_by_age = sorted(available_topics, key=lambda t: last_seen.get(t, ""))
-        chosen = sorted_by_age[0] if sorted_by_age else available_topics[0]
-        print(f"[HistoryManager] [+] Tema con mayor antigüedad seleccionado: '{chosen.upper()}'")
+        # 2. Si todos los temas del catálogo ya se publicaron, seleccionar entre los temas que NO estén en los últimos 30
+        print("[HistoryManager] [!] Todos los temas del catálogo han sido usados. Seleccionando tema rotado no reciente...")
+        recent_30 = set([e.get("topic") for e in history.get("history_log", [])[-30:] if e.get("topic")])
+        candidates = [t for t in available_topics if t not in recent_30]
+        import random
+        chosen = random.choice(candidates) if candidates else random.choice(available_topics)
+        print(f"[HistoryManager] [+] Tema rotado no reciente seleccionado: '{chosen.upper()}'")
         return chosen
 
     @staticmethod

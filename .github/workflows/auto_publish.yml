@@ -77,7 +77,7 @@ jobs:
           git config --global user.name "Curiosities Bot"
           git config --global user.email "bot@curiosities.internal"
           git add history.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(history): update published topics database [skip ci]" && git push origin master)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(history): update published topics database [skip ci]" && git pull --rebase origin master && git push origin master)
 
       # Step 7: Save generated video output as backup artifact
       - name: Save Video Output Artifact

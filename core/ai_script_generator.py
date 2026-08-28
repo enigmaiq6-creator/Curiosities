@@ -136,9 +136,10 @@ class AIScriptGenerator:
         )
 
         models_to_try = [
-            "llama-3.3-70b-versatile",
-            "llama-3.1-8b-instant",
-            "gemma2-9b-it"
+            "openai/gpt-oss-120b",
+            "openai/gpt-oss-20b",
+            "qwen/qwen3.6-27b",
+            "groq/compound-mini"
         ]
 
         for key_idx, api_key in enumerate(valid_keys, 1):
@@ -159,6 +160,7 @@ class AIScriptGenerator:
                             {"role": "user", "content": user_prompt}
                         ],
                         "temperature": 0.85,
+                        "max_tokens": 2048,
                         "response_format": {"type": "json_object"}
                     }
 
@@ -170,7 +172,7 @@ class AIScriptGenerator:
                         topic_data = json.loads(raw_content)
                         
                         # Validar estructura minima
-                        if "topic_id" in topic_data and "scenes" in topic_data and len(topic_data["scenes"]) >= 10:
+                        if "topic_id" in topic_data and "scenes" in topic_data and len(topic_data["scenes"]) >= 8:
                             safe_title = str(topic_data.get('title', '')).encode('ascii', 'ignore').decode()
                             print(f"[AIScriptGenerator] [EXITO TOTAL] Tema creado con IA: '{topic_data['topic_id'].upper()}' - {safe_title}", flush=True)
                             return topic_data
