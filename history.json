@@ -64,9 +64,10 @@
     "mayan_empire",
     "vikings",
     "megalodon",
-    "dinosaurs"
+    "dinosaurs",
+    "volcanoes"
   ],
-  "total_published_count": 65,
+  "total_published_count": 66,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -457,6 +458,12 @@
       "topic": "dinosaurs",
       "title": "5 Mind-Blowing Truths About the Age of Dinosaurs! 🦖🔥",
       "facebook_post_id": "122181961652897912"
+    },
+    {
+      "timestamp": "2026-08-28T12:33:19.631682",
+      "topic": "volcanoes",
+      "title": "5 Terrifying Secrets of Earth's Supervolcanoes! 🌋⚡",
+      "facebook_post_id": "122181999908897912"
     }
   ]
 }
