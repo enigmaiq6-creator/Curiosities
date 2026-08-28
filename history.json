@@ -63,9 +63,10 @@
     "rome",
     "mayan_empire",
     "vikings",
-    "megalodon"
+    "megalodon",
+    "dinosaurs"
   ],
-  "total_published_count": 64,
+  "total_published_count": 65,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -450,6 +451,12 @@
       "topic": "megalodon",
       "title": "5 Terrifying Facts About Megalodon: The Apex Monster! 🦈🌊",
       "facebook_post_id": "122181941246897912"
+    },
+    {
+      "timestamp": "2026-08-28T05:13:01.462052",
+      "topic": "dinosaurs",
+      "title": "5 Mind-Blowing Truths About the Age of Dinosaurs! 🦖🔥",
+      "facebook_post_id": "122181961652897912"
     }
   ]
 }
