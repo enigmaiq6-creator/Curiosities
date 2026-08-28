@@ -67,9 +67,10 @@
     "dinosaurs",
     "volcanoes",
     "giant-fungal-forest-entity",
-    "magnetar-storms-exoplanets"
+    "magnetar-storms-exoplanets",
+    "ancient-sky-constellations-sahara"
   ],
-  "total_published_count": 68,
+  "total_published_count": 69,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -478,6 +479,12 @@
       "topic": "magnetar-storms-exoplanets",
       "title": "5 Insane Facts About Magnetar Storms on Exoplanets! 🌌✨",
       "facebook_post_id": "122182038806897912"
+    },
+    {
+      "timestamp": "2026-08-28T21:23:01.818576",
+      "topic": "ancient-sky-constellations-sahara",
+      "title": "5 Insane Facts About Ancient Sky Constellations of the Sahara! 🌌✨",
+      "facebook_post_id": "122182043642897912"
     }
   ]
 }
