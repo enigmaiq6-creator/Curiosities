@@ -62,9 +62,10 @@
     "egypt",
     "rome",
     "mayan_empire",
-    "vikings"
+    "vikings",
+    "megalodon"
   ],
-  "total_published_count": 63,
+  "total_published_count": 64,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -443,6 +444,12 @@
       "topic": "vikings",
       "title": "5 Myths & Wild Truths About Legendary Vikings! ⚔️🛡️",
       "facebook_post_id": "122181931868897912"
+    },
+    {
+      "timestamp": "2026-08-28T01:23:57.728413",
+      "topic": "megalodon",
+      "title": "5 Terrifying Facts About Megalodon: The Apex Monster! 🦈🌊",
+      "facebook_post_id": "122181941246897912"
     }
   ]
 }
