@@ -73,9 +73,10 @@
     "brown-dwarf-magnetic-tempests",
     "giant-quartz-crystal-naica",
     "earths-hidden-mantle-ocean",
-    "singing-sand-dunes-physics"
+    "singing-sand-dunes-physics",
+    "solar-superstorm-tree-rings"
   ],
-  "total_published_count": 74,
+  "total_published_count": 75,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -520,6 +521,12 @@
       "topic": "singing-sand-dunes-physics",
       "title": "5 Insane Facts About Singing Sand Dunes! 🌌✨",
       "facebook_post_id": "122182125482897912"
+    },
+    {
+      "timestamp": "2026-08-29T15:33:53.363319",
+      "topic": "solar-superstorm-tree-rings",
+      "title": "5 Insane Facts About Solar Superstorms Trapped in Tree Rings! 🌌✨",
+      "facebook_post_id": "122182133114897912"
     }
   ]
 }
