@@ -75,9 +75,10 @@
     "earths-hidden-mantle-ocean",
     "singing-sand-dunes-physics",
     "solar-superstorm-tree-rings",
-    "quantum-coherence-photosynthesis"
+    "quantum-coherence-photosynthesis",
+    "mantle-microbe-extremophiles"
   ],
-  "total_published_count": 76,
+  "total_published_count": 77,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -534,6 +535,12 @@
       "topic": "quantum-coherence-photosynthesis",
       "title": "5 Insane Facts About Quantum Coherence in Photosynthesis! 🌌✨",
       "facebook_post_id": "122182140602897912"
+    },
+    {
+      "timestamp": "2026-08-29T19:41:44.051918",
+      "topic": "mantle-microbe-extremophiles",
+      "title": "5 Insane Facts About Mantle Microbe Extremophiles! 🌌✨",
+      "facebook_post_id": "122182154294897912"
     }
   ]
 }
