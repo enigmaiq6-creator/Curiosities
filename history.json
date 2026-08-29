@@ -76,9 +76,10 @@
     "singing-sand-dunes-physics",
     "solar-superstorm-tree-rings",
     "quantum-coherence-photosynthesis",
-    "mantle-microbe-extremophiles"
+    "mantle-microbe-extremophiles",
+    "sahara-subterranean-river-ancient"
   ],
-  "total_published_count": 77,
+  "total_published_count": 78,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -541,6 +542,12 @@
       "topic": "mantle-microbe-extremophiles",
       "title": "5 Insane Facts About Mantle Microbe Extremophiles! 🌌✨",
       "facebook_post_id": "122182154294897912"
+    },
+    {
+      "timestamp": "2026-08-29T23:08:51.192106",
+      "topic": "sahara-subterranean-river-ancient",
+      "title": "5 Insane Facts About Ancient Sahara River Networks! 🌌✨",
+      "facebook_post_id": "122182168820897912"
     }
   ]
 }
