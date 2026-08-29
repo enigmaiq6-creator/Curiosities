@@ -70,9 +70,10 @@
     "magnetar-storms-exoplanets",
     "ancient-sky-constellations-sahara",
     "neutron-star-mountains",
-    "brown-dwarf-magnetic-tempests"
+    "brown-dwarf-magnetic-tempests",
+    "giant-quartz-crystal-naica"
   ],
-  "total_published_count": 71,
+  "total_published_count": 72,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -499,6 +500,12 @@
       "topic": "brown-dwarf-magnetic-tempests",
       "title": "5 Insane Facts About Brown Dwarf Magnetic Tempests! 🌌✨",
       "facebook_post_id": "122182057238897912"
+    },
+    {
+      "timestamp": "2026-08-29T03:10:23.248584",
+      "topic": "giant-quartz-crystal-naica",
+      "title": "5 Insane Facts About Giant Quartz Crystals! 🌌✨",
+      "facebook_post_id": "122182068416897912"
     }
   ]
 }
