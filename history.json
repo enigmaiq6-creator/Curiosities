@@ -71,9 +71,10 @@
     "ancient-sky-constellations-sahara",
     "neutron-star-mountains",
     "brown-dwarf-magnetic-tempests",
-    "giant-quartz-crystal-naica"
+    "giant-quartz-crystal-naica",
+    "earths-hidden-mantle-ocean"
   ],
-  "total_published_count": 72,
+  "total_published_count": 73,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -506,6 +507,12 @@
       "topic": "giant-quartz-crystal-naica",
       "title": "5 Insane Facts About Giant Quartz Crystals! 🌌✨",
       "facebook_post_id": "122182068416897912"
+    },
+    {
+      "timestamp": "2026-08-29T07:42:50.088512",
+      "topic": "earths-hidden-mantle-ocean",
+      "title": "5 Insane Facts About Earth's Hidden Mantle Ocean! 🌌✨",
+      "facebook_post_id": "122182092038897912"
     }
   ]
 }
