@@ -74,9 +74,10 @@
     "giant-quartz-crystal-naica",
     "earths-hidden-mantle-ocean",
     "singing-sand-dunes-physics",
-    "solar-superstorm-tree-rings"
+    "solar-superstorm-tree-rings",
+    "quantum-coherence-photosynthesis"
   ],
-  "total_published_count": 75,
+  "total_published_count": 76,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -527,6 +528,12 @@
       "topic": "solar-superstorm-tree-rings",
       "title": "5 Insane Facts About Solar Superstorms Trapped in Tree Rings! 🌌✨",
       "facebook_post_id": "122182133114897912"
+    },
+    {
+      "timestamp": "2026-08-29T17:02:52.237410",
+      "topic": "quantum-coherence-photosynthesis",
+      "title": "5 Insane Facts About Quantum Coherence in Photosynthesis! 🌌✨",
+      "facebook_post_id": "122182140602897912"
     }
   ]
 }
