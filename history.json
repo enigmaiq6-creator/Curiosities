@@ -69,9 +69,10 @@
     "giant-fungal-forest-entity",
     "magnetar-storms-exoplanets",
     "ancient-sky-constellations-sahara",
-    "neutron-star-mountains"
+    "neutron-star-mountains",
+    "brown-dwarf-magnetic-tempests"
   ],
-  "total_published_count": 70,
+  "total_published_count": 71,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -492,6 +493,12 @@
       "topic": "neutron-star-mountains",
       "title": "5 Insane Facts About Neutron Star Mountains! 🌌✨",
       "facebook_post_id": "122182049222897912"
+    },
+    {
+      "timestamp": "2026-08-29T00:57:17.586998",
+      "topic": "brown-dwarf-magnetic-tempests",
+      "title": "5 Insane Facts About Brown Dwarf Magnetic Tempests! 🌌✨",
+      "facebook_post_id": "122182057238897912"
     }
   ]
 }
