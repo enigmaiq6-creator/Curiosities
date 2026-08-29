@@ -72,9 +72,10 @@
     "neutron-star-mountains",
     "brown-dwarf-magnetic-tempests",
     "giant-quartz-crystal-naica",
-    "earths-hidden-mantle-ocean"
+    "earths-hidden-mantle-ocean",
+    "singing-sand-dunes-physics"
   ],
-  "total_published_count": 73,
+  "total_published_count": 74,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -513,6 +514,12 @@
       "topic": "earths-hidden-mantle-ocean",
       "title": "5 Insane Facts About Earth's Hidden Mantle Ocean! 🌌✨",
       "facebook_post_id": "122182092038897912"
+    },
+    {
+      "timestamp": "2026-08-29T14:06:36.721736",
+      "topic": "singing-sand-dunes-physics",
+      "title": "5 Insane Facts About Singing Sand Dunes! 🌌✨",
+      "facebook_post_id": "122182125482897912"
     }
   ]
 }
