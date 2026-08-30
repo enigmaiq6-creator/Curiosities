@@ -80,9 +80,10 @@
     "sahara-subterranean-river-ancient",
     "pulsar_planets_worlds",
     "oklo-natural-nuclear-reactor",
-    "bioluminescent-fungal-forest-communication"
+    "bioluminescent-fungal-forest-communication",
+    "magnetotactic-bacteria-nano-compasses"
   ],
-  "total_published_count": 81,
+  "total_published_count": 82,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -569,6 +570,12 @@
       "topic": "bioluminescent-fungal-forest-communication",
       "title": "5 Insane Facts About Bioluminescent Fungal Forests! 🌌✨",
       "facebook_post_id": "122182242362897912"
+    },
+    {
+      "timestamp": "2026-08-30T17:16:11.558984",
+      "topic": "magnetotactic-bacteria-nano-compasses",
+      "title": "5 Insane Facts About Magnetotactic Bacteria! 🌌✨",
+      "facebook_post_id": "122182252820897912"
     }
   ]
 }
