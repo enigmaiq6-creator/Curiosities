@@ -77,9 +77,10 @@
     "solar-superstorm-tree-rings",
     "quantum-coherence-photosynthesis",
     "mantle-microbe-extremophiles",
-    "sahara-subterranean-river-ancient"
+    "sahara-subterranean-river-ancient",
+    "pulsar_planets_worlds"
   ],
-  "total_published_count": 78,
+  "total_published_count": 79,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -548,6 +549,12 @@
       "topic": "sahara-subterranean-river-ancient",
       "title": "5 Insane Facts About Ancient Sahara River Networks! 🌌✨",
       "facebook_post_id": "122182168820897912"
+    },
+    {
+      "timestamp": "2026-08-30T06:17:39.401313",
+      "topic": "pulsar_planets_worlds",
+      "title": "5 Insane Facts About Pulsar Planets! 🌌✨",
+      "facebook_post_id": "122182201460897912"
     }
   ]
 }
