@@ -78,9 +78,10 @@
     "quantum-coherence-photosynthesis",
     "mantle-microbe-extremophiles",
     "sahara-subterranean-river-ancient",
-    "pulsar_planets_worlds"
+    "pulsar_planets_worlds",
+    "oklo-natural-nuclear-reactor"
   ],
-  "total_published_count": 79,
+  "total_published_count": 80,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -555,6 +556,12 @@
       "topic": "pulsar_planets_worlds",
       "title": "5 Insane Facts About Pulsar Planets! 🌌✨",
       "facebook_post_id": "122182201460897912"
+    },
+    {
+      "timestamp": "2026-08-30T14:06:29.110082",
+      "topic": "oklo-natural-nuclear-reactor",
+      "title": "5 Insane Facts About Oklo Natural Nuclear Reactor! 🌌✨",
+      "facebook_post_id": "122182234676897912"
     }
   ]
 }
