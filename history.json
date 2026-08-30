@@ -79,9 +79,10 @@
     "mantle-microbe-extremophiles",
     "sahara-subterranean-river-ancient",
     "pulsar_planets_worlds",
-    "oklo-natural-nuclear-reactor"
+    "oklo-natural-nuclear-reactor",
+    "bioluminescent-fungal-forest-communication"
   ],
-  "total_published_count": 80,
+  "total_published_count": 81,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -562,6 +563,12 @@
       "topic": "oklo-natural-nuclear-reactor",
       "title": "5 Insane Facts About Oklo Natural Nuclear Reactor! 🌌✨",
       "facebook_post_id": "122182234676897912"
+    },
+    {
+      "timestamp": "2026-08-30T15:15:10.936131",
+      "topic": "bioluminescent-fungal-forest-communication",
+      "title": "5 Insane Facts About Bioluminescent Fungal Forests! 🌌✨",
+      "facebook_post_id": "122182242362897912"
     }
   ]
 }
