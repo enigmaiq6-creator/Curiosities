@@ -87,9 +87,10 @@
     "dark-matter-cosmic-web-threads",
     "human",
     "self-healing-roman-concrete",
-    "moon_hidden_liquid_core"
+    "moon_hidden_liquid_core",
+    "solar-heartbeat-helioseismology"
   ],
-  "total_published_count": 88,
+  "total_published_count": 89,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -618,6 +619,12 @@
       "topic": "moon_hidden_liquid_core",
       "title": "5 Insane Facts About the Moon's Hidden Liquid Core! 🌌✨",
       "facebook_post_id": "122182453964897912"
+    },
+    {
+      "timestamp": "2026-08-31T21:49:32.005524",
+      "topic": "solar-heartbeat-helioseismology",
+      "title": "5 Insane Facts About Solar Heartbeat! 🌌✨",
+      "facebook_post_id": "122182465616897912"
     }
   ]
 }
