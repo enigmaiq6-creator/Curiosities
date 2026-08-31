@@ -86,9 +86,10 @@
     "south-atlantic-anomaly",
     "dark-matter-cosmic-web-threads",
     "human",
-    "self-healing-roman-concrete"
+    "self-healing-roman-concrete",
+    "moon_hidden_liquid_core"
   ],
-  "total_published_count": 87,
+  "total_published_count": 88,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -611,6 +612,12 @@
       "topic": "self-healing-roman-concrete",
       "title": "5 Insane Facts About Self‑Healing Roman Concrete! 🌌✨",
       "facebook_post_id": "122182445240897912"
+    },
+    {
+      "timestamp": "2026-08-31T19:25:37.770390",
+      "topic": "moon_hidden_liquid_core",
+      "title": "5 Insane Facts About the Moon's Hidden Liquid Core! 🌌✨",
+      "facebook_post_id": "122182453964897912"
     }
   ]
 }
