@@ -85,9 +85,10 @@
     "tardigrade-quantum-resilience",
     "south-atlantic-anomaly",
     "dark-matter-cosmic-web-threads",
-    "human"
+    "human",
+    "self-healing-roman-concrete"
   ],
-  "total_published_count": 86,
+  "total_published_count": 87,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -604,6 +605,12 @@
       "topic": "human",
       "title": "5 Unbelievable Superpowers of the Human Body! 🧬⚡",
       "facebook_post_id": "122182439774897912"
+    },
+    {
+      "timestamp": "2026-08-31T17:59:37.891180",
+      "topic": "self-healing-roman-concrete",
+      "title": "5 Insane Facts About Self‑Healing Roman Concrete! 🌌✨",
+      "facebook_post_id": "122182445240897912"
     }
   ]
 }
