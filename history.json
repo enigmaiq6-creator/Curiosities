@@ -94,9 +94,10 @@
     "deep-sea-brine-pool-mysteries",
     "antarctic-subglacial-methane-oasis",
     "saharan-silver-ant-superheat",
-    "hyperfast-millisecond-pulsar"
+    "hyperfast-millisecond-pulsar",
+    "mantis-shrimp-superpowers"
   ],
-  "total_published_count": 95,
+  "total_published_count": 96,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -667,6 +668,12 @@
       "topic": "hyperfast-millisecond-pulsar",
       "title": "5 Insane Facts About the Hyperfast Millisecond Pulsar! 🌌✨",
       "facebook_post_id": "122182594208897912"
+    },
+    {
+      "timestamp": "2026-09-01T23:11:57.466601",
+      "topic": "mantis-shrimp-superpowers",
+      "title": "5 Insane Facts About Mantis Shrimp! 🌌✨",
+      "facebook_post_id": "122182605950897912"
     }
   ]
 }
