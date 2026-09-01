@@ -91,9 +91,10 @@
     "solar-heartbeat-helioseismology",
     "solar_flares_in_ice",
     "deep-earth-radiolytic-bacteria",
-    "deep-sea-brine-pool-mysteries"
+    "deep-sea-brine-pool-mysteries",
+    "antarctic-subglacial-methane-oasis"
   ],
-  "total_published_count": 92,
+  "total_published_count": 93,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -646,6 +647,12 @@
       "topic": "deep-sea-brine-pool-mysteries",
       "title": "5 Insane Facts About Deep Sea Brine Pools! 🌌✨",
       "facebook_post_id": "122182535900897912"
+    },
+    {
+      "timestamp": "2026-09-01T15:28:30.845358",
+      "topic": "antarctic-subglacial-methane-oasis",
+      "title": "5 Insane Facts About Antarctic Subglacial Methane Oasis! 🌌✨",
+      "facebook_post_id": "122182565834897912"
     }
   ]
 }
