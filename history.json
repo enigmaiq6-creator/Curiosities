@@ -89,9 +89,10 @@
     "self-healing-roman-concrete",
     "moon_hidden_liquid_core",
     "solar-heartbeat-helioseismology",
-    "solar_flares_in_ice"
+    "solar_flares_in_ice",
+    "deep-earth-radiolytic-bacteria"
   ],
-  "total_published_count": 90,
+  "total_published_count": 91,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -632,6 +633,12 @@
       "topic": "solar_flares_in_ice",
       "title": "5 Insane Facts About Solar Flares in Ice! 🌌✨",
       "facebook_post_id": "122182477892897912"
+    },
+    {
+      "timestamp": "2026-09-01T06:04:26.963263",
+      "topic": "deep-earth-radiolytic-bacteria",
+      "title": "5 Insane Facts About Deep Earth Radiolytic Bacteria! 🌌✨",
+      "facebook_post_id": "122182504688897912"
     }
   ]
 }
