@@ -92,9 +92,10 @@
     "solar_flares_in_ice",
     "deep-earth-radiolytic-bacteria",
     "deep-sea-brine-pool-mysteries",
-    "antarctic-subglacial-methane-oasis"
+    "antarctic-subglacial-methane-oasis",
+    "saharan-silver-ant-superheat"
   ],
-  "total_published_count": 93,
+  "total_published_count": 94,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -653,6 +654,12 @@
       "topic": "antarctic-subglacial-methane-oasis",
       "title": "5 Insane Facts About Antarctic Subglacial Methane Oasis! 🌌✨",
       "facebook_post_id": "122182565834897912"
+    },
+    {
+      "timestamp": "2026-09-01T17:12:25.786421",
+      "topic": "saharan-silver-ant-superheat",
+      "title": "5 Insane Facts About Sahara Silver Ants! 🌌✨",
+      "facebook_post_id": "122182578350897912"
     }
   ]
 }
