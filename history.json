@@ -93,9 +93,10 @@
     "deep-earth-radiolytic-bacteria",
     "deep-sea-brine-pool-mysteries",
     "antarctic-subglacial-methane-oasis",
-    "saharan-silver-ant-superheat"
+    "saharan-silver-ant-superheat",
+    "hyperfast-millisecond-pulsar"
   ],
-  "total_published_count": 94,
+  "total_published_count": 95,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -660,6 +661,12 @@
       "topic": "saharan-silver-ant-superheat",
       "title": "5 Insane Facts About Sahara Silver Ants! 🌌✨",
       "facebook_post_id": "122182578350897912"
+    },
+    {
+      "timestamp": "2026-09-01T19:50:50.505297",
+      "topic": "hyperfast-millisecond-pulsar",
+      "title": "5 Insane Facts About the Hyperfast Millisecond Pulsar! 🌌✨",
+      "facebook_post_id": "122182594208897912"
     }
   ]
 }
