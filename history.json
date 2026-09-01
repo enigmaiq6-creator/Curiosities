@@ -88,9 +88,10 @@
     "human",
     "self-healing-roman-concrete",
     "moon_hidden_liquid_core",
-    "solar-heartbeat-helioseismology"
+    "solar-heartbeat-helioseismology",
+    "solar_flares_in_ice"
   ],
-  "total_published_count": 89,
+  "total_published_count": 90,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -625,6 +626,12 @@
       "topic": "solar-heartbeat-helioseismology",
       "title": "5 Insane Facts About Solar Heartbeat! 🌌✨",
       "facebook_post_id": "122182465616897912"
+    },
+    {
+      "timestamp": "2026-09-01T00:30:46.539383",
+      "topic": "solar_flares_in_ice",
+      "title": "5 Insane Facts About Solar Flares in Ice! 🌌✨",
+      "facebook_post_id": "122182477892897912"
     }
   ]
 }
