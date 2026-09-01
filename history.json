@@ -90,9 +90,10 @@
     "moon_hidden_liquid_core",
     "solar-heartbeat-helioseismology",
     "solar_flares_in_ice",
-    "deep-earth-radiolytic-bacteria"
+    "deep-earth-radiolytic-bacteria",
+    "deep-sea-brine-pool-mysteries"
   ],
-  "total_published_count": 91,
+  "total_published_count": 92,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -639,6 +640,12 @@
       "topic": "deep-earth-radiolytic-bacteria",
       "title": "5 Insane Facts About Deep Earth Radiolytic Bacteria! 🌌✨",
       "facebook_post_id": "122182504688897912"
+    },
+    {
+      "timestamp": "2026-09-01T13:48:34.785038",
+      "topic": "deep-sea-brine-pool-mysteries",
+      "title": "5 Insane Facts About Deep Sea Brine Pools! 🌌✨",
+      "facebook_post_id": "122182535900897912"
     }
   ]
 }
