@@ -95,9 +95,10 @@
     "antarctic-subglacial-methane-oasis",
     "saharan-silver-ant-superheat",
     "hyperfast-millisecond-pulsar",
-    "mantis-shrimp-superpowers"
+    "mantis-shrimp-superpowers",
+    "cosmic-neutrino-echoes"
   ],
-  "total_published_count": 96,
+  "total_published_count": 97,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -674,6 +675,12 @@
       "topic": "mantis-shrimp-superpowers",
       "title": "5 Insane Facts About Mantis Shrimp! 🌌✨",
       "facebook_post_id": "122182605950897912"
+    },
+    {
+      "timestamp": "2026-09-02T05:30:53.743099",
+      "topic": "cosmic-neutrino-echoes",
+      "title": "5 Insane Facts About Cosmic Neutrino Echoes! 🌌✨",
+      "facebook_post_id": "122182632356897912"
     }
   ]
 }
