@@ -100,9 +100,10 @@
     "lucid_dreams",
     "saturn-plasma-rivers",
     "ancient-ice-microbial-archives",
-    "earths-iron-core-magnetic-reversal"
+    "earths-iron-core-magnetic-reversal",
+    "coelacanth-polarized-vision"
   ],
-  "total_published_count": 101,
+  "total_published_count": 102,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -709,6 +710,12 @@
       "topic": "earths-iron-core-magnetic-reversal",
       "title": "5 Insane Facts About Earth's Iron Core Magnetic Reversals! 🌌✨",
       "facebook_post_id": "122182698764897912"
+    },
+    {
+      "timestamp": "2026-09-02T23:08:28.322976",
+      "topic": "coelacanth-polarized-vision",
+      "title": "5 Insane Facts About Coelacanth Vision! 🌌✨",
+      "facebook_post_id": "122182710050897912"
     }
   ]
 }
