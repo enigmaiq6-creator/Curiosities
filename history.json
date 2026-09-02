@@ -96,9 +96,10 @@
     "saharan-silver-ant-superheat",
     "hyperfast-millisecond-pulsar",
     "mantis-shrimp-superpowers",
-    "cosmic-neutrino-echoes"
+    "cosmic-neutrino-echoes",
+    "lucid_dreams"
   ],
-  "total_published_count": 97,
+  "total_published_count": 98,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -681,6 +682,12 @@
       "topic": "cosmic-neutrino-echoes",
       "title": "5 Insane Facts About Cosmic Neutrino Echoes! 🌌✨",
       "facebook_post_id": "122182632356897912"
+    },
+    {
+      "timestamp": "2026-09-02T13:04:58.042664",
+      "topic": "lucid_dreams",
+      "title": "5 Wild Mysteries of Lucid Dreaming & The Sleeping Brain! 💤🧠",
+      "facebook_post_id": "122182666400897912"
     }
   ]
 }
