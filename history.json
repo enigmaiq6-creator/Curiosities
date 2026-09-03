@@ -106,9 +106,10 @@
     "lunar-tide-locked-ice-caves",
     "europa_tidal_plume_chemistry",
     "inner-core-super-rotation",
-    "magnetospheric-chorus-brain-effect"
+    "magnetospheric-chorus-brain-effect",
+    "relic-neutrino-background"
   ],
-  "total_published_count": 107,
+  "total_published_count": 108,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -751,6 +752,12 @@
       "topic": "magnetospheric-chorus-brain-effect",
       "title": "5 Insane Facts About Magnetospheric Chorus and Human Brain! 🌌✨",
       "facebook_post_id": "122182838804897912"
+    },
+    {
+      "timestamp": "2026-09-03T23:08:12.831915",
+      "topic": "relic-neutrino-background",
+      "title": "5 Insane Facts About The Relic Neutrino Background! 🌌✨",
+      "facebook_post_id": "122182851548897912"
     }
   ]
 }
