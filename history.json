@@ -102,9 +102,10 @@
     "ancient-ice-microbial-archives",
     "earths-iron-core-magnetic-reversal",
     "coelacanth-polarized-vision",
-    "ceres-hidden-ocean"
+    "ceres-hidden-ocean",
+    "lunar-tide-locked-ice-caves"
   ],
-  "total_published_count": 103,
+  "total_published_count": 104,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -723,6 +724,12 @@
       "topic": "ceres-hidden-ocean",
       "title": "5 Insane Facts About Ceres' Hidden Ocean! 🌌✨",
       "facebook_post_id": "122182753340897912"
+    },
+    {
+      "timestamp": "2026-09-03T13:07:42.993899",
+      "topic": "lunar-tide-locked-ice-caves",
+      "title": "5 Insane Facts About Lunar Tide‑Locked Ice Caves! 🌌✨",
+      "facebook_post_id": "122182783292897912"
     }
   ]
 }
