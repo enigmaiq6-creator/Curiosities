@@ -105,9 +105,10 @@
     "ceres-hidden-ocean",
     "lunar-tide-locked-ice-caves",
     "europa_tidal_plume_chemistry",
-    "inner-core-super-rotation"
+    "inner-core-super-rotation",
+    "magnetospheric-chorus-brain-effect"
   ],
-  "total_published_count": 106,
+  "total_published_count": 107,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -744,6 +745,12 @@
       "topic": "inner-core-super-rotation",
       "title": "5 Insane Facts About the Super‑Rotating Inner Core! 🌌✨",
       "facebook_post_id": "122182821158897912"
+    },
+    {
+      "timestamp": "2026-09-03T19:45:25.450896",
+      "topic": "magnetospheric-chorus-brain-effect",
+      "title": "5 Insane Facts About Magnetospheric Chorus and Human Brain! 🌌✨",
+      "facebook_post_id": "122182838804897912"
     }
   ]
 }
