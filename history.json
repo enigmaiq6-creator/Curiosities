@@ -103,9 +103,10 @@
     "earths-iron-core-magnetic-reversal",
     "coelacanth-polarized-vision",
     "ceres-hidden-ocean",
-    "lunar-tide-locked-ice-caves"
+    "lunar-tide-locked-ice-caves",
+    "europa_tidal_plume_chemistry"
   ],
-  "total_published_count": 104,
+  "total_published_count": 105,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -730,6 +731,12 @@
       "topic": "lunar-tide-locked-ice-caves",
       "title": "5 Insane Facts About Lunar Tide‑Locked Ice Caves! 🌌✨",
       "facebook_post_id": "122182783292897912"
+    },
+    {
+      "timestamp": "2026-09-03T14:57:47.248075",
+      "topic": "europa_tidal_plume_chemistry",
+      "title": "5 Insane Facts About Europa's Tidal Plume Chemistry! 🌌✨",
+      "facebook_post_id": "122182792250897912"
     }
   ]
 }
