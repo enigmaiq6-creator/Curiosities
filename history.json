@@ -111,9 +111,10 @@
     "superdeep-diamonds-time-captures",
     "greenland-shark-immortal-dna",
     "titan-methane-seas",
-    "ancient-amber-microbiome"
+    "ancient-amber-microbiome",
+    "antarctic-subglacial-volcanic-ice-caves"
   ],
-  "total_published_count": 112,
+  "total_published_count": 113,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -786,6 +787,12 @@
       "topic": "ancient-amber-microbiome",
       "title": "5 Insane Facts About Ancient Amber Microbiome! 🌌✨",
       "facebook_post_id": "122182922810897912"
+    },
+    {
+      "timestamp": "2026-09-04T19:24:11.318298",
+      "topic": "antarctic-subglacial-volcanic-ice-caves",
+      "title": "5 Insane Facts About Subglacial Volcanic Ice Caves! 🌌✨",
+      "facebook_post_id": "122182934216897912"
     }
   ]
 }
