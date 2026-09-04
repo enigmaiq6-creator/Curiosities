@@ -107,9 +107,10 @@
     "europa_tidal_plume_chemistry",
     "inner-core-super-rotation",
     "magnetospheric-chorus-brain-effect",
-    "relic-neutrino-background"
+    "relic-neutrino-background",
+    "superdeep-diamonds-time-captures"
   ],
-  "total_published_count": 108,
+  "total_published_count": 109,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -758,6 +759,12 @@
       "topic": "relic-neutrino-background",
       "title": "5 Insane Facts About The Relic Neutrino Background! 🌌✨",
       "facebook_post_id": "122182851548897912"
+    },
+    {
+      "timestamp": "2026-09-04T05:33:08.240050",
+      "topic": "superdeep-diamonds-time-captures",
+      "title": "5 Insane Facts About Superdeep Diamonds! 🌌✨",
+      "facebook_post_id": "122182879274897912"
     }
   ]
 }
