@@ -116,9 +116,10 @@
     "monarch-butterfly-quantum-magnetoreception",
     "ancient-basaltic-glass-air",
     "superionic-water-ice-giants",
-    "lunar-forgotten-magnetic-field"
+    "lunar-forgotten-magnetic-field",
+    "neptune-diamond-rain"
   ],
-  "total_published_count": 118,
+  "total_published_count": 119,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -827,6 +828,12 @@
       "topic": "lunar-forgotten-magnetic-field",
       "title": "5 Insane Facts About the Moon's Forgotten Magnetic Field! 🌌✨",
       "facebook_post_id": "122183024768897912"
+    },
+    {
+      "timestamp": "2026-09-05T18:55:38.879882",
+      "topic": "neptune-diamond-rain",
+      "title": "5 Insane Facts About Neptune's Diamond Rain! 🌌✨",
+      "facebook_post_id": "122183035544897912"
     }
   ]
 }
