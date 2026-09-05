@@ -117,9 +117,10 @@
     "ancient-basaltic-glass-air",
     "superionic-water-ice-giants",
     "lunar-forgotten-magnetic-field",
-    "neptune-diamond-rain"
+    "neptune-diamond-rain",
+    "nuclear-pasta-neutron-stars"
   ],
-  "total_published_count": 119,
+  "total_published_count": 120,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -834,6 +835,12 @@
       "topic": "neptune-diamond-rain",
       "title": "5 Insane Facts About Neptune's Diamond Rain! 🌌✨",
       "facebook_post_id": "122183035544897912"
+    },
+    {
+      "timestamp": "2026-09-05T22:46:11.976067",
+      "topic": "nuclear-pasta-neutron-stars",
+      "title": "5 Insane Facts About Nuclear Pasta! 🌌✨",
+      "facebook_post_id": "122183051204897912"
     }
   ]
 }
