@@ -113,9 +113,10 @@
     "titan-methane-seas",
     "ancient-amber-microbiome",
     "antarctic-subglacial-volcanic-ice-caves",
-    "monarch-butterfly-quantum-magnetoreception"
+    "monarch-butterfly-quantum-magnetoreception",
+    "ancient-basaltic-glass-air"
   ],
-  "total_published_count": 115,
+  "total_published_count": 116,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -806,6 +807,12 @@
       "topic": "monarch-butterfly-quantum-magnetoreception",
       "title": "5 Insane Facts About Quantum Magnetoreception in Monarch Butterflies! 🌌✨",
       "facebook_post_id": "122182978280897912"
+    },
+    {
+      "timestamp": "2026-09-05T12:14:21.809846",
+      "topic": "ancient-basaltic-glass-air",
+      "title": "5 Insane Facts About Ancient Basaltic Glass Air Bubbles! 🌌✨",
+      "facebook_post_id": "122183008640897912"
     }
   ]
 }
