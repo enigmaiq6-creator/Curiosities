@@ -115,9 +115,10 @@
     "antarctic-subglacial-volcanic-ice-caves",
     "monarch-butterfly-quantum-magnetoreception",
     "ancient-basaltic-glass-air",
-    "superionic-water-ice-giants"
+    "superionic-water-ice-giants",
+    "lunar-forgotten-magnetic-field"
   ],
-  "total_published_count": 117,
+  "total_published_count": 118,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -820,6 +821,12 @@
       "topic": "superionic-water-ice-giants",
       "title": "5 Insane Facts About Superionic Water! 🌌✨",
       "facebook_post_id": "122183015288897912"
+    },
+    {
+      "timestamp": "2026-09-05T15:49:22.070680",
+      "topic": "lunar-forgotten-magnetic-field",
+      "title": "5 Insane Facts About the Moon's Forgotten Magnetic Field! 🌌✨",
+      "facebook_post_id": "122183024768897912"
     }
   ]
 }
