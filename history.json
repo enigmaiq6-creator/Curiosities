@@ -112,9 +112,10 @@
     "greenland-shark-immortal-dna",
     "titan-methane-seas",
     "ancient-amber-microbiome",
-    "antarctic-subglacial-volcanic-ice-caves"
+    "antarctic-subglacial-volcanic-ice-caves",
+    "monarch-butterfly-quantum-magnetoreception"
   ],
-  "total_published_count": 114,
+  "total_published_count": 115,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -799,6 +800,12 @@
       "topic": "quantum-bird-navigation",
       "title": "5 Insane Facts About Quantum Bird Navigation! 🌌✨",
       "facebook_post_id": "122182949036897912"
+    },
+    {
+      "timestamp": "2026-09-05T05:19:02.459629",
+      "topic": "monarch-butterfly-quantum-magnetoreception",
+      "title": "5 Insane Facts About Quantum Magnetoreception in Monarch Butterflies! 🌌✨",
+      "facebook_post_id": "122182978280897912"
     }
   ]
 }
