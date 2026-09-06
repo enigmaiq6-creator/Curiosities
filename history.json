@@ -122,9 +122,10 @@
     "isua-early-life-microfossils",
     "blue-holes-planetary-mysteries",
     "enceladus-hidden-ocean",
-    "giant-single-cell-deep-sea-xenophyophores"
+    "giant-single-cell-deep-sea-xenophyophores",
+    "coelacanth-heart-two-speed-pumping"
   ],
-  "total_published_count": 124,
+  "total_published_count": 125,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -869,6 +870,12 @@
       "topic": "giant-single-cell-deep-sea-xenophyophores",
       "title": "5 Insane Facts About Xenophyophores! 🌌✨",
       "facebook_post_id": "122183137958897912"
+    },
+    {
+      "timestamp": "2026-09-06T18:59:39.375465",
+      "topic": "coelacanth-heart-two-speed-pumping",
+      "title": "5 Insane Facts About the Coelacanth’s Two‑Speed Heart! 🌌✨",
+      "facebook_post_id": "122183153258897912"
     }
   ]
 }
