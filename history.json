@@ -121,9 +121,10 @@
     "nuclear-pasta-neutron-stars",
     "isua-early-life-microfossils",
     "blue-holes-planetary-mysteries",
-    "enceladus-hidden-ocean"
+    "enceladus-hidden-ocean",
+    "giant-single-cell-deep-sea-xenophyophores"
   ],
-  "total_published_count": 123,
+  "total_published_count": 124,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -862,6 +863,12 @@
       "topic": "enceladus-hidden-ocean",
       "title": "5 Insane Facts About Enceladus' Hidden Ocean! 🌌✨",
       "facebook_post_id": "122183128862897912"
+    },
+    {
+      "timestamp": "2026-09-06T16:03:14.151408",
+      "topic": "giant-single-cell-deep-sea-xenophyophores",
+      "title": "5 Insane Facts About Xenophyophores! 🌌✨",
+      "facebook_post_id": "122183137958897912"
     }
   ]
 }
