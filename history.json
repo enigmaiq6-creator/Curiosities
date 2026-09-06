@@ -120,9 +120,10 @@
     "neptune-diamond-rain",
     "nuclear-pasta-neutron-stars",
     "isua-early-life-microfossils",
-    "blue-holes-planetary-mysteries"
+    "blue-holes-planetary-mysteries",
+    "enceladus-hidden-ocean"
   ],
-  "total_published_count": 122,
+  "total_published_count": 123,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -855,6 +856,12 @@
       "topic": "blue-holes-planetary-mysteries",
       "title": "5 Insane Facts About Blue Holes! 🌌✨",
       "facebook_post_id": "122183121548897912"
+    },
+    {
+      "timestamp": "2026-09-06T14:03:05.903607",
+      "topic": "enceladus-hidden-ocean",
+      "title": "5 Insane Facts About Enceladus' Hidden Ocean! 🌌✨",
+      "facebook_post_id": "122183128862897912"
     }
   ]
 }
