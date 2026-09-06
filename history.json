@@ -119,9 +119,10 @@
     "lunar-forgotten-magnetic-field",
     "neptune-diamond-rain",
     "nuclear-pasta-neutron-stars",
-    "isua-early-life-microfossils"
+    "isua-early-life-microfossils",
+    "blue-holes-planetary-mysteries"
   ],
-  "total_published_count": 121,
+  "total_published_count": 122,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -848,6 +849,12 @@
       "topic": "isua-early-life-microfossils",
       "title": "5 Insane Facts About Earth’s Oldest Life! 🌌✨",
       "facebook_post_id": "122183086016897912"
+    },
+    {
+      "timestamp": "2026-09-06T12:29:01.281754",
+      "topic": "blue-holes-planetary-mysteries",
+      "title": "5 Insane Facts About Blue Holes! 🌌✨",
+      "facebook_post_id": "122183121548897912"
     }
   ]
 }
