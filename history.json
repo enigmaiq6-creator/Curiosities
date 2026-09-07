@@ -124,9 +124,10 @@
     "enceladus-hidden-ocean",
     "giant-single-cell-deep-sea-xenophyophores",
     "coelacanth-heart-two-speed-pumping",
-    "zircon-time-captules"
+    "zircon-time-captules",
+    "moon-hidden-lava-tubes"
   ],
-  "total_published_count": 127,
+  "total_published_count": 128,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -889,6 +890,12 @@
       "topic": "zircon-time-captules",
       "title": "5 Insane Facts About Zircon Time Capsules! 🌌✨",
       "facebook_post_id": "122183204516897912"
+    },
+    {
+      "timestamp": "2026-09-07T14:34:59.356220",
+      "topic": "moon-hidden-lava-tubes",
+      "title": "5 Insane Facts About Moon's Hidden Lava Tubes! 🌌✨",
+      "facebook_post_id": "122183246684897912"
     }
   ]
 }
