@@ -127,9 +127,10 @@
     "zircon-time-captules",
     "moon-hidden-lava-tubes",
     "bioluminescent-rain-phenomenon",
-    "hranice-abyss-deep-freshwater-cave"
+    "hranice-abyss-deep-freshwater-cave",
+    "gJ-1214b-supercritical-ocean"
   ],
-  "total_published_count": 130,
+  "total_published_count": 131,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -910,6 +911,12 @@
       "topic": "hranice-abyss-deep-freshwater-cave",
       "title": "5 Insane Facts About the Hranice Abyss! 🌌✨",
       "facebook_post_id": "122183265116897912"
+    },
+    {
+      "timestamp": "2026-09-07T20:26:45.055659",
+      "topic": "gJ-1214b-supercritical-ocean",
+      "title": "5 Insane Facts About GJ 1214b’s Supercritical Ocean! 🌌✨",
+      "facebook_post_id": "122183275796897912"
     }
   ]
 }
