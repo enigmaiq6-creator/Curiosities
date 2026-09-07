@@ -123,9 +123,10 @@
     "blue-holes-planetary-mysteries",
     "enceladus-hidden-ocean",
     "giant-single-cell-deep-sea-xenophyophores",
-    "coelacanth-heart-two-speed-pumping"
+    "coelacanth-heart-two-speed-pumping",
+    "zircon-time-captules"
   ],
-  "total_published_count": 126,
+  "total_published_count": 127,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -882,6 +883,12 @@
       "topic": "quantum-tunneling-enzymes",
       "title": "5 Insane Facts About Quantum Tunneling in Enzyme Catalysis! 🌌✨",
       "facebook_post_id": "122183171984897912"
+    },
+    {
+      "timestamp": "2026-09-07T05:43:58.996608",
+      "topic": "zircon-time-captules",
+      "title": "5 Insane Facts About Zircon Time Capsules! 🌌✨",
+      "facebook_post_id": "122183204516897912"
     }
   ]
 }
