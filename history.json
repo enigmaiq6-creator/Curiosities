@@ -125,9 +125,10 @@
     "giant-single-cell-deep-sea-xenophyophores",
     "coelacanth-heart-two-speed-pumping",
     "zircon-time-captules",
-    "moon-hidden-lava-tubes"
+    "moon-hidden-lava-tubes",
+    "bioluminescent-rain-phenomenon"
   ],
-  "total_published_count": 128,
+  "total_published_count": 129,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -896,6 +897,12 @@
       "topic": "moon-hidden-lava-tubes",
       "title": "5 Insane Facts About Moon's Hidden Lava Tubes! 🌌✨",
       "facebook_post_id": "122183246684897912"
+    },
+    {
+      "timestamp": "2026-09-07T16:20:54.686161",
+      "topic": "bioluminescent-rain-phenomenon",
+      "title": "5 Insane Facts About Bioluminescent Rain! 🌌✨",
+      "facebook_post_id": "122183255744897912"
     }
   ]
 }
