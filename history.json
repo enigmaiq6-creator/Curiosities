@@ -126,9 +126,10 @@
     "coelacanth-heart-two-speed-pumping",
     "zircon-time-captules",
     "moon-hidden-lava-tubes",
-    "bioluminescent-rain-phenomenon"
+    "bioluminescent-rain-phenomenon",
+    "hranice-abyss-deep-freshwater-cave"
   ],
-  "total_published_count": 129,
+  "total_published_count": 130,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -903,6 +904,12 @@
       "topic": "bioluminescent-rain-phenomenon",
       "title": "5 Insane Facts About Bioluminescent Rain! 🌌✨",
       "facebook_post_id": "122183255744897912"
+    },
+    {
+      "timestamp": "2026-09-07T18:10:04.678014",
+      "topic": "hranice-abyss-deep-freshwater-cave",
+      "title": "5 Insane Facts About the Hranice Abyss! 🌌✨",
+      "facebook_post_id": "122183265116897912"
     }
   ]
 }
