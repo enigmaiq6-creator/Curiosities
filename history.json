@@ -128,9 +128,10 @@
     "moon-hidden-lava-tubes",
     "bioluminescent-rain-phenomenon",
     "hranice-abyss-deep-freshwater-cave",
-    "gJ-1214b-supercritical-ocean"
+    "gJ-1214b-supercritical-ocean",
+    "venus-lightning-acid-clouds"
   ],
-  "total_published_count": 132,
+  "total_published_count": 133,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -923,6 +924,12 @@
       "topic": "quantum-tunneling-enzymes",
       "title": "5 Insane Facts About Quantum Tunneling Enzymes! 🌌✨",
       "facebook_post_id": "122183292554897912"
+    },
+    {
+      "timestamp": "2026-09-08T05:39:58.343756",
+      "topic": "venus-lightning-acid-clouds",
+      "title": "5 Insane Facts About Venus’s Lightning‑Charged Acid Clouds! 🌌✨",
+      "facebook_post_id": "122183320808897912"
     }
   ]
 }
