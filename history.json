@@ -132,9 +132,10 @@
     "venus-lightning-acid-clouds",
     "mantle-transition-zone-liquid-water",
     "cosmic-quasar-bell-test",
-    "ultra-low-velocity-zones-mysteries"
+    "ultra-low-velocity-zones-mysteries",
+    "mars-mini-magnetospheres"
   ],
-  "total_published_count": 137,
+  "total_published_count": 138,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -957,6 +958,12 @@
       "topic": "ultra-low-velocity-zones-mysteries",
       "title": "5 Insane Facts About Ultra‑Low Velocity Zones! 🌌✨",
       "facebook_post_id": "122183391632897912"
+    },
+    {
+      "timestamp": "2026-09-08T23:18:42.078304",
+      "topic": "mars-mini-magnetospheres",
+      "title": "5 Insane Facts About Mars Mini-Magnetospheres! 🌌✨",
+      "facebook_post_id": "122183405384897912"
     }
   ]
 }
