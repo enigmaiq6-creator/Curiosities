@@ -129,9 +129,10 @@
     "bioluminescent-rain-phenomenon",
     "hranice-abyss-deep-freshwater-cave",
     "gJ-1214b-supercritical-ocean",
-    "venus-lightning-acid-clouds"
+    "venus-lightning-acid-clouds",
+    "mantle-transition-zone-liquid-water"
   ],
-  "total_published_count": 134,
+  "total_published_count": 135,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -936,6 +937,12 @@
       "topic": "rogue-planets-wandering-worlds",
       "title": "5 Insane Facts About Rogue Planets! 🌌✨",
       "facebook_post_id": "122183359808897912"
+    },
+    {
+      "timestamp": "2026-09-08T14:59:30.030987",
+      "topic": "mantle-transition-zone-liquid-water",
+      "title": "5 Insane Facts About Mantle Transition Zone Liquid Water! 🌌✨",
+      "facebook_post_id": "122183368160897912"
     }
   ]
 }
