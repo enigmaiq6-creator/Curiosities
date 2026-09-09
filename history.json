@@ -136,9 +136,10 @@
     "mars-mini-magnetospheres",
     "enzyme-quantum-tunneling",
     "cold-seep-stone-towers",
-    "blood-falls-antarctica-microbes"
+    "blood-falls-antarctica-microbes",
+    "hidden-mantle-water"
   ],
-  "total_published_count": 141,
+  "total_published_count": 142,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -985,6 +986,12 @@
       "topic": "blood-falls-antarctica-microbes",
       "title": "5 Insane Facts About Blood Falls! 🌌✨",
       "facebook_post_id": "122183485256897912"
+    },
+    {
+      "timestamp": "2026-09-09T17:05:25.714113",
+      "topic": "hidden-mantle-water",
+      "title": "5 Insane Facts About Hidden Water in Earth's Mantle! 🌌✨",
+      "facebook_post_id": "122183495288897912"
     }
   ]
 }
