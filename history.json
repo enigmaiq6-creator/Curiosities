@@ -138,9 +138,10 @@
     "cold-seep-stone-towers",
     "blood-falls-antarctica-microbes",
     "hidden-mantle-water",
-    "magnetar-fast-radio-bursts"
+    "magnetar-fast-radio-bursts",
+    "mesozoic-amber-viral-timecapsule"
   ],
-  "total_published_count": 143,
+  "total_published_count": 144,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -999,6 +1000,12 @@
       "topic": "magnetar-fast-radio-bursts",
       "title": "5 Insane Facts About Magnetar Fast Radio Bursts! 🌌✨",
       "facebook_post_id": "122183507930897912"
+    },
+    {
+      "timestamp": "2026-09-09T23:05:28.163268",
+      "topic": "mesozoic-amber-viral-timecapsule",
+      "title": "5 Insane Facts About Mesozoic Amber Viral Timecapsule! 🌌✨",
+      "facebook_post_id": "122183543372897912"
     }
   ]
 }
