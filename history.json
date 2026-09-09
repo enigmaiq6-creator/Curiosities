@@ -135,9 +135,10 @@
     "ultra-low-velocity-zones-mysteries",
     "mars-mini-magnetospheres",
     "enzyme-quantum-tunneling",
-    "cold-seep-stone-towers"
+    "cold-seep-stone-towers",
+    "blood-falls-antarctica-microbes"
   ],
-  "total_published_count": 140,
+  "total_published_count": 141,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -978,6 +979,12 @@
       "topic": "cold-seep-stone-towers",
       "title": "5 Insane Facts About Cold Seep Stone Towers! 🌌✨",
       "facebook_post_id": "122183476568897912"
+    },
+    {
+      "timestamp": "2026-09-09T15:05:39.952079",
+      "topic": "blood-falls-antarctica-microbes",
+      "title": "5 Insane Facts About Blood Falls! 🌌✨",
+      "facebook_post_id": "122183485256897912"
     }
   ]
 }
