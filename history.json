@@ -137,9 +137,10 @@
     "enzyme-quantum-tunneling",
     "cold-seep-stone-towers",
     "blood-falls-antarctica-microbes",
-    "hidden-mantle-water"
+    "hidden-mantle-water",
+    "magnetar-fast-radio-bursts"
   ],
-  "total_published_count": 142,
+  "total_published_count": 143,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -992,6 +993,12 @@
       "topic": "hidden-mantle-water",
       "title": "5 Insane Facts About Hidden Water in Earth's Mantle! 🌌✨",
       "facebook_post_id": "122183495288897912"
+    },
+    {
+      "timestamp": "2026-09-09T19:41:42.563849",
+      "topic": "magnetar-fast-radio-bursts",
+      "title": "5 Insane Facts About Magnetar Fast Radio Bursts! 🌌✨",
+      "facebook_post_id": "122183507930897912"
     }
   ]
 }
