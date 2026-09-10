@@ -140,9 +140,10 @@
     "hidden-mantle-water",
     "magnetar-fast-radio-bursts",
     "mesozoic-amber-viral-timecapsule",
-    "earthquake-lights-piezoelectric-quartz"
+    "earthquake-lights-piezoelectric-quartz",
+    "deep-earth-microbial-biosphere"
   ],
-  "total_published_count": 146,
+  "total_published_count": 147,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1019,6 +1020,12 @@
       "topic": "oklo-natural-nuclear-reactor",
       "title": "5 Insane Facts About Oklo Natural Nuclear Reactor! 🌌✨",
       "facebook_post_id": "122183615708897912"
+    },
+    {
+      "timestamp": "2026-09-10T14:57:41.290918",
+      "topic": "deep-earth-microbial-biosphere",
+      "title": "5 Insane Facts About Deep Earth Microbial Biosphere! 🌌✨",
+      "facebook_post_id": "122183625974897912"
     }
   ]
 }
