@@ -139,9 +139,10 @@
     "blood-falls-antarctica-microbes",
     "hidden-mantle-water",
     "magnetar-fast-radio-bursts",
-    "mesozoic-amber-viral-timecapsule"
+    "mesozoic-amber-viral-timecapsule",
+    "earthquake-lights-piezoelectric-quartz"
   ],
-  "total_published_count": 144,
+  "total_published_count": 145,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1006,6 +1007,12 @@
       "topic": "mesozoic-amber-viral-timecapsule",
       "title": "5 Insane Facts About Mesozoic Amber Viral Timecapsule! 🌌✨",
       "facebook_post_id": "122183543372897912"
+    },
+    {
+      "timestamp": "2026-09-10T05:38:41.746178",
+      "topic": "earthquake-lights-piezoelectric-quartz",
+      "title": "5 Insane Facts About Earthquake Lights! 🌌✨",
+      "facebook_post_id": "122183574188897912"
     }
   ]
 }
