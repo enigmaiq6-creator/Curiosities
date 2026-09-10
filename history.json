@@ -141,9 +141,10 @@
     "magnetar-fast-radio-bursts",
     "mesozoic-amber-viral-timecapsule",
     "earthquake-lights-piezoelectric-quartz",
-    "deep-earth-microbial-biosphere"
+    "deep-earth-microbial-biosphere",
+    "metallic-hydrogen-superconductivity-exoplanets"
   ],
-  "total_published_count": 147,
+  "total_published_count": 148,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1026,6 +1027,12 @@
       "topic": "deep-earth-microbial-biosphere",
       "title": "5 Insane Facts About Deep Earth Microbial Biosphere! 🌌✨",
       "facebook_post_id": "122183625974897912"
+    },
+    {
+      "timestamp": "2026-09-10T16:57:36.044282",
+      "topic": "metallic-hydrogen-superconductivity-exoplanets",
+      "title": "5 Insane Facts About Metallic Hydrogen Superconductivity! 🌌✨",
+      "facebook_post_id": "122183634458897912"
     }
   ]
 }
