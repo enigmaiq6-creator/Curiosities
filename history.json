@@ -145,9 +145,10 @@
     "metallic-hydrogen-superconductivity-exoplanets",
     "human-nose-quantum-tunneling-smell",
     "quantum-entanglement-photosynthetic-bacteria",
-    "bird-quantum-navigation"
+    "bird-quantum-navigation",
+    "mantle-conduction-currents"
   ],
-  "total_published_count": 152,
+  "total_published_count": 153,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1060,6 +1061,12 @@
       "topic": "bird-quantum-navigation",
       "title": "5 Insane Facts About Bird Quantum Navigation! 🌌✨",
       "facebook_post_id": "122183724506897912"
+    },
+    {
+      "timestamp": "2026-09-11T14:54:54.918341",
+      "topic": "mantle-conduction-currents",
+      "title": "5 Insane Facts About Mantle Conduction Currents! 🌌✨",
+      "facebook_post_id": "122183731028897912"
     }
   ]
 }
