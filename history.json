@@ -148,9 +148,10 @@
     "bird-quantum-navigation",
     "mantle-conduction-currents",
     "underground-fungal-internet",
-    "brown-dwarf-mysteries"
+    "brown-dwarf-mysteries",
+    "naica_crystal_forest"
   ],
-  "total_published_count": 155,
+  "total_published_count": 156,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1081,6 +1082,12 @@
       "topic": "brown-dwarf-mysteries",
       "title": "5 Insane Facts About Brown Dwarfs! 🌌✨",
       "facebook_post_id": "122183756768897912"
+    },
+    {
+      "timestamp": "2026-09-11T23:08:11.601103",
+      "topic": "naica_crystal_forest",
+      "title": "5 Insane Facts About Naica’s Giant Crystal Forest! 🌌✨",
+      "facebook_post_id": "122183769722897912"
     }
   ]
 }
