@@ -152,9 +152,10 @@
     "naica_crystal_forest",
     "mantle-ultra-salty-water-ocean",
     "animals",
-    "singing-sand-dunes"
+    "singing-sand-dunes",
+    "k2-141b-lava-planet"
   ],
-  "total_published_count": 160,
+  "total_published_count": 161,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1115,6 +1116,12 @@
       "topic": "singing-sand-dunes",
       "title": "5 Insane Facts About Singing Sand Dunes! 🌌✨",
       "facebook_post_id": "122183846540897912"
+    },
+    {
+      "timestamp": "2026-09-12T19:04:39.356030",
+      "topic": "k2-141b-lava-planet",
+      "title": "5 Insane Facts About K2-141b! 🌌✨",
+      "facebook_post_id": "122183857916897912"
     }
   ]
 }
