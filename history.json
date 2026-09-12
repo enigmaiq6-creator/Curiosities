@@ -149,9 +149,10 @@
     "mantle-conduction-currents",
     "underground-fungal-internet",
     "brown-dwarf-mysteries",
-    "naica_crystal_forest"
+    "naica_crystal_forest",
+    "mantle-ultra-salty-water-ocean"
   ],
-  "total_published_count": 156,
+  "total_published_count": 157,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1088,6 +1089,12 @@
       "topic": "naica_crystal_forest",
       "title": "5 Insane Facts About Naica’s Giant Crystal Forest! 🌌✨",
       "facebook_post_id": "122183769722897912"
+    },
+    {
+      "timestamp": "2026-09-12T05:28:36.032739",
+      "topic": "mantle-ultra-salty-water-ocean",
+      "title": "5 Insane Facts About Mantle Ultra‑Salty Water Oceans! 🌌✨",
+      "facebook_post_id": "122183797934897912"
     }
   ]
 }
