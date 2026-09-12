@@ -151,9 +151,10 @@
     "brown-dwarf-mysteries",
     "naica_crystal_forest",
     "mantle-ultra-salty-water-ocean",
-    "animals"
+    "animals",
+    "singing-sand-dunes"
   ],
-  "total_published_count": 159,
+  "total_published_count": 160,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1108,6 +1109,12 @@
       "topic": "animals",
       "title": "5 Animals with Real Superpowers in Nature! 🦅🦎",
       "facebook_post_id": "122183837066897912"
+    },
+    {
+      "timestamp": "2026-09-12T16:02:45.994493",
+      "topic": "singing-sand-dunes",
+      "title": "5 Insane Facts About Singing Sand Dunes! 🌌✨",
+      "facebook_post_id": "122183846540897912"
     }
   ]
 }
