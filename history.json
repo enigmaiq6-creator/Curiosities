@@ -153,9 +153,10 @@
     "mantle-ultra-salty-water-ocean",
     "animals",
     "singing-sand-dunes",
-    "k2-141b-lava-planet"
+    "k2-141b-lava-planet",
+    "white-dwarf-pulsar-ar-scorpii"
   ],
-  "total_published_count": 161,
+  "total_published_count": 162,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1122,6 +1123,12 @@
       "topic": "k2-141b-lava-planet",
       "title": "5 Insane Facts About K2-141b! 🌌✨",
       "facebook_post_id": "122183857916897912"
+    },
+    {
+      "timestamp": "2026-09-12T22:58:39.975623",
+      "topic": "white-dwarf-pulsar-ar-scorpii",
+      "title": "5 Insane Facts About White Dwarf Pulsar AR Scorpii! 🌌✨",
+      "facebook_post_id": "122183875004897912"
     }
   ]
 }
