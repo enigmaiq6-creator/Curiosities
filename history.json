@@ -157,9 +157,10 @@
     "white-dwarf-pulsar-ar-scorpii",
     "mercury-magnetic-field",
     "exoplanet-auroral-radio-emission",
-    "tardigrade-deep-sea-survival"
+    "tardigrade-deep-sea-survival",
+    "proton-tunneling-dna-mutations"
   ],
-  "total_published_count": 165,
+  "total_published_count": 166,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1150,6 +1151,12 @@
       "topic": "tardigrade-deep-sea-survival",
       "title": "5 Insane Facts About Tardigrade Deep Sea Survival! 🌌✨",
       "facebook_post_id": "122183947268897912"
+    },
+    {
+      "timestamp": "2026-09-13T16:53:18.034109",
+      "topic": "proton-tunneling-dna-mutations",
+      "title": "5 Insane Facts About Proton Tunneling in DNA! 🌌✨",
+      "facebook_post_id": "122183956622897912"
     }
   ]
 }
