@@ -154,9 +154,10 @@
     "animals",
     "singing-sand-dunes",
     "k2-141b-lava-planet",
-    "white-dwarf-pulsar-ar-scorpii"
+    "white-dwarf-pulsar-ar-scorpii",
+    "mercury-magnetic-field"
   ],
-  "total_published_count": 162,
+  "total_published_count": 163,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1129,6 +1130,12 @@
       "topic": "white-dwarf-pulsar-ar-scorpii",
       "title": "5 Insane Facts About White Dwarf Pulsar AR Scorpii! 🌌✨",
       "facebook_post_id": "122183875004897912"
+    },
+    {
+      "timestamp": "2026-09-13T05:42:06.427452",
+      "topic": "mercury-magnetic-field",
+      "title": "5 Insane Facts About Mercury's Magnetic Field! 🌌✨",
+      "facebook_post_id": "122183907110897912"
     }
   ]
 }
