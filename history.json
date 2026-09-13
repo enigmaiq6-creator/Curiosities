@@ -155,9 +155,10 @@
     "singing-sand-dunes",
     "k2-141b-lava-planet",
     "white-dwarf-pulsar-ar-scorpii",
-    "mercury-magnetic-field"
+    "mercury-magnetic-field",
+    "exoplanet-auroral-radio-emission"
   ],
-  "total_published_count": 163,
+  "total_published_count": 164,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1136,6 +1137,12 @@
       "topic": "mercury-magnetic-field",
       "title": "5 Insane Facts About Mercury's Magnetic Field! 🌌✨",
       "facebook_post_id": "122183907110897912"
+    },
+    {
+      "timestamp": "2026-09-13T13:32:51.311459",
+      "topic": "exoplanet-auroral-radio-emission",
+      "title": "5 Insane Facts About Exoplanet Auroras! 🌌✨",
+      "facebook_post_id": "122183941028897912"
     }
   ]
 }
