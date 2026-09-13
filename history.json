@@ -158,9 +158,10 @@
     "mercury-magnetic-field",
     "exoplanet-auroral-radio-emission",
     "tardigrade-deep-sea-survival",
-    "proton-tunneling-dna-mutations"
+    "proton-tunneling-dna-mutations",
+    "toba-supervolcano-hidden-geothermal"
   ],
-  "total_published_count": 166,
+  "total_published_count": 167,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1157,6 +1158,12 @@
       "topic": "proton-tunneling-dna-mutations",
       "title": "5 Insane Facts About Proton Tunneling in DNA! 🌌✨",
       "facebook_post_id": "122183956622897912"
+    },
+    {
+      "timestamp": "2026-09-13T19:18:13.302761",
+      "topic": "toba-supervolcano-hidden-geothermal",
+      "title": "5 Insane Facts About Toba Supervolcano Hidden Geothermal Power! 🌌✨",
+      "facebook_post_id": "122183973302897912"
     }
   ]
 }
