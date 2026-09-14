@@ -161,9 +161,10 @@
     "proton-tunneling-dna-mutations",
     "toba-supervolcano-hidden-geothermal",
     "acasta_gneiss_microfossils",
-    "saharan-silver-ant-heat-masters"
+    "saharan-silver-ant-heat-masters",
+    "honey-fungus-giant"
   ],
-  "total_published_count": 169,
+  "total_published_count": 170,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1178,6 +1179,12 @@
       "topic": "saharan-silver-ant-heat-masters",
       "title": "5 Insane Facts About Saharan Silver Ants! 🌌✨",
       "facebook_post_id": "122184019322897912"
+    },
+    {
+      "timestamp": "2026-09-14T15:22:25.484540",
+      "topic": "honey-fungus-giant",
+      "title": "5 Insane Facts About the Honey Fungus Giant! 🌌✨",
+      "facebook_post_id": "122184065888897912"
     }
   ]
 }
