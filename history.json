@@ -165,9 +165,10 @@
     "honey-fungus-giant",
     "giant-nitrate-storing-bacteria",
     "core-uranium-decay-geodynamo",
-    "cosmic-quasicrystals"
+    "cosmic-quasicrystals",
+    "jupiters-metallic-hydrogen-ocean"
   ],
-  "total_published_count": 173,
+  "total_published_count": 174,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1206,6 +1207,12 @@
       "topic": "cosmic-quasicrystals",
       "title": "5 Insane Facts About Cosmic Quasicrystals! 🌌✨",
       "facebook_post_id": "122184091568897912"
+    },
+    {
+      "timestamp": "2026-09-14T23:47:45.279502",
+      "topic": "jupiters-metallic-hydrogen-ocean",
+      "title": "5 Insane Facts About Jupiter's Metallic Hydrogen Ocean! 🌌✨",
+      "facebook_post_id": "122184104738897912"
     }
   ]
 }
