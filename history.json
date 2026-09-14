@@ -162,9 +162,10 @@
     "toba-supervolcano-hidden-geothermal",
     "acasta_gneiss_microfossils",
     "saharan-silver-ant-heat-masters",
-    "honey-fungus-giant"
+    "honey-fungus-giant",
+    "giant-nitrate-storing-bacteria"
   ],
-  "total_published_count": 170,
+  "total_published_count": 171,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1185,6 +1186,12 @@
       "topic": "honey-fungus-giant",
       "title": "5 Insane Facts About the Honey Fungus Giant! 🌌✨",
       "facebook_post_id": "122184065888897912"
+    },
+    {
+      "timestamp": "2026-09-14T16:51:58.235029",
+      "topic": "giant-nitrate-storing-bacteria",
+      "title": "5 Insane Facts About Giant Nitrate‑Storing Bacteria! 🌌✨",
+      "facebook_post_id": "122184071966897912"
     }
   ]
 }
