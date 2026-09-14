@@ -164,9 +164,10 @@
     "saharan-silver-ant-heat-masters",
     "honey-fungus-giant",
     "giant-nitrate-storing-bacteria",
-    "core-uranium-decay-geodynamo"
+    "core-uranium-decay-geodynamo",
+    "cosmic-quasicrystals"
   ],
-  "total_published_count": 172,
+  "total_published_count": 173,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1199,6 +1200,12 @@
       "topic": "core-uranium-decay-geodynamo",
       "title": "5 Insane Facts About the Core's Radioactive Heart! 🌌✨",
       "facebook_post_id": "122184076100897912"
+    },
+    {
+      "timestamp": "2026-09-14T20:49:59.473921",
+      "topic": "cosmic-quasicrystals",
+      "title": "5 Insane Facts About Cosmic Quasicrystals! 🌌✨",
+      "facebook_post_id": "122184091568897912"
     }
   ]
 }
