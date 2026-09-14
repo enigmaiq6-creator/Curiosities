@@ -163,9 +163,10 @@
     "acasta_gneiss_microfossils",
     "saharan-silver-ant-heat-masters",
     "honey-fungus-giant",
-    "giant-nitrate-storing-bacteria"
+    "giant-nitrate-storing-bacteria",
+    "core-uranium-decay-geodynamo"
   ],
-  "total_published_count": 171,
+  "total_published_count": 172,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1192,6 +1193,12 @@
       "topic": "giant-nitrate-storing-bacteria",
       "title": "5 Insane Facts About Giant Nitrate‑Storing Bacteria! 🌌✨",
       "facebook_post_id": "122184071966897912"
+    },
+    {
+      "timestamp": "2026-09-14T18:23:44.669900",
+      "topic": "core-uranium-decay-geodynamo",
+      "title": "5 Insane Facts About the Core's Radioactive Heart! 🌌✨",
+      "facebook_post_id": "122184076100897912"
     }
   ]
 }
