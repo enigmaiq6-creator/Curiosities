@@ -167,9 +167,10 @@
     "core-uranium-decay-geodynamo",
     "cosmic-quasicrystals",
     "jupiters-metallic-hydrogen-ocean",
-    "inner-core-crystal-alignment"
+    "inner-core-crystal-alignment",
+    "inner-core-acoustic-resonance"
   ],
-  "total_published_count": 175,
+  "total_published_count": 176,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1220,6 +1221,12 @@
       "topic": "inner-core-crystal-alignment",
       "title": "5 Insane Facts About Earth's Inner Core Crystal Alignment! 🌌✨",
       "facebook_post_id": "122184134756897912"
+    },
+    {
+      "timestamp": "2026-09-15T13:58:25.251916",
+      "topic": "inner-core-acoustic-resonance",
+      "title": "5 Insane Facts About Inner Core Acoustic Resonance! 🌌✨",
+      "facebook_post_id": "122184172412897912"
     }
   ]
 }
