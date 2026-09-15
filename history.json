@@ -166,9 +166,10 @@
     "giant-nitrate-storing-bacteria",
     "core-uranium-decay-geodynamo",
     "cosmic-quasicrystals",
-    "jupiters-metallic-hydrogen-ocean"
+    "jupiters-metallic-hydrogen-ocean",
+    "inner-core-crystal-alignment"
   ],
-  "total_published_count": 174,
+  "total_published_count": 175,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1213,6 +1214,12 @@
       "topic": "jupiters-metallic-hydrogen-ocean",
       "title": "5 Insane Facts About Jupiter's Metallic Hydrogen Ocean! 🌌✨",
       "facebook_post_id": "122184104738897912"
+    },
+    {
+      "timestamp": "2026-09-15T05:51:36.447899",
+      "topic": "inner-core-crystal-alignment",
+      "title": "5 Insane Facts About Earth's Inner Core Crystal Alignment! 🌌✨",
+      "facebook_post_id": "122184134756897912"
     }
   ]
 }
