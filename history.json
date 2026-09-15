@@ -168,9 +168,10 @@
     "cosmic-quasicrystals",
     "jupiters-metallic-hydrogen-ocean",
     "inner-core-crystal-alignment",
-    "inner-core-acoustic-resonance"
+    "inner-core-acoustic-resonance",
+    "roman-brick-magnetic-compass"
   ],
-  "total_published_count": 176,
+  "total_published_count": 177,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1227,6 +1228,12 @@
       "topic": "inner-core-acoustic-resonance",
       "title": "5 Insane Facts About Inner Core Acoustic Resonance! 🌌✨",
       "facebook_post_id": "122184172412897912"
+    },
+    {
+      "timestamp": "2026-09-15T15:32:17.530730",
+      "topic": "roman-brick-magnetic-compass",
+      "title": "5 Insane Facts About Roman Brick Magnetic Compass! 🌌✨",
+      "facebook_post_id": "122184178220897912"
     }
   ]
 }
