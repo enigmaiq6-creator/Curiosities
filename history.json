@@ -170,9 +170,10 @@
     "inner-core-crystal-alignment",
     "inner-core-acoustic-resonance",
     "roman-brick-magnetic-compass",
-    "interstellar-dust-seed-life"
+    "interstellar-dust-seed-life",
+    "pando-giant-aspen-clone"
   ],
-  "total_published_count": 178,
+  "total_published_count": 179,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1241,6 +1242,12 @@
       "topic": "interstellar-dust-seed-life",
       "title": "5 Insane Facts About Interstellar Dust Grains! 🌌✨",
       "facebook_post_id": "122184186494897912"
+    },
+    {
+      "timestamp": "2026-09-15T20:06:23.291834",
+      "topic": "pando-giant-aspen-clone",
+      "title": "5 Insane Facts About Pando! 🌌✨",
+      "facebook_post_id": "122184199682897912"
     }
   ]
 }
