@@ -172,9 +172,10 @@
     "roman-brick-magnetic-compass",
     "interstellar-dust-seed-life",
     "pando-giant-aspen-clone",
-    "inner-core-rotating-crystal-heart"
+    "inner-core-rotating-crystal-heart",
+    "mantle-fossils-ancient-ocean-crust"
   ],
-  "total_published_count": 181,
+  "total_published_count": 182,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1261,6 +1262,12 @@
       "topic": "inner-core-rotating-crystal-heart",
       "title": "5 Insane Facts About The Earth's Inner Core! 🌌✨",
       "facebook_post_id": "122184242174897912"
+    },
+    {
+      "timestamp": "2026-09-16T13:50:56.196334",
+      "topic": "mantle-fossils-ancient-ocean-crust",
+      "title": "5 Insane Facts About Mantle Fossils! 🌌✨",
+      "facebook_post_id": "122184277256897912"
     }
   ]
 }
