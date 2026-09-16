@@ -173,9 +173,10 @@
     "interstellar-dust-seed-life",
     "pando-giant-aspen-clone",
     "inner-core-rotating-crystal-heart",
-    "mantle-fossils-ancient-ocean-crust"
+    "mantle-fossils-ancient-ocean-crust",
+    "roman-self-healing-concrete"
   ],
-  "total_published_count": 182,
+  "total_published_count": 183,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1268,6 +1269,12 @@
       "topic": "mantle-fossils-ancient-ocean-crust",
       "title": "5 Insane Facts About Mantle Fossils! 🌌✨",
       "facebook_post_id": "122184277256897912"
+    },
+    {
+      "timestamp": "2026-09-16T15:24:07.489516",
+      "topic": "roman-self-healing-concrete",
+      "title": "5 Insane Facts About Roman Self-Healing Concrete! 🌌✨",
+      "facebook_post_id": "122184285278897912"
     }
   ]
 }
