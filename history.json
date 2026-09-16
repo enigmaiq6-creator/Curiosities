@@ -171,9 +171,10 @@
     "inner-core-acoustic-resonance",
     "roman-brick-magnetic-compass",
     "interstellar-dust-seed-life",
-    "pando-giant-aspen-clone"
+    "pando-giant-aspen-clone",
+    "inner-core-rotating-crystal-heart"
   ],
-  "total_published_count": 180,
+  "total_published_count": 181,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1254,6 +1255,12 @@
       "topic": "inner-core-super-rotation",
       "title": "5 Insane Facts About Earth's Inner Core Super‑Rotation! 🌌✨",
       "facebook_post_id": "122184209870897912"
+    },
+    {
+      "timestamp": "2026-09-16T05:42:06.767647",
+      "topic": "inner-core-rotating-crystal-heart",
+      "title": "5 Insane Facts About The Earth's Inner Core! 🌌✨",
+      "facebook_post_id": "122184242174897912"
     }
   ]
 }
