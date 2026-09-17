@@ -181,9 +181,10 @@
     "metallic-water-mantle-ocean",
     "subglacial-lake-vostok",
     "quantum-tunneling-vision",
-    "superionic-ice-oceans"
+    "superionic-ice-oceans",
+    "io-volcanic-plume-particle-accelerators"
   ],
-  "total_published_count": 191,
+  "total_published_count": 192,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1330,6 +1331,12 @@
       "topic": "superionic-ice-oceans",
       "title": "5 Insane Facts About Superionic Ice Oceans! 🌌✨",
       "facebook_post_id": "122184418868897912"
+    },
+    {
+      "timestamp": "2026-09-17T23:29:11.825382",
+      "topic": "io-volcanic-plume-particle-accelerators",
+      "title": "5 Insane Facts About Io's Volcanic Particle Accelerators! 🌌✨",
+      "facebook_post_id": "122184436022897912"
     }
   ]
 }
