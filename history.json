@@ -180,9 +180,10 @@
     "silent-symphony-deep-sea-vents",
     "metallic-water-mantle-ocean",
     "subglacial-lake-vostok",
-    "quantum-tunneling-vision"
+    "quantum-tunneling-vision",
+    "superionic-ice-oceans"
   ],
-  "total_published_count": 190,
+  "total_published_count": 191,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1323,6 +1324,12 @@
       "topic": "oklo-natural-nuclear-reactor",
       "title": "5 Insane Facts About Oklo Natural Nuclear Reactor! 🌌✨",
       "facebook_post_id": "122184396542897912"
+    },
+    {
+      "timestamp": "2026-09-17T20:08:10.553582",
+      "topic": "superionic-ice-oceans",
+      "title": "5 Insane Facts About Superionic Ice Oceans! 🌌✨",
+      "facebook_post_id": "122184418868897912"
     }
   ]
 }
