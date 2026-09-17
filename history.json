@@ -177,9 +177,10 @@
     "roman-self-healing-concrete",
     "time-crystals-quantum",
     "interstellar-ice-crystal-structures",
-    "silent-symphony-deep-sea-vents"
+    "silent-symphony-deep-sea-vents",
+    "metallic-water-mantle-ocean"
   ],
-  "total_published_count": 186,
+  "total_published_count": 187,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1296,6 +1297,12 @@
       "topic": "silent-symphony-deep-sea-vents",
       "title": "5 Insane Facts About Deep-Sea Hydrothermal Vents! 🌌✨",
       "facebook_post_id": "122184319496897912"
+    },
+    {
+      "timestamp": "2026-09-17T05:47:41.885821",
+      "topic": "metallic-water-mantle-ocean",
+      "title": "5 Insane Facts About Metallic Water Deep in Earth's Mantle! 🌌✨",
+      "facebook_post_id": "122184347324897912"
     }
   ]
 }
