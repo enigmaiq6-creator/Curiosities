@@ -178,9 +178,10 @@
     "time-crystals-quantum",
     "interstellar-ice-crystal-structures",
     "silent-symphony-deep-sea-vents",
-    "metallic-water-mantle-ocean"
+    "metallic-water-mantle-ocean",
+    "subglacial-lake-vostok"
   ],
-  "total_published_count": 187,
+  "total_published_count": 188,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1303,6 +1304,12 @@
       "topic": "metallic-water-mantle-ocean",
       "title": "5 Insane Facts About Metallic Water Deep in Earth's Mantle! 🌌✨",
       "facebook_post_id": "122184347324897912"
+    },
+    {
+      "timestamp": "2026-09-17T13:53:53.274257",
+      "topic": "subglacial-lake-vostok",
+      "title": "5 Insane Facts About Subglacial Lake Vostok! 🌌✨",
+      "facebook_post_id": "122184384434897912"
     }
   ]
 }
