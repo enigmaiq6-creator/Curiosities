@@ -187,9 +187,10 @@
     "titan-methane-ocean",
     "subglacial-volcanic-superstorms",
     "moon-frozen-secrets",
-    "lunar-glass-spherules-solar-wind"
+    "lunar-glass-spherules-solar-wind",
+    "microbes-in-the-mantle"
   ],
-  "total_published_count": 197,
+  "total_published_count": 198,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1372,6 +1373,12 @@
       "topic": "lunar-glass-spherules-solar-wind",
       "title": "5 Insane Facts About Lunar Glass Spherules! 🌌✨",
       "facebook_post_id": "122184538028897912"
+    },
+    {
+      "timestamp": "2026-09-18T23:09:47.637210",
+      "topic": "microbes-in-the-mantle",
+      "title": "5 Insane Facts About Microbes in the Earth's Mantle! 🌌✨",
+      "facebook_post_id": "122184554846897912"
     }
   ]
 }
