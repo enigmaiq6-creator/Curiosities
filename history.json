@@ -183,9 +183,10 @@
     "quantum-tunneling-vision",
     "superionic-ice-oceans",
     "io-volcanic-plume-particle-accelerators",
-    "meganeura-giant-dragonfly"
+    "meganeura-giant-dragonfly",
+    "titan-methane-ocean"
   ],
-  "total_published_count": 193,
+  "total_published_count": 194,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1344,6 +1345,12 @@
       "topic": "meganeura-giant-dragonfly",
       "title": "5 Insane Facts About Meganeura, the Giant Dragonfly! 🌌✨",
       "facebook_post_id": "122184468332897912"
+    },
+    {
+      "timestamp": "2026-09-18T13:15:47.324569",
+      "topic": "titan-methane-ocean",
+      "title": "5 Insane Facts About Titan's Subsurface Liquid Methane Ocean! 🌌✨",
+      "facebook_post_id": "122184506462897912"
     }
   ]
 }
