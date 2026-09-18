@@ -184,9 +184,10 @@
     "superionic-ice-oceans",
     "io-volcanic-plume-particle-accelerators",
     "meganeura-giant-dragonfly",
-    "titan-methane-ocean"
+    "titan-methane-ocean",
+    "subglacial-volcanic-superstorms"
   ],
-  "total_published_count": 194,
+  "total_published_count": 195,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1351,6 +1352,12 @@
       "topic": "titan-methane-ocean",
       "title": "5 Insane Facts About Titan's Subsurface Liquid Methane Ocean! 🌌✨",
       "facebook_post_id": "122184506462897912"
+    },
+    {
+      "timestamp": "2026-09-18T14:51:41.829047",
+      "topic": "subglacial-volcanic-superstorms",
+      "title": "5 Insane Facts About Subglacial Volcanic Superstorms! 🌌✨",
+      "facebook_post_id": "122184514910897912"
     }
   ]
 }
