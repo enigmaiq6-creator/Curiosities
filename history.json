@@ -186,9 +186,10 @@
     "meganeura-giant-dragonfly",
     "titan-methane-ocean",
     "subglacial-volcanic-superstorms",
-    "moon-frozen-secrets"
+    "moon-frozen-secrets",
+    "lunar-glass-spherules-solar-wind"
   ],
-  "total_published_count": 196,
+  "total_published_count": 197,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1365,6 +1366,12 @@
       "topic": "moon-frozen-secrets",
       "title": "5 Insane Facts About Moon's Frozen Secrets! 🌌✨",
       "facebook_post_id": "122184523226897912"
+    },
+    {
+      "timestamp": "2026-09-18T19:31:43.463495",
+      "topic": "lunar-glass-spherules-solar-wind",
+      "title": "5 Insane Facts About Lunar Glass Spherules! 🌌✨",
+      "facebook_post_id": "122184538028897912"
     }
   ]
 }
