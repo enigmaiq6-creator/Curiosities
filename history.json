@@ -182,9 +182,10 @@
     "subglacial-lake-vostok",
     "quantum-tunneling-vision",
     "superionic-ice-oceans",
-    "io-volcanic-plume-particle-accelerators"
+    "io-volcanic-plume-particle-accelerators",
+    "meganeura-giant-dragonfly"
   ],
-  "total_published_count": 192,
+  "total_published_count": 193,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1337,6 +1338,12 @@
       "topic": "io-volcanic-plume-particle-accelerators",
       "title": "5 Insane Facts About Io's Volcanic Particle Accelerators! 🌌✨",
       "facebook_post_id": "122184436022897912"
+    },
+    {
+      "timestamp": "2026-09-18T05:35:29.414919",
+      "topic": "meganeura-giant-dragonfly",
+      "title": "5 Insane Facts About Meganeura, the Giant Dragonfly! 🌌✨",
+      "facebook_post_id": "122184468332897912"
     }
   ]
 }
