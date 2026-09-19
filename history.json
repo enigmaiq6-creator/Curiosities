@@ -191,9 +191,10 @@
     "microbes-in-the-mantle",
     "bioluminescent-ice-caves",
     "metallic-microbial-mats-deep-sea-brine-pools",
-    "ancient-westward-amazon-river"
+    "ancient-westward-amazon-river",
+    "rogue-black-hole-nearby"
   ],
-  "total_published_count": 202,
+  "total_published_count": 203,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1406,6 +1407,12 @@
       "topic": "ceres-hidden-ocean",
       "title": "5 Insane Facts About Ceres' Hidden Ocean! 🌌✨",
       "facebook_post_id": "122184655586897912"
+    },
+    {
+      "timestamp": "2026-09-19T19:17:24.537557",
+      "topic": "rogue-black-hole-nearby",
+      "title": "5 Insane Facts About Rogue Black Holes! 🌌✨",
+      "facebook_post_id": "122184672164897912"
     }
   ]
 }
