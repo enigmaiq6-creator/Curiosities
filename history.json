@@ -188,9 +188,10 @@
     "subglacial-volcanic-superstorms",
     "moon-frozen-secrets",
     "lunar-glass-spherules-solar-wind",
-    "microbes-in-the-mantle"
+    "microbes-in-the-mantle",
+    "bioluminescent-ice-caves"
   ],
-  "total_published_count": 198,
+  "total_published_count": 199,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1379,6 +1380,12 @@
       "topic": "microbes-in-the-mantle",
       "title": "5 Insane Facts About Microbes in the Earth's Mantle! 🌌✨",
       "facebook_post_id": "122184554846897912"
+    },
+    {
+      "timestamp": "2026-09-19T05:33:05.420243",
+      "topic": "bioluminescent-ice-caves",
+      "title": "5 Insane Facts About Bioluminescent Ice Caves! 🌌✨",
+      "facebook_post_id": "122184597596897912"
     }
   ]
 }
