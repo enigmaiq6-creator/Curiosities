@@ -192,9 +192,10 @@
     "bioluminescent-ice-caves",
     "metallic-microbial-mats-deep-sea-brine-pools",
     "ancient-westward-amazon-river",
-    "rogue-black-hole-nearby"
+    "rogue-black-hole-nearby",
+    "ocean-quahog-centenarian-clam"
   ],
-  "total_published_count": 203,
+  "total_published_count": 204,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1413,6 +1414,12 @@
       "topic": "rogue-black-hole-nearby",
       "title": "5 Insane Facts About Rogue Black Holes! 🌌✨",
       "facebook_post_id": "122184672164897912"
+    },
+    {
+      "timestamp": "2026-09-19T22:48:45.962924",
+      "topic": "ocean-quahog-centenarian-clam",
+      "title": "5 Insane Facts About Ocean Quahog! 🌊✨",
+      "facebook_post_id": "122184693398897912"
     }
   ]
 }
