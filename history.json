@@ -189,9 +189,10 @@
     "moon-frozen-secrets",
     "lunar-glass-spherules-solar-wind",
     "microbes-in-the-mantle",
-    "bioluminescent-ice-caves"
+    "bioluminescent-ice-caves",
+    "metallic-microbial-mats-deep-sea-brine-pools"
   ],
-  "total_published_count": 199,
+  "total_published_count": 200,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1386,6 +1387,12 @@
       "topic": "bioluminescent-ice-caves",
       "title": "5 Insane Facts About Bioluminescent Ice Caves! 🌌✨",
       "facebook_post_id": "122184597596897912"
+    },
+    {
+      "timestamp": "2026-09-19T12:47:45.563317",
+      "topic": "metallic-microbial-mats-deep-sea-brine-pools",
+      "title": "5 Insane Facts About Metallic Microbial Mats in Deep‑Sea Brine Pools! 🌌✨",
+      "facebook_post_id": "122184638570897912"
     }
   ]
 }
