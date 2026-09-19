@@ -190,9 +190,10 @@
     "lunar-glass-spherules-solar-wind",
     "microbes-in-the-mantle",
     "bioluminescent-ice-caves",
-    "metallic-microbial-mats-deep-sea-brine-pools"
+    "metallic-microbial-mats-deep-sea-brine-pools",
+    "ancient-westward-amazon-river"
   ],
-  "total_published_count": 200,
+  "total_published_count": 201,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1393,6 +1394,12 @@
       "topic": "metallic-microbial-mats-deep-sea-brine-pools",
       "title": "5 Insane Facts About Metallic Microbial Mats in Deep‑Sea Brine Pools! 🌌✨",
       "facebook_post_id": "122184638570897912"
+    },
+    {
+      "timestamp": "2026-09-19T14:16:53.803210",
+      "topic": "ancient-westward-amazon-river",
+      "title": "5 Insane Facts About the Ancient Westward‑Flowing Amazon River! 🌌✨",
+      "facebook_post_id": "122184646028897912"
     }
   ]
 }
