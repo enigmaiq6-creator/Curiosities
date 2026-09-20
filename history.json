@@ -197,9 +197,10 @@
     "mariana-trench-amphipod-mysteries",
     "human-natural-radioactivity-glow",
     "sarma-deepest-cave",
-    "europas-hidden-ocean"
+    "europas-hidden-ocean",
+    "martian-lava-tubes-subterranean-highways"
   ],
-  "total_published_count": 208,
+  "total_published_count": 209,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1448,6 +1449,12 @@
       "topic": "europas-hidden-ocean",
       "title": "5 Insane Facts About Europa's Hidden Ocean! 🌌✨",
       "facebook_post_id": "122184800162897912"
+    },
+    {
+      "timestamp": "2026-09-20T19:22:14.675296",
+      "topic": "martian-lava-tubes-subterranean-highways",
+      "title": "5 Insane Facts About Martian Lava Tubes! 🌌✨",
+      "facebook_post_id": "122184816506897912"
     }
   ]
 }
