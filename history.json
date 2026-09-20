@@ -198,9 +198,10 @@
     "human-natural-radioactivity-glow",
     "sarma-deepest-cave",
     "europas-hidden-ocean",
-    "martian-lava-tubes-subterranean-highways"
+    "martian-lava-tubes-subterranean-highways",
+    "pistol-shrimp-superheated-bubble"
   ],
-  "total_published_count": 209,
+  "total_published_count": 210,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1455,6 +1456,12 @@
       "topic": "martian-lava-tubes-subterranean-highways",
       "title": "5 Insane Facts About Martian Lava Tubes! 🌌✨",
       "facebook_post_id": "122184816506897912"
+    },
+    {
+      "timestamp": "2026-09-20T23:08:02.821242",
+      "topic": "pistol-shrimp-superheated-bubble",
+      "title": "5 Insane Facts About the Pistol Shrimp's Superheated Bubble! 🌌✨",
+      "facebook_post_id": "122184837302897912"
     }
   ]
 }
