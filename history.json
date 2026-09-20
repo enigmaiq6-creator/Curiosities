@@ -194,9 +194,10 @@
     "ancient-westward-amazon-river",
     "rogue-black-hole-nearby",
     "ocean-quahog-centenarian-clam",
-    "mariana-trench-amphipod-mysteries"
+    "mariana-trench-amphipod-mysteries",
+    "human-natural-radioactivity-glow"
   ],
-  "total_published_count": 205,
+  "total_published_count": 206,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1427,6 +1428,12 @@
       "topic": "mariana-trench-amphipod-mysteries",
       "title": "5 Insane Facts About Mariana Trench Amphipods! 🌌✨",
       "facebook_post_id": "122184736310897912"
+    },
+    {
+      "timestamp": "2026-09-20T13:19:08.152246",
+      "topic": "human-natural-radioactivity-glow",
+      "title": "5 Insane Facts About Human Natural Radioactivity! 🌌✨",
+      "facebook_post_id": "122184780794897912"
     }
   ]
 }
