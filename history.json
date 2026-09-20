@@ -193,9 +193,10 @@
     "metallic-microbial-mats-deep-sea-brine-pools",
     "ancient-westward-amazon-river",
     "rogue-black-hole-nearby",
-    "ocean-quahog-centenarian-clam"
+    "ocean-quahog-centenarian-clam",
+    "mariana-trench-amphipod-mysteries"
   ],
-  "total_published_count": 204,
+  "total_published_count": 205,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1420,6 +1421,12 @@
       "topic": "ocean-quahog-centenarian-clam",
       "title": "5 Insane Facts About Ocean Quahog! 🌊✨",
       "facebook_post_id": "122184693398897912"
+    },
+    {
+      "timestamp": "2026-09-20T05:45:52.970388",
+      "topic": "mariana-trench-amphipod-mysteries",
+      "title": "5 Insane Facts About Mariana Trench Amphipods! 🌌✨",
+      "facebook_post_id": "122184736310897912"
     }
   ]
 }
