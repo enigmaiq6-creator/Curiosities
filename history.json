@@ -196,9 +196,10 @@
     "ocean-quahog-centenarian-clam",
     "mariana-trench-amphipod-mysteries",
     "human-natural-radioactivity-glow",
-    "sarma-deepest-cave"
+    "sarma-deepest-cave",
+    "europas-hidden-ocean"
   ],
-  "total_published_count": 207,
+  "total_published_count": 208,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1441,6 +1442,12 @@
       "topic": "sarma-deepest-cave",
       "title": "5 Insane Facts About Sarma Deepest Cave! 🌌✨",
       "facebook_post_id": "122184789338897912"
+    },
+    {
+      "timestamp": "2026-09-20T16:44:42.941023",
+      "topic": "europas-hidden-ocean",
+      "title": "5 Insane Facts About Europa's Hidden Ocean! 🌌✨",
+      "facebook_post_id": "122184800162897912"
     }
   ]
 }
