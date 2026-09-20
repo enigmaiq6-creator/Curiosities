@@ -195,9 +195,10 @@
     "rogue-black-hole-nearby",
     "ocean-quahog-centenarian-clam",
     "mariana-trench-amphipod-mysteries",
-    "human-natural-radioactivity-glow"
+    "human-natural-radioactivity-glow",
+    "sarma-deepest-cave"
   ],
-  "total_published_count": 206,
+  "total_published_count": 207,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1434,6 +1435,12 @@
       "topic": "human-natural-radioactivity-glow",
       "title": "5 Insane Facts About Human Natural Radioactivity! 🌌✨",
       "facebook_post_id": "122184780794897912"
+    },
+    {
+      "timestamp": "2026-09-20T14:35:33.968647",
+      "topic": "sarma-deepest-cave",
+      "title": "5 Insane Facts About Sarma Deepest Cave! 🌌✨",
+      "facebook_post_id": "122184789338897912"
     }
   ]
 }
