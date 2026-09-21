@@ -203,9 +203,10 @@
     "antarctic-ice-core-time-capsules",
     "diamond-rain-ultra-hot-exoplanets",
     "kepler-223-resonant-dance",
-    "isua-greenstone-belt"
+    "isua-greenstone-belt",
+    "kilonova-afterglows"
   ],
-  "total_published_count": 214,
+  "total_published_count": 215,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1490,6 +1491,12 @@
       "topic": "isua-greenstone-belt",
       "title": "5 Insane Facts About the Isua Greenstone Belt! 🌌✨",
       "facebook_post_id": "122184946580897912"
+    },
+    {
+      "timestamp": "2026-09-21T20:54:57.111675",
+      "topic": "kilonova-afterglows",
+      "title": "5 Insane Facts About Kilonova Afterglows! 🌌✨",
+      "facebook_post_id": "122184966374897912"
     }
   ]
 }
