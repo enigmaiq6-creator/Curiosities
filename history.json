@@ -200,9 +200,10 @@
     "europas-hidden-ocean",
     "martian-lava-tubes-subterranean-highways",
     "pistol-shrimp-superheated-bubble",
-    "antarctic-ice-core-time-capsules"
+    "antarctic-ice-core-time-capsules",
+    "diamond-rain-ultra-hot-exoplanets"
   ],
-  "total_published_count": 211,
+  "total_published_count": 212,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1469,6 +1470,12 @@
       "topic": "antarctic-ice-core-time-capsules",
       "title": "5 Insane Facts About Antarctic Ice Core Time Capsules! 🌌✨",
       "facebook_post_id": "122184876686897912"
+    },
+    {
+      "timestamp": "2026-09-21T15:26:22.940183",
+      "topic": "diamond-rain-ultra-hot-exoplanets",
+      "title": "5 Insane Facts About Diamond Rain on Ultra‑Hot Exoplanets! 🌌✨",
+      "facebook_post_id": "122184931244897912"
     }
   ]
 }
