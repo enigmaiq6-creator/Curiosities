@@ -202,9 +202,10 @@
     "pistol-shrimp-superheated-bubble",
     "antarctic-ice-core-time-capsules",
     "diamond-rain-ultra-hot-exoplanets",
-    "kepler-223-resonant-dance"
+    "kepler-223-resonant-dance",
+    "isua-greenstone-belt"
   ],
-  "total_published_count": 213,
+  "total_published_count": 214,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1483,6 +1484,12 @@
       "topic": "kepler-223-resonant-dance",
       "title": "5 Insane Facts About Kepler-223’s Resonant Dance! 🌌✨",
       "facebook_post_id": "122184938078897912"
+    },
+    {
+      "timestamp": "2026-09-21T18:32:01.192013",
+      "topic": "isua-greenstone-belt",
+      "title": "5 Insane Facts About the Isua Greenstone Belt! 🌌✨",
+      "facebook_post_id": "122184946580897912"
     }
   ]
 }
