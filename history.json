@@ -204,9 +204,10 @@
     "diamond-rain-ultra-hot-exoplanets",
     "kepler-223-resonant-dance",
     "isua-greenstone-belt",
-    "kilonova-afterglows"
+    "kilonova-afterglows",
+    "neptune-superionic-ocean"
   ],
-  "total_published_count": 215,
+  "total_published_count": 216,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1497,6 +1498,12 @@
       "topic": "kilonova-afterglows",
       "title": "5 Insane Facts About Kilonova Afterglows! 🌌✨",
       "facebook_post_id": "122184966374897912"
+    },
+    {
+      "timestamp": "2026-09-21T23:59:34.940488",
+      "topic": "neptune-superionic-ocean",
+      "title": "5 Insane Facts About Neptune's Superionic Ocean! 🌌✨",
+      "facebook_post_id": "122184988826897912"
     }
   ]
 }
