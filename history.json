@@ -201,9 +201,10 @@
     "martian-lava-tubes-subterranean-highways",
     "pistol-shrimp-superheated-bubble",
     "antarctic-ice-core-time-capsules",
-    "diamond-rain-ultra-hot-exoplanets"
+    "diamond-rain-ultra-hot-exoplanets",
+    "kepler-223-resonant-dance"
   ],
-  "total_published_count": 212,
+  "total_published_count": 213,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1476,6 +1477,12 @@
       "topic": "diamond-rain-ultra-hot-exoplanets",
       "title": "5 Insane Facts About Diamond Rain on Ultra‑Hot Exoplanets! 🌌✨",
       "facebook_post_id": "122184931244897912"
+    },
+    {
+      "timestamp": "2026-09-21T16:54:14.851467",
+      "topic": "kepler-223-resonant-dance",
+      "title": "5 Insane Facts About Kepler-223’s Resonant Dance! 🌌✨",
+      "facebook_post_id": "122184938078897912"
     }
   ]
 }
