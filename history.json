@@ -209,9 +209,10 @@
     "solar-heartbeat-gravity-waves",
     "fast-radio-bursts-magnetars",
     "quantum-coherence-in-photosynthesis",
-    "neutron-star-nuclear-pasta"
+    "neutron-star-nuclear-pasta",
+    "quantum-bird-migration-compass"
   ],
-  "total_published_count": 221,
+  "total_published_count": 222,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1538,6 +1539,12 @@
       "topic": "neutron-star-nuclear-pasta",
       "title": "5 Insane Facts About Nuclear Pasta! 🌌✨",
       "facebook_post_id": "122185121276897912"
+    },
+    {
+      "timestamp": "2026-09-22T23:35:28.878872",
+      "topic": "quantum-bird-migration-compass",
+      "title": "5 Insane Facts About Quantum Bird Migration Compass! 🌌✨",
+      "facebook_post_id": "122185141532897912"
     }
   ]
 }
