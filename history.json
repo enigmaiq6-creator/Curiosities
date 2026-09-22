@@ -207,9 +207,10 @@
     "kilonova-afterglows",
     "neptune-superionic-ocean",
     "solar-heartbeat-gravity-waves",
-    "fast-radio-bursts-magnetars"
+    "fast-radio-bursts-magnetars",
+    "quantum-coherence-in-photosynthesis"
   ],
-  "total_published_count": 219,
+  "total_published_count": 220,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1524,6 +1525,12 @@
       "topic": "fast-radio-bursts-magnetars",
       "title": "5 Insane Facts About Fast Radio Bursts! 🌌✨",
       "facebook_post_id": "122185096592897912"
+    },
+    {
+      "timestamp": "2026-09-22T17:35:49.733986",
+      "topic": "quantum-coherence-in-photosynthesis",
+      "title": "5 Insane Facts About Quantum Coherence in Photosynthesis! 🌌✨",
+      "facebook_post_id": "122185107728897912"
     }
   ]
 }
