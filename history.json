@@ -205,9 +205,10 @@
     "kepler-223-resonant-dance",
     "isua-greenstone-belt",
     "kilonova-afterglows",
-    "neptune-superionic-ocean"
+    "neptune-superionic-ocean",
+    "solar-heartbeat-gravity-waves"
   ],
-  "total_published_count": 216,
+  "total_published_count": 217,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1504,6 +1505,12 @@
       "topic": "neptune-superionic-ocean",
       "title": "5 Insane Facts About Neptune's Superionic Ocean! 🌌✨",
       "facebook_post_id": "122184988826897912"
+    },
+    {
+      "timestamp": "2026-09-22T05:53:52.468636",
+      "topic": "solar-heartbeat-gravity-waves",
+      "title": "5 Insane Facts About Solar Heartbeat Gravity Waves! 🌌✨",
+      "facebook_post_id": "122185034216897912"
     }
   ]
 }
