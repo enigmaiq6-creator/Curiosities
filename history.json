@@ -208,9 +208,10 @@
     "neptune-superionic-ocean",
     "solar-heartbeat-gravity-waves",
     "fast-radio-bursts-magnetars",
-    "quantum-coherence-in-photosynthesis"
+    "quantum-coherence-in-photosynthesis",
+    "neutron-star-nuclear-pasta"
   ],
-  "total_published_count": 220,
+  "total_published_count": 221,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1531,6 +1532,12 @@
       "topic": "quantum-coherence-in-photosynthesis",
       "title": "5 Insane Facts About Quantum Coherence in Photosynthesis! 🌌✨",
       "facebook_post_id": "122185107728897912"
+    },
+    {
+      "timestamp": "2026-09-22T20:05:49.590038",
+      "topic": "neutron-star-nuclear-pasta",
+      "title": "5 Insane Facts About Nuclear Pasta! 🌌✨",
+      "facebook_post_id": "122185121276897912"
     }
   ]
 }
