@@ -206,9 +206,10 @@
     "isua-greenstone-belt",
     "kilonova-afterglows",
     "neptune-superionic-ocean",
-    "solar-heartbeat-gravity-waves"
+    "solar-heartbeat-gravity-waves",
+    "fast-radio-bursts-magnetars"
   ],
-  "total_published_count": 218,
+  "total_published_count": 219,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1517,6 +1518,12 @@
       "topic": "quantum-coherence-photosynthesis",
       "title": "5 Insane Facts About Quantum Coherence in Photosynthesis! 🌌✨",
       "facebook_post_id": "122185087556897912"
+    },
+    {
+      "timestamp": "2026-09-22T15:30:17.248572",
+      "topic": "fast-radio-bursts-magnetars",
+      "title": "5 Insane Facts About Fast Radio Bursts! 🌌✨",
+      "facebook_post_id": "122185096592897912"
     }
   ]
 }
