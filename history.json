@@ -214,9 +214,10 @@
     "giant-glass-sponges-abyss",
     "lunar-swirls-electrostatic-dust",
     "tardigrade",
-    "planetary-ring-seismology"
+    "planetary-ring-seismology",
+    "sonoluminescence-bubble-light"
   ],
-  "total_published_count": 227,
+  "total_published_count": 228,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1579,6 +1580,12 @@
       "topic": "planetary-ring-seismology",
       "title": "5 Insane Facts About Planetary Ring Seismology! 🌌✨",
       "facebook_post_id": "122185273394897912"
+    },
+    {
+      "timestamp": "2026-09-23T23:29:59.434864",
+      "topic": "sonoluminescence-bubble-light",
+      "title": "5 Insane Facts About Sonoluminescence! 🌌✨",
+      "facebook_post_id": "122185294100897912"
     }
   ]
 }
