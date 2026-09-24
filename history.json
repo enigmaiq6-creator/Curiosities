@@ -216,9 +216,10 @@
     "tardigrade",
     "planetary-ring-seismology",
     "sonoluminescence-bubble-light",
-    "saturn-hexagonal-jet"
+    "saturn-hexagonal-jet",
+    "immortal-jellyfish-reversal"
   ],
-  "total_published_count": 229,
+  "total_published_count": 230,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1593,6 +1594,12 @@
       "topic": "saturn-hexagonal-jet",
       "title": "5 Insane Facts About Saturn's Hexagonal Jet! 🌌✨",
       "facebook_post_id": "122185335734897912"
+    },
+    {
+      "timestamp": "2026-09-24T13:54:30.791851",
+      "topic": "immortal-jellyfish-reversal",
+      "title": "5 Insane Facts About Immortal Jellyfish! 🌌✨",
+      "facebook_post_id": "122185383212897912"
     }
   ]
 }
