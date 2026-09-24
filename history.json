@@ -219,9 +219,10 @@
     "saturn-hexagonal-jet",
     "immortal-jellyfish-reversal",
     "hydrothermal-vent-microbes",
-    "mantis_shrimp"
+    "mantis_shrimp",
+    "deep_caves"
   ],
-  "total_published_count": 232,
+  "total_published_count": 233,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1614,6 +1615,12 @@
       "topic": "mantis_shrimp",
       "title": "5 Deadly Superpowers of the Mantis Shrimp! 🦐🥊",
       "facebook_post_id": "122185404050897912"
+    },
+    {
+      "timestamp": "2026-09-24T20:22:08.283135",
+      "topic": "deep_caves",
+      "title": "5 Terrifying Secrets of Earth's Deepest Caves! 🪨🦇",
+      "facebook_post_id": "122185418942897912"
     }
   ]
 }
