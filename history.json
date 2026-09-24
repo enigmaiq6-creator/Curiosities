@@ -218,9 +218,10 @@
     "sonoluminescence-bubble-light",
     "saturn-hexagonal-jet",
     "immortal-jellyfish-reversal",
-    "hydrothermal-vent-microbes"
+    "hydrothermal-vent-microbes",
+    "mantis_shrimp"
   ],
-  "total_published_count": 231,
+  "total_published_count": 232,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1607,6 +1608,12 @@
       "topic": "hydrothermal-vent-microbes",
       "title": "5 Insane Facts About Hydrothermal Vent Microbes! 🌌✨",
       "facebook_post_id": "122185393082897912"
+    },
+    {
+      "timestamp": "2026-09-24T17:47:57.915752",
+      "topic": "mantis_shrimp",
+      "title": "5 Deadly Superpowers of the Mantis Shrimp! 🦐🥊",
+      "facebook_post_id": "122185404050897912"
     }
   ]
 }
