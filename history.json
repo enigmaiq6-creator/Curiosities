@@ -224,9 +224,10 @@
     "solar-polar-magnetic-storms",
     "diamond-rain-55-cancri-e",
     "mycelial-superhighways",
-    "quantum_physics"
+    "quantum_physics",
+    "europa-magnetic-ocean"
   ],
-  "total_published_count": 239,
+  "total_published_count": 240,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1661,6 +1662,12 @@
       "topic": "quantum_physics",
       "title": "5 Mind-Bending Paradoxes of Quantum Physics! 🔬⚛️",
       "facebook_post_id": "122185583360897912"
+    },
+    {
+      "timestamp": "2026-09-25T23:56:23.329766",
+      "topic": "europa-magnetic-ocean",
+      "title": "5 Insane Facts About Europa's Magnetic Ocean! 🌌✨",
+      "facebook_post_id": "local_only"
     }
   ]
 }
