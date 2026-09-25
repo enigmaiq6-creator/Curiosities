@@ -223,9 +223,10 @@
     "deep_caves",
     "solar-polar-magnetic-storms",
     "diamond-rain-55-cancri-e",
-    "mycelial-superhighways"
+    "mycelial-superhighways",
+    "quantum_physics"
   ],
-  "total_published_count": 238,
+  "total_published_count": 239,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1654,6 +1655,12 @@
       "topic": "oklo-natural-nuclear-reactor",
       "title": "5 Insane Facts About Oklo Natural Nuclear Reactor! 🌌✨",
       "facebook_post_id": "122185563998897912"
+    },
+    {
+      "timestamp": "2026-09-25T20:22:04.345134",
+      "topic": "quantum_physics",
+      "title": "5 Mind-Bending Paradoxes of Quantum Physics! 🔬⚛️",
+      "facebook_post_id": "122185583360897912"
     }
   ]
 }
