@@ -222,9 +222,10 @@
     "mantis_shrimp",
     "deep_caves",
     "solar-polar-magnetic-storms",
-    "diamond-rain-55-cancri-e"
+    "diamond-rain-55-cancri-e",
+    "mycelial-superhighways"
   ],
-  "total_published_count": 236,
+  "total_published_count": 237,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1641,6 +1642,12 @@
       "topic": "diamond-rain-55-cancri-e",
       "title": "5 Insane Facts About Diamond Rain on 55 Cancri e! 🌌✨",
       "facebook_post_id": "122185542152897912"
+    },
+    {
+      "timestamp": "2026-09-25T15:48:45.477523",
+      "topic": "mycelial-superhighways",
+      "title": "5 Insane Facts About Mycelial Superhighways! 🌌✨",
+      "facebook_post_id": "122185550318897912"
     }
   ]
 }
