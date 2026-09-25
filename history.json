@@ -223,7 +223,7 @@
     "deep_caves",
     "solar-polar-magnetic-storms"
   ],
-  "total_published_count": 234,
+  "total_published_count": 235,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1628,6 +1628,12 @@
       "topic": "solar-polar-magnetic-storms",
       "title": "5 Insane Facts About Solar Polar Magnetic Storms! 🌌✨",
       "facebook_post_id": "122185437740897912"
+    },
+    {
+      "timestamp": "2026-09-25T05:52:36.110807",
+      "topic": "singing-sand-dunes",
+      "title": "5 Insane Facts About Singing Sand Dunes! 🌌✨",
+      "facebook_post_id": "122185487738897912"
     }
   ]
 }
