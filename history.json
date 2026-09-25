@@ -221,9 +221,10 @@
     "hydrothermal-vent-microbes",
     "mantis_shrimp",
     "deep_caves",
-    "solar-polar-magnetic-storms"
+    "solar-polar-magnetic-storms",
+    "diamond-rain-55-cancri-e"
   ],
-  "total_published_count": 235,
+  "total_published_count": 236,
   "history_log": [
     {
       "timestamp": "2026-08-18T16:14:11",
@@ -1634,6 +1635,12 @@
       "topic": "singing-sand-dunes",
       "title": "5 Insane Facts About Singing Sand Dunes! 🌌✨",
       "facebook_post_id": "122185487738897912"
+    },
+    {
+      "timestamp": "2026-09-25T14:18:02.590785",
+      "topic": "diamond-rain-55-cancri-e",
+      "title": "5 Insane Facts About Diamond Rain on 55 Cancri e! 🌌✨",
+      "facebook_post_id": "122185542152897912"
     }
   ]
 }
