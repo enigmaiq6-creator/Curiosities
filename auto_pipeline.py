@@ -13,17 +13,8 @@ from config import OUTPUT_DIR
 HASHTAGS_EN = "#curiosities #mindblowing #facts #didyouknow #science #education #shorts #reels #viral #explore #fyp #amazingfacts #history #space #ocean"
 
 def run_automated_pipeline(topic_key: str = None, force_ai: bool = True):
-    """
-    Ejecuta el ciclo de automatizacion 100% EN INGLES con garantia INFINITA anti-repeticion:
-    1. Consulta Groq AI para inventar un tema 100% inedito excluyendo el historial previo.
-    2. Si no hay conexion a IA, selecciona el siguiente tema no usado del mega catalogo.
-    3. Renderiza el video con voz neuronal en ingles, 4K clips, SFX Whoosh y CTA en ingles.
-    4. Sube a Facebook Reels con metadatos en ingles.
-    5. Registra el tema en history.json de forma permanente.
-    """
-    print("\n" + "="*60)
-    print("   🤖 INICIANDO PIPELINE AUTOMATICO DE CURIOSIDADES (100% ENGLISH)   ")
-    print("="*60 + "\n", flush=True)
+    print("\n⛔ [CURIOSITIES DISABLED] La generación y subida de videos ha sido desactivada permanentemente por solicitud del usuario.\n", flush=True)
+    return
 
     topic_data = None
     topic = None

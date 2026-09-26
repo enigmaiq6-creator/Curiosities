@@ -68,9 +68,8 @@ class FacebookReelsUploader:
         3. Publicar o programar el Reel
         4. Publicar auto-comentario de interacción
         """
-        if not self.page_id or not self.access_token:
-            print("[FacebookUploader] [!] Falta FACEBOOK_PAGE_ID o FACEBOOK_ACCESS_TOKEN. Omitiendo subida.")
-            return {"status": "skipped", "message": "Missing credentials"}
+        print("[FacebookUploader] ⛔ Subida a Facebook desactivada permanentemente por solicitud del usuario.")
+        return {"status": "skipped", "message": "Permanently disabled by user request"}
 
         if not video_path.exists():
             raise FileNotFoundError(f"El archivo de video no existe: {video_path}")
